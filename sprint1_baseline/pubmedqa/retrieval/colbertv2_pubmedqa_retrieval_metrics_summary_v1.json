@@ -1,0 +1,79 @@
+{
+  "conditions": {
+    "agglo_k3": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9745666666666666,
+      "mean_recall_at_5": 0.5746460317460315,
+      "questions": 1000
+    },
+    "agglo_k5": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9740833333333334,
+      "mean_recall_at_5": 0.35018968253968114,
+      "questions": 1000
+    },
+    "dpp_map": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9771166666666666,
+      "mean_recall_at_5": 0.567894444444444,
+      "questions": 1000
+    },
+    "kmeans_k2": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9746666666666669,
+      "mean_recall_at_5": 0.7118369047619036,
+      "questions": 1000
+    },
+    "kmeans_k3": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9741833333333334,
+      "mean_recall_at_5": 0.5776615079365082,
+      "questions": 1000
+    },
+    "kmeans_k5": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9731666666666667,
+      "mean_recall_at_5": 0.3717349206349193,
+      "questions": 1000
+    },
+    "mmr_0": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9686,
+      "mean_recall_at_5": 0.3122134920634917,
+      "questions": 1000
+    },
+    "mmr_0.25": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.97595,
+      "mean_recall_at_5": 0.40919206349206205,
+      "questions": 1000
+    },
+    "mmr_0.5": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9770833333333334,
+      "mean_recall_at_5": 0.653191269841269,
+      "questions": 1000
+    },
+    "mmr_0.75": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9762833333333334,
+      "mean_recall_at_5": 0.7130519841269829,
+      "questions": 1000
+    },
+    "none": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9762333333333335,
+      "mean_recall_at_5": 0.7382095238095233,
+      "questions": 1000
+    }
+  },
+  "dataset": "pubmedqa",
+  "metric_contract": {
+    "candidate_pool": 20,
+    "diagnostic": "positive_gold_section_candidate_recall_at_20",
+    "primary": "positive_gold_section_recall_at_5",
+    "secondary": "positive_gold_section_mrr_at_5",
+    "top_k": 5
+  },
+  "retriever": "colbertv2"
+}
