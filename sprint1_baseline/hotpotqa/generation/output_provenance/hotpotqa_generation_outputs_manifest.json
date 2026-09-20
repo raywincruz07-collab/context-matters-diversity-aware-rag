@@ -1,0 +1,312 @@
+{
+  "artifact_format": "hotpotqa.generation-output-provenance.v1",
+  "cell_count": 15,
+  "cells": [
+    {
+      "aggregate_sha256": "3bccd825cb60ced003272c34d2fb62e5f362d4792fe9304b310ee8cc93d30285",
+      "cell": "with_context/bm25/gemma4-26b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7384,
+        "PARSE_FAILURE": 16,
+        "TRUNCATED": 5
+      }
+    },
+    {
+      "aggregate_sha256": "4939c840055955eb7008aa0f405b72be1d074312136e3fd185421f10005f9ad9",
+      "cell": "with_context/bm25/llama-3.3-70b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7349,
+        "PARSE_FAILURE": 3,
+        "TRUNCATED": 53
+      }
+    },
+    {
+      "aggregate_sha256": "941e8356115c9c7b5e695854cca7d2def532e496037c0881da2892f241f26cfb",
+      "cell": "with_context/bm25/ministral-3-14b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7252,
+        "PARSE_FAILURE": 13,
+        "TRUNCATED": 140
+      }
+    },
+    {
+      "aggregate_sha256": "562e6984af46b15ca89b4bf0882ce4becb649abdae96b28497c494cf17cb875c",
+      "cell": "with_context/colbertv2/gemma4-26b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7378,
+        "PARSE_FAILURE": 22,
+        "TRUNCATED": 5
+      }
+    },
+    {
+      "aggregate_sha256": "607938c68caf740f4449ab2e9b5312f210644a5f6970e3b0188afa8e4bd20962",
+      "cell": "with_context/colbertv2/llama-3.3-70b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7381,
+        "PARSE_FAILURE": 2,
+        "TRUNCATED": 22
+      }
+    },
+    {
+      "aggregate_sha256": "f0ad5d343309b47c2383e4138098b11a104e965dc48ac3dbedf132f368f38d4e",
+      "cell": "with_context/colbertv2/ministral-3-14b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7269,
+        "PARSE_FAILURE": 8,
+        "TRUNCATED": 128
+      }
+    },
+    {
+      "aggregate_sha256": "8131835f961f68f7235cb77d9f57e53bff6c0ddd42ef241c58e5e8e300403385",
+      "cell": "with_context/contriever/gemma4-26b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7383,
+        "PARSE_FAILURE": 8,
+        "TRUNCATED": 8,
+        "UPSTREAM_CONTEXT_MISSING": 6
+      }
+    },
+    {
+      "aggregate_sha256": "3eff66450de22c34c28dbef19af6888a48172727eb7cde3f954e33ce7295bb7a",
+      "cell": "with_context/contriever/llama-3.3-70b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7333,
+        "PARSE_FAILURE": 1,
+        "TRUNCATED": 65,
+        "UPSTREAM_CONTEXT_MISSING": 6
+      }
+    },
+    {
+      "aggregate_sha256": "4bb90600403a7f592db1b97b387fcf09006533f2687a1c7146cd4c91077350e5",
+      "cell": "with_context/contriever/ministral-3-14b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7242,
+        "PARSE_FAILURE": 10,
+        "TRUNCATED": 147,
+        "UPSTREAM_CONTEXT_MISSING": 6
+      }
+    },
+    {
+      "aggregate_sha256": "47692b5faebc8ffc918026c18fe40a2adb7c15e807abe56cbfebb76f3fb22e52",
+      "cell": "with_context/dpr/gemma4-26b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7396,
+        "PARSE_FAILURE": 4,
+        "TRUNCATED": 5
+      }
+    },
+    {
+      "aggregate_sha256": "a6cd65e317bd657a8bd156125b31c3ae766acb8c9634c221af0f5fe9f7d9617c",
+      "cell": "with_context/dpr/llama-3.3-70b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7352,
+        "PARSE_FAILURE": 4,
+        "TRUNCATED": 49
+      }
+    },
+    {
+      "aggregate_sha256": "920454e412cc10dbb6e8c65efd376af798d976053894cf8de08259f65dfbaf74",
+      "cell": "with_context/dpr/ministral-3-14b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7208,
+        "PARSE_FAILURE": 23,
+        "TRUNCATED": 174
+      }
+    },
+    {
+      "aggregate_sha256": "1cd5a63ad6bb582a0fb672d6a57d342e1feaa3ddace295477da9060630a1ff5b",
+      "cell": "without_context/gemma4-26b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "status_counts": {
+        "OK": 6968,
+        "PARSE_FAILURE": 254,
+        "TRUNCATED": 183
+      }
+    },
+    {
+      "aggregate_sha256": "145395732a5eef16484dc3ae15f99d801856f1ebb6b67da665a27d61cbfb1f88",
+      "cell": "without_context/llama-3.3-70b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7157,
+        "PARSE_FAILURE": 10,
+        "TRUNCATED": 238
+      }
+    },
+    {
+      "aggregate_sha256": "6f9c5fbe5866db313af775d84f50baa708f57988d753fd9e3309ed617655c874",
+      "cell": "without_context/ministral-3-14b",
+      "file_count": 7405,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 7405,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "status_counts": {
+        "OK": 7035,
+        "PARSE_FAILURE": 57,
+        "TRUNCATED": 313
+      }
+    }
+  ],
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "generation_output_root_name": "generation_outputs_2026-09-06",
+  "invalid_json": 0,
+  "notes": {
+    "ministral_binding": "Logical ministral-3-14b was physically served by qwen3.6-36b; provenance preserved exactly as recorded.",
+    "raw_outputs_committed_to_git": false,
+    "upstream_context_missing": "18 records = 6 governed Contriever missing contexts across 3 generators."
+  },
+  "overall_model_mappings": [
+    {
+      "count": 37025,
+      "logical_model_id": "gemma4-26b",
+      "physical_model_id": "gemma4-26b"
+    },
+    {
+      "count": 37025,
+      "logical_model_id": "llama-3.3-70b",
+      "physical_model_id": "llama-3.3-70b"
+    },
+    {
+      "count": 37025,
+      "logical_model_id": "ministral-3-14b",
+      "physical_model_id": "qwen3.6-36b"
+    }
+  ],
+  "overall_status_counts": {
+    "OK": 109087,
+    "PARSE_FAILURE": 435,
+    "TRUNCATED": 1535,
+    "UPSTREAM_CONTEXT_MISSING": 18
+  },
+  "total_json_files": 111075
+}

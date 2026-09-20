@@ -1,0 +1,20 @@
+{
+  "artifact_format": "sprint3.hotpotqa-streaming-corpus-provenance.v1",
+  "corpus_manifest_id": "corpus-manifest:sha256:ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9",
+  "scientific_sha256": "ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9",
+  "streaming_root_manifest_physical_sha256": "08365cd655cb6e7f7ee9b123dc1e214b10eaecdea608063ecb47838133ac46c2",
+  "scientific_payload": {
+    "config": "corpus",
+    "document_count": 5233329,
+    "document_id_map_sha256": "845e95ee21594d3a0730ad7d12fff12d8a429fbb4de1dffec0fcca38835f1912",
+    "first_source_document_id": "12",
+    "last_source_document_id": "55408517",
+    "logical_entry_stream_sha256": "efbeeb87500cc3e5f9b69502d4f146161103b6769ff064c262fed84c6bd989f0",
+    "retrieval_serialization": "hotpot_retrieval_content_v1",
+    "revision": "a7e8bab212f5a89f9be1bc9b654aa6dfa317f32b",
+    "schema_version": "sprint3.hotpotqa-streaming-corpus-manifest.v1",
+    "source": "BeIR/hotpotqa",
+    "split": "corpus"
+  },
+  "provenance_note": "Repository-level reference to the externally stored, fully validated sharded HotpotQA streaming corpus manifest. This file is not a legacy 5,233,329-entry CorpusManifest and does not duplicate corpus rows."
+}

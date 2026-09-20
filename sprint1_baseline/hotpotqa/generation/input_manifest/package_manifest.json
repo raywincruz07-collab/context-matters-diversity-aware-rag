@@ -1,0 +1,72 @@
+{
+  "artifact_format": "sprint3.hotpotqa-generation-package.v1",
+  "candidate_pool": 20,
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "files": {
+    "bm25_candidate_set.json": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "72e861e9173f5ece9aff2b320f3c70206f9decc18118c1ab3dbe80ea32e8d921"
+    },
+    "bm25_with_context.jsonl": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "68397f35a10df1dc9dd5fab6ca61927bf9afb0382d63f498ba22fac0daad917f"
+    },
+    "colbertv2_candidate_set.json": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "284e17339a37cd58b9940f6c084515cf006193ec12172bdead6a68dabbc10b07"
+    },
+    "colbertv2_with_context.jsonl": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "239a20e707ad5d8119a5a6b25351d445bbb1813405938123a12028f5ea127931"
+    },
+    "contriever_candidate_set.json": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "a51353a3b10fdc4c4832c34444c0131a36c2500ccf467c8aff4b6570d2e919ef"
+    },
+    "contriever_with_context.jsonl": {
+      "missing": 6,
+      "ready": 7399,
+      "rows": 7405,
+      "sha256": "cbf6657c85e21e1008fa67eba27a440696ae19c944fcadb3c6e0a325aa07f3a2"
+    },
+    "dpr_candidate_set.json": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "870f532c2520c86fcc028a6ba5ad115f747617c46395d497af1543767741a49f"
+    },
+    "dpr_with_context.jsonl": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "a5e275bf92078095a6f72c1bbd7a81bd5960904ce02cfbb78275036a5bf3a1ef"
+    },
+    "without_context_queries.jsonl": {
+      "missing": 0,
+      "ready": 7405,
+      "rows": 7405,
+      "sha256": "4dee57b22a652083c3a8499e75e028d914839576895ad5958589cd71676d261e"
+    }
+  },
+  "materializer_git_commit": "f24e5600957e5a5d2ebe91dd637ae7c9ab45a63a",
+  "missingness_policy": {
+    "maki_request": false,
+    "query_count": 6,
+    "repair": "none",
+    "retriever": "contriever",
+    "status": "UPSTREAM_CONTEXT_MISSING"
+  },
+  "query_count": 7405,
+  "top_k": 5
+}

@@ -1,0 +1,57 @@
+{
+  "artifact_format": "hotpotqa.full-bm25-retrieval-result.v1",
+  "candidate_artifact": {
+    "candidate_file_bytes": 30733471,
+    "candidate_sha256": "bba4df860997fb09f71faaaaa8dbb0aee7fc2c957279adef14053d632e5494cb",
+    "completed_queries": 7405,
+    "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/full_retrieval_results/bm25/full/candidates_top20.jsonl",
+    "query_seconds_this_invocation": 7116.389573913999,
+    "workers": 32
+  },
+  "candidate_pool": 20,
+  "corpus": {
+    "document_count": 5233329,
+    "document_id_map_sha256": "845e95ee21594d3a0730ad7d12fff12d8a429fbb4de1dffec0fcca38835f1912",
+    "retrieval_serialization": "hotpot_retrieval_content_v1",
+    "scientific_sha256": "ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9"
+  },
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "git_commit": "64d660577a063eaa70fc1b009f1af3790770aeef",
+  "index": {
+    "cache_path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/full_retrieval_cache/bm25/full/indices/bm25_095c24425d0503b27f225e961064a783d2d6152986aea1c1e95493cd944b888a.pkl",
+    "index_dir": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/full_retrieval_cache/bm25/full/indices",
+    "index_seconds": 197.6204484878108,
+    "runtime_index_fingerprint": "095c24425d0503b27f225e961064a783d2d6152986aea1c1e95493cd944b888a"
+  },
+  "parallelism": {
+    "method": "multiprocessing fork; independent queries; shared read-only parent BM25 index",
+    "workers": 32
+  },
+  "queries": {
+    "query_count": 7405,
+    "sample_manifest_sha256": "efedb99b0bf844896611f37d19bebcf710b171a375c8c9fb932c055b7aa16e9c"
+  },
+  "retriever": "bm25",
+  "retriever_config": {
+    "b": 0.75,
+    "document_preprocessing": "lowercase then split exact document text on whitespace",
+    "epsilon": 0.25,
+    "index_type": "in-memory rank_bm25.BM25Okapi",
+    "k1": 1.5,
+    "normalization": "none",
+    "query_preprocessing": "lowercase then split on whitespace",
+    "ranking_semantics": "native score descending; exact score ties by frozen corpus position ascending; no score-sign filtering",
+    "score_semantics": "rank_bm25.BM25Okapi native get_scores score",
+    "tokenizer": null
+  },
+  "runtime": {
+    "peak_rss_kib_parent": 41410192
+  },
+  "status": "PASS",
+  "timing": {
+    "corpus_materialization_seconds": 151.869680586271,
+    "source_load_seconds": 14.363527520559728,
+    "total_seconds": 7537.075265103951
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "artifact_format": "hotpotqa.full-retrieval-result.v1",
+  "cache": {
+    "cache_reused": false,
+    "cache_root": "/workspace/data/hotpotqa/full_retrieval_cache/contriever/full/4fe73181ae0d934a35c039919476ea85e95bf24101a1818b26fa412925c943bd",
+    "embedding_sha256": "7f6b04136c131566ca8d51b4c65c710eac498368b98412ea51d1ffa55613c785",
+    "encoding_seconds": 5202.671696791425,
+    "fingerprint_sha256": "4fe73181ae0d934a35c039919476ea85e95bf24101a1818b26fa412925c943bd",
+    "index_build_seconds": 3.4561007283627987,
+    "index_sha256": "42d28a38b1745eba98a9407ad65459cc89be60af4484f4e201eae8fcacc40163"
+  },
+  "candidate_artifact": {
+    "candidate_file_bytes": 30725707,
+    "candidate_sha256": "7e45be5ddaa9281089870f4166d66346f4bdb9eb6f4f9fa07b13778835ce5dbd",
+    "completed_queries": 7405,
+    "path": "/workspace/data/hotpotqa/full_retrieval_results/contriever/full/candidates_top20.jsonl",
+    "query_seconds_this_invocation": 7442.165709678084
+  },
+  "candidate_pool": 20,
+  "corpus": {
+    "document_count": 5233329,
+    "document_id_map_sha256": "845e95ee21594d3a0730ad7d12fff12d8a429fbb4de1dffec0fcca38835f1912",
+    "retrieval_serialization": "hotpot_retrieval_content_v1",
+    "scientific_sha256": "ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9"
+  },
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "git_commit": "64d660577a063eaa70fc1b009f1af3790770aeef",
+  "queries": {
+    "query_count": 7405,
+    "sample_manifest_sha256": "efedb99b0bf844896611f37d19bebcf710b171a375c8c9fb932c055b7aa16e9c"
+  },
+  "retriever": "contriever",
+  "retriever_config": {
+    "autocast": false,
+    "compute_dtype": "float32",
+    "document_batch_size": 64,
+    "document_max_length": 512,
+    "document_preprocessing": "exact validated CorpusRecord.retrieval_content passed to tokenizer; no manual lowercasing or external text normalization; tokenizer-native behavior preserved",
+    "embedding_dimension": 768,
+    "embedding_dtype": "float32",
+    "index_device": "cpu",
+    "index_type": "faiss.IndexFlatIP",
+    "model_id": "facebook/contriever",
+    "model_loader": "AutoModel",
+    "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+    "normalization": "none",
+    "padding_semantics": "dynamic padding to longest encoded input in each batch",
+    "pooling": "attention-mask-aware mean pooling of last_hidden_state",
+    "query_batch_size": 64,
+    "query_max_length": 512,
+    "query_preprocessing": "exact query string passed to tokenizer; no manual lowercasing or external text normalization; tokenizer-native behavior preserved",
+    "ranking_direction": "higher score is better",
+    "score_semantics": "raw dot product / inner product of unnormalized embeddings",
+    "score_sign_filtering": "none",
+    "tokenizer_id": "facebook/contriever",
+    "tokenizer_loader": "AutoTokenizer",
+    "tokenizer_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+    "truncation_enabled": true,
+    "truncation_semantics": "single-sequence truncation delegated to tokenizer/Transformers"
+  },
+  "runtime": {
+    "peak_rss_kib": 54539044
+  },
+  "status": "PASS",
+  "timing": {
+    "corpus_materialization_seconds": 71.7937473077327,
+    "source_load_seconds": 2.3493710421025753,
+    "total_seconds": 12927.927474481985
+  }
+}

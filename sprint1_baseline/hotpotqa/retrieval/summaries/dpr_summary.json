@@ -1,0 +1,71 @@
+{
+  "artifact_format": "hotpotqa.full-retrieval-result.v1",
+  "cache": {
+    "cache_reused": false,
+    "cache_root": "/workspace/data/hotpotqa/full_retrieval_cache/dpr/full/fecc35aaa28e88b64f15758152cc9f8fdb610eebb82039e8c2d848ad9b302da2",
+    "embedding_sha256": "f09159f448fd3bad2429ddb455bf9d452b18053c693a1748f5fdb06c1a831907",
+    "encoding_seconds": 5131.083089171967,
+    "fingerprint_sha256": "fecc35aaa28e88b64f15758152cc9f8fdb610eebb82039e8c2d848ad9b302da2",
+    "index_build_seconds": 3.8557311319746077,
+    "index_sha256": "3bd78ab210a4ec3d1b7d5aeabb1f19dcfba66b37cce19594391a891b09a80cc8"
+  },
+  "candidate_artifact": {
+    "candidate_file_bytes": 30689641,
+    "candidate_sha256": "4dd232738237a042a1078eb25f6661a32e6e963af89db794c44012feaec6dfe7",
+    "completed_queries": 7405,
+    "path": "/workspace/data/hotpotqa/full_retrieval_results/dpr/full/candidates_top20.jsonl",
+    "query_seconds_this_invocation": 7280.987443766033
+  },
+  "candidate_pool": 20,
+  "corpus": {
+    "document_count": 5233329,
+    "document_id_map_sha256": "845e95ee21594d3a0730ad7d12fff12d8a429fbb4de1dffec0fcca38835f1912",
+    "retrieval_serialization": "hotpot_retrieval_content_v1",
+    "scientific_sha256": "ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9"
+  },
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "git_commit": "e498c504003aafd6b4f54bd516bfcb6eb0d5335e",
+  "queries": {
+    "query_count": 7405,
+    "sample_manifest_sha256": "efedb99b0bf844896611f37d19bebcf710b171a375c8c9fb932c055b7aa16e9c"
+  },
+  "retriever": "dpr",
+  "retriever_config": {
+    "context_batch_size": 16,
+    "context_max_length": 256,
+    "context_model_id": "facebook/dpr-ctx_encoder-single-nq-base",
+    "context_model_revision": "bb21a3c2b1656d60c6a8e920283bc40dabddadb8",
+    "context_title_policy": "empty title paired with passage text",
+    "context_tokenizer_id": "facebook/dpr-ctx_encoder-single-nq-base",
+    "context_tokenizer_revision": "bb21a3c2b1656d60c6a8e920283bc40dabddadb8",
+    "document_preprocessing": "exact passage text passed to tokenizer paired with empty title",
+    "embedding_dimension": 768,
+    "embedding_dtype": "float32",
+    "index_type": "faiss.IndexFlatIP",
+    "normalization": "none",
+    "padding_semantics": "dynamic padding to longest encoded input in each batch",
+    "paired_truncation_strategy": "delegated to tokenizer/Transformers default",
+    "query_batch_size": 1,
+    "query_max_length": 256,
+    "query_preprocessing": "exact query string passed to tokenizer",
+    "question_model_id": "facebook/dpr-question_encoder-single-nq-base",
+    "question_model_revision": "d04a52f6d2f96c60117a925e8c24c4043a75f265",
+    "question_tokenizer_id": "facebook/dpr-question_encoder-single-nq-base",
+    "question_tokenizer_revision": "d04a52f6d2f96c60117a925e8c24c4043a75f265",
+    "ranking_direction": "higher score is better",
+    "representation": "pooler_output",
+    "score_semantics": "raw dot product / inner product of unnormalized embeddings",
+    "score_sign_filtering": "none",
+    "truncation_enabled": true
+  },
+  "runtime": {
+    "peak_rss_kib": 54268828
+  },
+  "status": "PASS",
+  "timing": {
+    "corpus_materialization_seconds": 76.81510468898341,
+    "source_load_seconds": 1.010893697035499,
+    "total_seconds": 12729.574575701961
+  }
+}

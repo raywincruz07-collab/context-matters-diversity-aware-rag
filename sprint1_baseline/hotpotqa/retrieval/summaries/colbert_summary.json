@@ -1,0 +1,85 @@
+{
+  "artifact_format": "hotpotqa.full-colbert-retrieval-result.v1",
+  "candidate_artifact": {
+    "candidate_file_bytes": 30717307,
+    "candidate_sha256": "88c84b6fcc4aef6166151195f50e289a510acce818df10079db123e255518b60",
+    "completed_queries": 7405,
+    "path": "/workspace/data/hotpotqa/full_retrieval_results/colbert/full/candidates_top20.jsonl",
+    "query_seconds_this_invocation": 91.93646067753434
+  },
+  "candidate_pool": 20,
+  "checkpoint": {
+    "id": "colbert-ir/colbertv2.0",
+    "metadata_sha256": "0ddc5a54234cff6d13bc9411250a5479d9d96f3ffbace76d8a1884144377e434",
+    "path": "/workspace/models/colbertv2.0",
+    "revision": "0855eac81381e0323a846f1ed7d8452d4c648b50",
+    "weights_sha256": "26e4c2f9f95a3da4442252bb40d99e4fbfd098e733edac1d785c9937b8a278da"
+  },
+  "colbert_config": {
+    "amp": true,
+    "attend_to_mask_tokens": false,
+    "backend": "direct Stanford ColBERT",
+    "candidate_pool_size": 20,
+    "checkpoint_id": "colbert-ir/colbertv2.0",
+    "checkpoint_loading": "resolve the pinned revision without fallback; validate and fingerprint the physical checkpoint snapshot before canonical indexing",
+    "checkpoint_revision": "0855eac81381e0323a846f1ed7d8452d4c648b50",
+    "colbert_ai_version": "0.2.22",
+    "dim": 128,
+    "doc_maxlen": 180,
+    "document_preprocessing": "exact validated CorpusRecord.retrieval_content; no manual lowercasing or external text normalization; tokenizer-native behavior preserved",
+    "index_bsize": 64,
+    "index_engine": "Stanford ColBERT PLAID",
+    "interaction": "ColBERT late interaction / MaxSim",
+    "kmeans_niters": 4,
+    "mask_punctuation": true,
+    "nbits": 2,
+    "nranks": 1,
+    "post_filtering": "none",
+    "post_reranking": "none",
+    "query_maxlen": 32,
+    "query_preprocessing": "exact query string; no manual lowercasing or external text normalization; tokenizer-native behavior preserved",
+    "ranking": "native ColBERT ranking, higher score is better",
+    "retriever_name": "colbertv2",
+    "search_centroid_score_threshold": 0.45,
+    "search_ncells": 2,
+    "search_ndocs": 1024,
+    "seed": 12345,
+    "similarity": "cosine",
+    "tie_manipulation": "none"
+  },
+  "corpus": {
+    "document_count": 5233329,
+    "document_id_map_sha256": "845e95ee21594d3a0730ad7d12fff12d8a429fbb4de1dffec0fcca38835f1912",
+    "retrieval_serialization": "hotpot_retrieval_content_v1",
+    "scientific_sha256": "ac98c20e24668bb886df75382baff8edf3944f294d1fd0dc8609e58f53f739c9"
+  },
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "git_commit": "945e363ea64dd6b6ee082a5bf00d47de76ad5b3a",
+  "index": {
+    "cache_disk_bytes_after": 12019595785,
+    "cache_disk_bytes_before": 0,
+    "cache_disk_bytes_created": 12019595785,
+    "index_build_seconds": 18439.387227308005,
+    "index_path": "/workspace/data/hotpotqa/full_retrieval_cache/colbert/full/hotpotqa_official_test_full/indexes/colbertv2.nbits2",
+    "index_size_bytes": 12019595785,
+    "search_reload_seconds": 71.31874939613044
+  },
+  "queries": {
+    "query_count": 7405,
+    "sample_manifest_sha256": "efedb99b0bf844896611f37d19bebcf710b171a375c8c9fb932c055b7aa16e9c"
+  },
+  "retriever": "colbert",
+  "runtime": {
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_peak_allocated_bytes": 1488900096,
+    "gpu_peak_reserved_bytes": 4527751168,
+    "peak_rss_kib": 19970944
+  },
+  "status": "PASS",
+  "timing": {
+    "corpus_materialization_seconds": 71.94464450515807,
+    "source_load_seconds": 1.418245455250144,
+    "total_seconds": 18720.0711203143
+  }
+}
