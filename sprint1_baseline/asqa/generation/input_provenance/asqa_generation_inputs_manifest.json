@@ -1,0 +1,127 @@
+{
+  "artifact_format": "asqa.sprint1-generation-input-provenance.v1",
+  "artifacts": [
+    {
+      "bytes": 339185,
+      "condition_counts": {
+        "WITHOUT_CONTEXT": 948
+      },
+      "filename": "without_context_queries.jsonl",
+      "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+      "passage_count_distribution": {
+        "0": 948
+      },
+      "retrieval_artifact_sha256_counts": {},
+      "retriever_counts": {
+        "None": 948
+      },
+      "row_count": 948,
+      "selected_k_counts": {
+        "None": 948
+      },
+      "sha256": "c58819096a3196a94e01a530763f65dca3b668c1a7c36cbeabed912866175513",
+      "status_counts": {
+        "READY": 948
+      }
+    },
+    {
+      "bytes": 7082895,
+      "condition_counts": {
+        "WITH_CONTEXT": 948
+      },
+      "filename": "bm25_with_context.jsonl",
+      "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "retrieval_artifact_sha256_counts": {
+        "ec71626bfcffe6c921f6696a894cefea2729a17a4a5b6c082a5a7b21399bdbee": 948
+      },
+      "retriever_counts": {
+        "bm25": 948
+      },
+      "row_count": 948,
+      "selected_k_counts": {
+        "5": 948
+      },
+      "sha256": "187e2e5347626441488df81618720b015ac04993d27420f47fab4bec9972d723",
+      "status_counts": {
+        "READY": 948
+      }
+    },
+    {
+      "bytes": 7138248,
+      "condition_counts": {
+        "WITH_CONTEXT": 948
+      },
+      "filename": "dpr_with_context.jsonl",
+      "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "retrieval_artifact_sha256_counts": {
+        "221b4a7fc074346096cf6298319feb635256ec12c5cdf10aae528402ee39c252": 948
+      },
+      "retriever_counts": {
+        "dpr": 948
+      },
+      "row_count": 948,
+      "selected_k_counts": {
+        "5": 948
+      },
+      "sha256": "b09cc3507aa95bb0f2cd889d05c95a940e024cb80d87541979ce7fc7ac7f8927",
+      "status_counts": {
+        "READY": 948
+      }
+    },
+    {
+      "bytes": 7052317,
+      "condition_counts": {
+        "WITH_CONTEXT": 948
+      },
+      "filename": "contriever_with_context.jsonl",
+      "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "retrieval_artifact_sha256_counts": {
+        "5a9b90fbd5761d75837a9f0c96c13747d139edf253602d8ad805e1a1f97f4e57": 948
+      },
+      "retriever_counts": {
+        "contriever": 948
+      },
+      "row_count": 948,
+      "selected_k_counts": {
+        "5": 948
+      },
+      "sha256": "266c32bef94f00535506be4345dbc575ee5b6cec2db5b0c16c667a068d0f70dc",
+      "status_counts": {
+        "READY": 948
+      }
+    }
+  ],
+  "colbertv2_status": "Not completed for ASQA under the supervisor-approved fallback; the full corpus was not reduced or subsampled.",
+  "completed_conditions": [
+    "WITHOUT_CONTEXT",
+    "WITH_CONTEXT:bm25",
+    "WITH_CONTEXT:dpr",
+    "WITH_CONTEXT:contriever"
+  ],
+  "corpus": {
+    "logical_id": "dpr-wikipedia-2018-12-20",
+    "passage_count": 21015324,
+    "policy": "full collection; no subsampling"
+  },
+  "dataset": {
+    "evidence_role": "PROJECT_PROTECTED_FINAL",
+    "name": "ASQA",
+    "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+    "physical_source_file": "data/dev-00000-of-00001-58a9a40c6e69f07b.parquet",
+    "physical_source_sha256": "9e017bc3a4409902ec994e87c1d0407c06d4b09342bae982031b6c3ea4daaf5b",
+    "question_count": 948,
+    "revision": "084060f16b46f3165318f760b2339208b19a0bde",
+    "source": "din0s/asqa",
+    "split": "dev"
+  },
+  "materialized_inputs_committed_to_git": false
+}

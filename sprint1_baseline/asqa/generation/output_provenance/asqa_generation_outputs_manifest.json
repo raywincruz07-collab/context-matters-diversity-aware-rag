@@ -1,0 +1,324 @@
+{
+  "artifact_format": "asqa.sprint1-generation-output-provenance.v1",
+  "cell_count": 12,
+  "cells": [
+    {
+      "aggregate_sha256": "fb932d2dd8a771810d269a198ec804d798de92734f0cfe6e6c86522a25a3f8eb",
+      "cell": "with_context/bm25/gemma4-26b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 948
+      }
+    },
+    {
+      "aggregate_sha256": "5c15feebc2db1d5f4a10a9e5e3b64cbc59d9e6f674edbe3d5097ea4d3c03fa03",
+      "cell": "with_context/bm25/llama-3.3-70b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 944,
+        "TRUNCATED": 4
+      }
+    },
+    {
+      "aggregate_sha256": "acb6e9cba7c07a1a531e7e78bf85c886b7ca14d23bc2e53eb4a21e7da6177e4c",
+      "cell": "with_context/bm25/ministral-3-14b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 941,
+        "PARSE_FAILURE": 2,
+        "TRUNCATED": 5
+      }
+    },
+    {
+      "aggregate_sha256": "95c950f0f2f3633a0ef082a97ae97cfb8a1d63a3283e6822b650fcd7fa4d6223",
+      "cell": "with_context/contriever/gemma4-26b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 948
+      }
+    },
+    {
+      "aggregate_sha256": "6ec33b29db0f87c264fb4dcdb3dc421b0a861c8be7e24420ef9e08f5b9492ad7",
+      "cell": "with_context/contriever/llama-3.3-70b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 946,
+        "TRUNCATED": 2
+      }
+    },
+    {
+      "aggregate_sha256": "efc85f2cbde3fec3f6ad1ab4dc1d17b96719072766d7e8c2b3270a1f294f90f3",
+      "cell": "with_context/contriever/ministral-3-14b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 945,
+        "TRUNCATED": 3
+      }
+    },
+    {
+      "aggregate_sha256": "58a5b54c443edb791e3c78cba9ad023656d5d4b084dc95b87c34a7703598b088",
+      "cell": "with_context/dpr/gemma4-26b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 948
+      }
+    },
+    {
+      "aggregate_sha256": "8dc11d4908233cb24cb029d92ca191acadaa14d1e66b44b1c38cd62c55f9b7f5",
+      "cell": "with_context/dpr/llama-3.3-70b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 945,
+        "TRUNCATED": 3
+      }
+    },
+    {
+      "aggregate_sha256": "d9ad96c6809832e0dcd42e6ebf5b1df9a30409f3410e6c467aa7072f7439f6a9",
+      "cell": "with_context/dpr/ministral-3-14b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "passage_count_distribution": {
+        "5": 948
+      },
+      "selected_k_counts": {
+        "5": 948
+      },
+      "status_counts": {
+        "OK": 947,
+        "TRUNCATED": 1
+      }
+    },
+    {
+      "aggregate_sha256": "f57bdea991a0174bafccfcd94d1d8d8dd61a5e724cd96d962808fbc127f8da9b",
+      "cell": "without_context/gemma4-26b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "gemma4-26b",
+          "physical_model_id": "gemma4-26b"
+        }
+      ],
+      "passage_count_distribution": {
+        "0": 948
+      },
+      "selected_k_counts": {
+        "None": 948
+      },
+      "status_counts": {
+        "OK": 945,
+        "PARSE_FAILURE": 1,
+        "TRUNCATED": 2
+      }
+    },
+    {
+      "aggregate_sha256": "97f3fcbc9b203e65bb66a3f0cc8ca2da346965c05149d4cb5c7732a39ea333bd",
+      "cell": "without_context/llama-3.3-70b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "llama-3.3-70b",
+          "physical_model_id": "llama-3.3-70b"
+        }
+      ],
+      "passage_count_distribution": {
+        "0": 948
+      },
+      "selected_k_counts": {
+        "None": 948
+      },
+      "status_counts": {
+        "OK": 943,
+        "TRUNCATED": 5
+      }
+    },
+    {
+      "aggregate_sha256": "b0d81b8d1b909a094f0251d54b658a414740b75152ca649c41f27e7f25c83d5c",
+      "cell": "without_context/ministral-3-14b",
+      "file_count": 948,
+      "invalid_json": 0,
+      "model_mappings": [
+        {
+          "count": 948,
+          "logical_model_id": "ministral-3-14b",
+          "physical_model_id": "qwen3.6-36b"
+        }
+      ],
+      "passage_count_distribution": {
+        "0": 948
+      },
+      "selected_k_counts": {
+        "None": 948
+      },
+      "status_counts": {
+        "OK": 934,
+        "TRUNCATED": 14
+      }
+    }
+  ],
+  "colbertv2_status": "intentionally not completed for ASQA under supervisor-approved fallback; report ColBERTv2 on HotpotQA only",
+  "completed_retrievers": [
+    "bm25",
+    "dpr",
+    "contriever"
+  ],
+  "corpus_passage_count": 21015324,
+  "corpus_policy": "full DPR Wikipedia collection; no subsampling",
+  "dataset": "asqa",
+  "evaluation_split": "official_dev",
+  "evidence_role": "PROJECT_PROTECTED_FINAL",
+  "invalid_json": 0,
+  "notes": {
+    "expected_matrix": "WITHOUT_CONTEXT + BM25 + DPR + Contriever, each with 3 logical models",
+    "expected_total_records": 11376,
+    "ministral_binding": "Logical ministral-3-14b was physically served by qwen3.6-36b; provenance preserved exactly as recorded.",
+    "raw_outputs_committed_to_git": false,
+    "with_context_selected_k": 5
+  },
+  "overall_model_mappings": [
+    {
+      "count": 3792,
+      "logical_model_id": "gemma4-26b",
+      "physical_model_id": "gemma4-26b"
+    },
+    {
+      "count": 3792,
+      "logical_model_id": "llama-3.3-70b",
+      "physical_model_id": "llama-3.3-70b"
+    },
+    {
+      "count": 3792,
+      "logical_model_id": "ministral-3-14b",
+      "physical_model_id": "qwen3.6-36b"
+    }
+  ],
+  "overall_status_counts": {
+    "OK": 11334,
+    "PARSE_FAILURE": 3,
+    "TRUNCATED": 39
+  },
+  "question_count": 948,
+  "total_json_files": 11376
+}

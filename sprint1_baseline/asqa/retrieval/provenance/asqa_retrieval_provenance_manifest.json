@@ -1,0 +1,68 @@
+{
+  "artifact_format": "asqa.sprint1-retrieval-provenance.v1",
+  "corpus": {
+    "corpus_provenance_file_sha256": "8504feb01e4cbb1dad2e10dd296e8fc8b75ee0c487f29acf2bf5d57ce9187f05",
+    "corpus_scientific_sha256": "cd7c9e5bcb8ab748584001d47449ea63b62ed994f938c97e9024916c253cc652",
+    "logical_id": "dpr-wikipedia-2018-12-20",
+    "passage_count": 21015324,
+    "physical_file": "psgs_w100.tsv.gz",
+    "physical_file_sha256": "c39b020c855a2b5c25ffef3abe4a3b6f9b829ad7dbc14ec3d163d34d7c53ea8d",
+    "policy": "full collection; no subsampling",
+    "retrieval_content": "exact DPR passage body",
+    "title_used_for_canonical_retrieval": false
+  },
+  "dataset": {
+    "evidence_role": "PROJECT_PROTECTED_FINAL",
+    "name": "ASQA",
+    "question_count": 948,
+    "revision": "084060f16b46f3165318f760b2339208b19a0bde",
+    "source": "din0s/asqa",
+    "split": "dev"
+  },
+  "retrievers": {
+    "bm25": {
+      "artifact_committed_to_git": false,
+      "artifact_filename": "bm25_pyserini_wikipedia_dpr_top100_v1.jsonl",
+      "artifact_sha256": "ec71626bfcffe6c921f6696a894cefea2729a17a4a5b6c082a5a7b21399bdbee",
+      "b": 0.4,
+      "candidate_count_per_query": 100,
+      "index": "wikipedia-dpr",
+      "k1": 0.9,
+      "query_count": 948,
+      "source_type": "Pyserini prebuilt Lucene index",
+      "status": "complete",
+      "total_retrieved_entries": 94800
+    },
+    "colbertv2": {
+      "reason": "Supervisor-approved fallback for the full 21,015,324-passage corpus; corpus was not reduced or subsampled.",
+      "reporting_scope": "ColBERTv2 reported on HotpotQA instead.",
+      "status": "not_completed_for_asqa"
+    },
+    "contriever": {
+      "artifact_committed_to_git": false,
+      "artifact_filename": "contriever_meta_published_top100_v1.jsonl",
+      "artifact_sha256": "5a9b90fbd5761d75837a9f0c96c13747d139edf253602d8ad805e1a1f97f4e57",
+      "candidate_count_per_query": 100,
+      "model_id": "facebook/contriever",
+      "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+      "query_count": 948,
+      "score_semantics": "exact inner product",
+      "source_type": "Meta published DPR Wikipedia Contriever embeddings",
+      "status": "complete",
+      "total_retrieved_entries": 94800
+    },
+    "dpr": {
+      "artifact_committed_to_git": false,
+      "artifact_filename": "asqa_eval_dpr_top100.json",
+      "artifact_sha256": "221b4a7fc074346096cf6298319feb635256ec12c5cdf10aae528402ee39c252",
+      "candidate_count_per_query": 100,
+      "provenance_manifest_sha256": "b7f15a100c126c55b742234a20f5bcfce6cfd024df7ef7159985035af97eddd4",
+      "query_count": 948,
+      "source_project": "princeton-nlp/ALCE",
+      "source_type": "ALCE published DPR Top-100",
+      "status": "complete",
+      "total_retrieved_entries": 94800,
+      "upstream_file": "asqa_eval_dpr_top100.json"
+    }
+  }
+}

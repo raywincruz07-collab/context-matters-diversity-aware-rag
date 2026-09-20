@@ -1,0 +1,39 @@
+{
+  "artifact_format": "sprint3.asqa-dpr-alce-top100-provenance.v1",
+  "dataset": "ASQA",
+  "evidence_role": "PROJECT_PROTECTED_FINAL",
+  "retriever": "DPR",
+  "source": {
+    "project": "princeton-nlp/ALCE",
+    "file": "asqa_eval_dpr_top100.json",
+    "upstream_archive": "ALCE-data.tar",
+    "artifact_sha256": "221b4a7fc074346096cf6298319feb635256ec12c5cdf10aae528402ee39c252"
+  },
+  "asqa_population": {
+    "source": "din0s/asqa",
+    "revision": "084060f16b46f3165318f760b2339208b19a0bde",
+    "split": "dev",
+    "count": 948,
+    "physical_sha256": "9e017bc3a4409902ec994e87c1d0407c06d4b09342bae982031b6c3ea4daaf5b",
+    "ordered_id_sequence_sha256": "ca694f4e29ffd8b2c3330d51368a26ac9103b767609b4fd4a4ed587bad4fea30",
+    "exact_id_order_match": true,
+    "exact_question_text_match": true
+  },
+  "retrieval": {
+    "candidate_count_per_query": 100,
+    "total_rows": 948,
+    "total_retrieved_entries": 94800,
+    "unique_passage_ids": 87821,
+    "passage_id_format": "wiki:<canonical_dpr_passage_id>",
+    "canonical_id_range_verified": true
+  },
+  "corpus_compatibility": {
+    "corpus_logical_id": "dpr-wikipedia-2018-12-20",
+    "canonical_passage_count": 21015324,
+    "retrieval_text_policy": "exact DPR passage body",
+    "sampled_text_equality_verified": true,
+    "sampled_title_equality_verified": true,
+    "title_concatenated_into_retrieval_text": false
+  },
+  "evaluation_performed_during_validation": false
+}
