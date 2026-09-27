@@ -1,0 +1,29 @@
+{
+  "adjudication_rows": 1,
+  "allowed_adjudication_labels": [
+    "EQUIVALENT",
+    "NOT_EQUIVALENT",
+    "UNCERTAIN"
+  ],
+  "artifact_format": "context-matters.phase54-asqa-human-adjudication-materialization.v1",
+  "dataset": "asqa",
+  "evidence_role": "DEVELOPMENT",
+  "git_head_before_materialization": "da6f25fefc53c7aff2894021109ead0ab2d071b7",
+  "phase": "5.4 Robustness Under Paraphrase",
+  "reserve_positions": [
+    7
+  ],
+  "reviewer1_completed_sha256": "60b8cb931c2575b9c21fa34246b8ff1c6d72c3763c1809dd361949df1b2d8588",
+  "reviewer1_label": "UNCERTAIN",
+  "reviewer2_completed_sha256": "1ff8c502733a8686b61d3c1eef105fb3cdde098bf7c9d20dd729a904434ae920",
+  "reviewer2_label": "EQUIVALENT",
+  "sample_ids": [
+    "4020522433998325944"
+  ],
+  "scientific_guards": {
+    "human_adjudication_required": true,
+    "llm_adjudication_allowed": false,
+    "paraphrase_rewriting_allowed": false,
+    "retrieval_allowed_before_adjudication": false
+  }
+}

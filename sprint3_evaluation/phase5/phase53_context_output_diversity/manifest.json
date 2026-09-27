@@ -1,0 +1,70 @@
+{
+  "analysis_counts": {
+    "eligible_joined_rows": 44993,
+    "operating_point_rows": 72,
+    "paired_delta_association_rows": 16,
+    "paired_rows_vs_none": 34725,
+    "paired_summary_rows": 63,
+    "row_level_association_rows": 16
+  },
+  "analysis_population": "Phase 4.5 eligible answers only: sentence_count >= 2",
+  "artifact_format": "context-matters.phase53-context-output-diversity.v1",
+  "association_statistics": [
+    "Pearson correlation",
+    "Spearman rank correlation"
+  ],
+  "dataset": "asqa",
+  "files": {
+    "asqa_phase53_eligible_joined.parquet": {
+      "sha256": "a25cec7ab0868f6c21ab79adf2f5f51e3d5ee6c0595e1bd8cc192cdda86f641a",
+      "size_bytes": 597454
+    },
+    "phase53_operating_point_summary.csv": {
+      "sha256": "0ff36101cbb78ca5457867d869711559943f046dc1910ebb48120f5f5c02cc76",
+      "size_bytes": 11724
+    },
+    "phase53_paired_delta_associations.csv": {
+      "sha256": "e763538feb3147ddc860cdf9bc0e8602f54b47a167cf4ee29a662ebd041dbc90",
+      "size_bytes": 2140
+    },
+    "phase53_paired_deltas_vs_none.parquet": {
+      "sha256": "b989486a3d0b2bfa38750f430dbbdb453eaed2609357702b12d349462a54df61",
+      "size_bytes": 1047237
+    },
+    "phase53_paired_summary_vs_none.csv": {
+      "sha256": "168d4154f6beb074e73d262e178c27366e950a0434fad5bd249df31517a51d9a",
+      "size_bytes": 12515
+    },
+    "phase53_row_level_associations.csv": {
+      "sha256": "cdd6b195f2799cbb8076859aa8ce70925f0fd0c1a7894e2a95c1de821213a31e",
+      "size_bytes": 2005
+    }
+  },
+  "interpretation_rules": {
+    "causality": "association does not by itself prove that context diversity causally determines output diversity",
+    "eligibility": "answers with fewer than two frozen sentences remain excluded and are never encoded as output_diversity=0",
+    "output_diversity": "descriptive response property; not an answer-quality score",
+    "paired_analysis": "secondary because eligibility differs across conditions"
+  },
+  "metrics": {
+    "context_diversity": "Phase 4.4 mean pairwise cosine distance among final top-5 passages",
+    "output_diversity": "Phase 4.5 mean pairwise cosine distance among sentence embeddings within an answer"
+  },
+  "new_embedding": false,
+  "new_generation": false,
+  "new_retrieval": false,
+  "phase": "5.3 Context \u2192 Output Diversity Correlation",
+  "primary_analysis": "descriptive association between retrieval_diversity and output_diversity among eligible ASQA answers",
+  "secondary_analysis": "same-query/retriever/generator paired change versus none, restricted to pairs where both outputs are Phase 4.5 eligible",
+  "source_counts": {
+    "phase44_retrieval_diversity_rows": 22752,
+    "phase45_all_answers": 68130,
+    "phase45_eligible_answers": 44993,
+    "phase45_ineligible_answers": 23137
+  },
+  "sources": {
+    "phase44_retrieval_diversity_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926",
+    "phase45_output_diversity": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927/asqa_output_diversity.jsonl"
+  },
+  "statistical_scope": "descriptive effect/association summaries only; no p-value-driven method selection"
+}

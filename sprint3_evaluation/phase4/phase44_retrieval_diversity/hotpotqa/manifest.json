@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "hotpotqa",
+  "embedding_model": "facebook/contriever",
+  "embedding_model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "embedding_path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/full_retrieval_cache/contriever/full/4fe73181ae0d934a35c039919476ea85e95bf24101a1818b26fa412925c943bd/embeddings.npy",
+  "embedding_shape": [
+    5233329,
+    768
+  ],
+  "metric": "mean_pairwise_cosine_distance_top5",
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "rows_per_condition": 7405,
+  "rows_per_retriever": 59240,
+  "schema_version": "phase4.retrieval-diversity.v1",
+  "top_k": 5
+}

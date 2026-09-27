@@ -1,0 +1,44 @@
+{
+  "artifact_format": "context-matters.phase54-asqa-human-authoring-batch.v1",
+  "authoritative_query_source": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/asqa/sprint2/asqa_train_queries_v1.jsonl",
+  "authoritative_query_source_sha256": "b1a0dfa02a4762b4a5addf151ddd9fc3ca5579a0fdbe1a6cc9229120e86daf4d",
+  "batch_end_reserve_position_inclusive": 29,
+  "batch_id": "batch01",
+  "batch_rows": 30,
+  "batch_start_reserve_position": 0,
+  "dataset": "asqa",
+  "evidence_role": "DEVELOPMENT",
+  "git_head": "61ea5f50f4d6150c3fde12457c5d09b8c1740bd4",
+  "human_authoring_guide": {
+    "path": "docs/sprint3/PARAPHRASE_ROBUSTNESS_HUMAN_AUTHORING_GUIDE.md",
+    "sha256": "e0b9bb5ac20d4c901c734c4599e7d5e337145d0ad43f2c8e47d74de4f89a5cd6"
+  },
+  "phase": "5.4 Robustness Under Paraphrase",
+  "query_validation": {
+    "missing_queries": 0,
+    "query_hash_matches": 30,
+    "query_hash_mismatches": 0,
+    "rows_checked": 30
+  },
+  "reserve_artifact": "artifacts/sample_manifests/phase54_asqa_paraphrase_reserve_v1.json",
+  "reserve_sha256": "3be2ea52ec3b88218284914f2a53246d2fd0255f5120627933b09ea8afc95700",
+  "sampling_namespace": "context-matters.phase54.asqa-development.robustness.v1",
+  "scientific_guards": {
+    "experimental_results_exposed": false,
+    "gold_answers_exposed": false,
+    "human_authored_required": true,
+    "llm_paraphrase_authoring_allowed": false,
+    "paraphrases_created_by_this_step": 0,
+    "qrels_exposed": false,
+    "retrieval_results_exposed": false,
+    "retriever_identity_exposed": false
+  },
+  "target_valid_pairs": 30,
+  "worksheet": {
+    "initial_paraphrase_nonempty_rows": 0,
+    "initial_status": "TODO",
+    "path": "artifacts/paraphrase_robustness/phase54_asqa_authoring_batch01.csv",
+    "rows": 30,
+    "sha256": "1fb8b9577569073aad5e100e292bac0de776acfe50da1d00442ca99376bec5c0"
+  }
+}

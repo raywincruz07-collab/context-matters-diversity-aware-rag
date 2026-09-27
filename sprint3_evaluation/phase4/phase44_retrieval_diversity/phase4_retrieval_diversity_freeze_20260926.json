@@ -1,0 +1,124 @@
+{
+  "datasets": {
+    "asqa": {
+      "directory": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926",
+      "file_count": 7,
+      "files": [
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/bm25_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+          "sha256": "cfb3701d1f8f786de783279addcce47ca345b6e7fac99c1d8063571c27846c61",
+          "size_bytes": 2816
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/bm25_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "7c68d11b91836f70b81af3055d86e10f5a9f50e313976abd124b675cca26de1a",
+          "size_bytes": 2375897
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/contriever_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+          "sha256": "03c7577d3da2be7dbd3e1b62986533332aae4d3b44c0e22155fbdb53c26e53c0",
+          "size_bytes": 2841
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/contriever_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "7405189d981846331925ba715b66dee3f086afa7c0f8e2edae9bfc3a5d4d5448",
+          "size_bytes": 2418113
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/dpr_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+          "sha256": "02696470ddbecde7b14773e8335a3f4f122246fb97d0df66b271d49d4ea5651d",
+          "size_bytes": 2812
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/dpr_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "cf4c0a440d09c58790bd78ba1f5d8491c637ff1faa503fb023805d3bab3d89f9",
+          "size_bytes": 2361232
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926/manifest.json",
+          "sha256": "3aa0d937be6e22ad663959d91ed0f0f6437bb82a7cf90513353786fb701b6950",
+          "size_bytes": 4027
+        }
+      ]
+    },
+    "hotpotqa": {
+      "directory": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926",
+      "file_count": 6,
+      "files": [
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/bm25_hotpotqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "722cb23907529de478d53f4ff9343b16335c69e6ec10187555db7b8f595b99e7",
+          "size_bytes": 19241758
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/colbertv2_hotpotqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "a84b32f6372116e4b937835584697d2d46ab01dadc7712afbbd2bae067ff5981",
+          "size_bytes": 19537916
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/contriever_hotpotqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "dacef19fefdab5c1e422c73c360e48b94935b1771c72ed34ab3d3358e43fd190",
+          "size_bytes": 19593799
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/dpr_hotpotqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "9df425f8b07f16c70f0744838d71aaca431966ae86806907f661f12f98b522dc",
+          "size_bytes": 19180517
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/hotpotqa_retrieval_diversity_manifest.json",
+          "sha256": "ed0c8351db387eb0781b70f886c0a551f75da249263e25267273b6f6042c899f",
+          "size_bytes": 814
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926/hotpotqa_retrieval_diversity_summary.csv",
+          "sha256": "e2bd2613396b370af4133aa3c71b94a3a1a84ab57c9ef70d956698960d5c1abc",
+          "size_bytes": 7399
+        }
+      ]
+    },
+    "pubmedqa": {
+      "directory": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926",
+      "file_count": 6,
+      "files": [
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/bm25_pubmedqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "c4c1cd485f34b566de2129124095a93b2fa2edccd80b9f55d4b15b5ed959d2ad",
+          "size_bytes": 2413659
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/colbertv2_pubmedqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "225fd4b8b1342a141894b9d2ffe20a8aa4f646af2b0e0ecdfa665243558e4912",
+          "size_bytes": 2453971
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/contriever_pubmedqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "f0d325b329c10296b76a27cfc4409d70abde19f4c578b12a80bc4ea4fea56f81",
+          "size_bytes": 2462827
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/dpr_pubmedqa_final8_retrieval_diversity_v1.jsonl",
+          "sha256": "8876a0315bb7a2d9b3f8415074203553d913e5efd100ab0d39a89afffd0fbce5",
+          "size_bytes": 2405260
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/pubmedqa_retrieval_diversity_manifest.json",
+          "sha256": "46cbc9ef703853b9137b9bc5f3682108bcd40605e3cf81f8ca89d3090090db2a",
+          "size_bytes": 906
+        },
+        {
+          "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926/pubmedqa_retrieval_diversity_summary.csv",
+          "sha256": "2cefc2fcb6edad16eee13676b253c987090cf04fcc9addbead9c833328ca2b3f",
+          "size_bytes": 7399
+        }
+      ]
+    }
+  },
+  "date": "2026-09-26",
+  "embedding_model": "facebook/contriever",
+  "embedding_model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "metric": "mean_pairwise_cosine_distance_top5",
+  "phase": "4.4",
+  "schema_version": "phase4.retrieval-diversity-freeze.v1",
+  "top_k": 5
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "ASQA DEVELOPMENT",
+  "frozen_pairs": 30,
+  "phase": "5.4",
+  "query_surface": "PARAPHRASE",
+  "retrievers": {
+    "bm25": {
+      "file": "bm25_paraphrase_top50.jsonl",
+      "hits_per_query": 50,
+      "rows": 30,
+      "sha256": "117bc15c52455ec110fad1ae6977d22bdce4d0b5567aceca01c55d996273da7c"
+    },
+    "contriever": {
+      "file": "contriever_paraphrase_top50.jsonl",
+      "hits_per_query": 50,
+      "rows": 30,
+      "sha256": "b219ecafa19f691d9558feb24167e636c4539e9d17297bd219a347e046c4ab4e"
+    },
+    "dpr": {
+      "file": "dpr_paraphrase_top50.jsonl",
+      "hits_per_query": 50,
+      "rows": 30,
+      "sha256": "22d7023744b81a1ecbfc32b7a3bb473a9b1c89e9a508d328bc39bd9dff64d234"
+    }
+  }
+}

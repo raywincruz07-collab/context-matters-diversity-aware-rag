@@ -1,0 +1,103 @@
+{
+  "artifact": "Phase 5.4 ASQA paraphrase robustness final freeze",
+  "candidate_pool": 20,
+  "conditions": [
+    "none",
+    "mmr_0.5"
+  ],
+  "dataset": "ASQA",
+  "evidence_role": "DEVELOPMENT",
+  "files": {
+    "bm25_paraphrase_top50.jsonl": {
+      "bytes": 103162,
+      "sha256": "117bc15c52455ec110fad1ae6977d22bdce4d0b5567aceca01c55d996273da7c"
+    },
+    "contriever_paraphrase_top50.jsonl": {
+      "bytes": 114778,
+      "sha256": "b219ecafa19f691d9558feb24167e636c4539e9d17297bd219a347e046c4ab4e"
+    },
+    "dpr_paraphrase_top50.jsonl": {
+      "bytes": 107151,
+      "sha256": "22d7023744b81a1ecbfc32b7a3bb473a9b1c89e9a508d328bc39bd9dff64d234"
+    },
+    "phase54_asqa_robustness_metrics_manifest_v1.json": {
+      "bytes": 1115,
+      "sha256": "7e92905f8b89b0965f979c6b72417dcc31aa110b0911c0421d2c20876383923c"
+    },
+    "phase54_asqa_robustness_query_metrics_v1.jsonl": {
+      "bytes": 120469,
+      "sha256": "ba4287e47ffd05e64705111856ecb40f3171f84fab58d2948f2a3dbfadb5f2d6"
+    },
+    "phase54_asqa_robustness_summary_v1.json": {
+      "bytes": 1350,
+      "sha256": "4f500a8f73ce0dced42ac5371dc2872345d6f542bac8d7775e2c1e66a23019e5"
+    },
+    "phase54_paraphrase_retrieval_manifest.json": {
+      "bytes": 726,
+      "sha256": "f30fed76b2c636b4c7212e04d29f6b2dffe2b7fc9030ce35984c0bdaeae0512b"
+    }
+  },
+  "frozen_pair_file": "artifacts/paraphrase_robustness/phase54_asqa_final_valid_pairs_v1.csv",
+  "frozen_pair_sha256": "ccbac6ec0891987272b0fb8e0e0b083a94d62923a541c0533495261ae182e093",
+  "generation_executed": false,
+  "interpretation_guardrail": "Higher Jaccard indicates greater retrieval-set invariance to paraphrase wording; it is not a retrieval-quality metric. MMR 0.5 effects are retriever-dependent and must not be described as universally improving robustness.",
+  "phase": "5.4",
+  "protocol": {
+    "candidate_robustness": "Jaccard@20",
+    "final_context_robustness": [
+      "Jaccard@5 none",
+      "Jaccard@5 MMR 0.5"
+    ],
+    "jaccard_definition": "|A intersection B| / |A union B|",
+    "secondary": [
+      "ordered Top5 identity rate none",
+      "ordered Top5 identity rate MMR 0.5"
+    ]
+  },
+  "results": {
+    "bm25": {
+      "mean_jaccard_at20": 0.307432,
+      "mean_jaccard_at5_mmr_0.5": 0.245503,
+      "mean_jaccard_at5_none": 0.263228,
+      "ordered_top5_identity_rate_mmr_0.5": 0.033333,
+      "ordered_top5_identity_rate_none": 0.033333
+    },
+    "contriever": {
+      "mean_jaccard_at20": 0.502374,
+      "mean_jaccard_at5_mmr_0.5": 0.453836,
+      "mean_jaccard_at5_none": 0.498016,
+      "ordered_top5_identity_rate_mmr_0.5": 0.0,
+      "ordered_top5_identity_rate_none": 0.033333
+    },
+    "dpr": {
+      "mean_jaccard_at20": 0.544559,
+      "mean_jaccard_at5_mmr_0.5": 0.529762,
+      "mean_jaccard_at5_none": 0.503836,
+      "ordered_top5_identity_rate_mmr_0.5": 0.066667,
+      "ordered_top5_identity_rate_none": 0.0
+    },
+    "pooled": {
+      "mean_jaccard_at20": 0.451455,
+      "mean_jaccard_at5_mmr_0.5": 0.4097,
+      "mean_jaccard_at5_none": 0.421693,
+      "n": 90,
+      "ordered_top5_identity_rate_mmr_0.5": 0.033333,
+      "ordered_top5_identity_rate_none": 0.022222
+    }
+  },
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever"
+  ],
+  "status": "COMPLETE_FROZEN",
+  "top_k": 5,
+  "validated_paraphrase_pairs": 30,
+  "validation": {
+    "original_mmr_0.5_reproduction": "90/90 exact",
+    "original_none_top5_reproduction": "90/90 exact",
+    "paraphrase_retrieval_rows": 90,
+    "query_metric_rows": 90,
+    "top20_embedding_coverage": "2269/2269"
+  }
+}

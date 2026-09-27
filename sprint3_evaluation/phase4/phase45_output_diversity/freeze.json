@@ -1,0 +1,64 @@
+{
+  "artifact_format": "context-matters.phase45-freeze.v1",
+  "counts": {
+    "answers": 68130,
+    "eligible_answers": 44993,
+    "ineligible_answers": 23137,
+    "sentences": 163117,
+    "summary_rows": 72
+  },
+  "created_utc": "2026-09-27T08:48:50.899226+00:00",
+  "dataset": "asqa",
+  "embedding": {
+    "autocast": false,
+    "compute_dtype": "float32",
+    "embedding_dimension": 768,
+    "embedding_dtype": "float32",
+    "max_length": 512,
+    "model": "facebook/contriever",
+    "model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+    "pooling": "attention-mask-aware mean pooling of last_hidden_state",
+    "tokenizer_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+    "truncation": true
+  },
+  "execution": {
+    "batch_size": 64,
+    "compute_platform": "Google Colab Pro A100",
+    "device": "cuda",
+    "limit": null,
+    "restore_platform": "bwUniCluster"
+  },
+  "phase": "4.5 Output Diversity & Novelty",
+  "phase_gate": {
+    "new_phase45_gpu_work_required": false,
+    "phase_4_5_complete": true,
+    "phase_4_complete": true,
+    "phase_5_1_allowed": true
+  },
+  "project": "CONTEXT MATTERS \u2014 Evaluating Diversity-Aware Retrieval for RAG",
+  "provenance": {
+    "archive": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927.tar.gz",
+    "archive_sha256": "600134fd4209e48ff104ebed1a54462b07cebe3790ecaeb38c58879ba1790811",
+    "input_sha256": "1d745a728e79e98b73479f3cc4f44d36dc7c75a5c721139923bb20ae31def44c",
+    "manifest": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927/manifest.json",
+    "manifest_sha256": "1fd7b38457af3e43004f249db1fabee004bb3fdbe35cedbd34403e83323b7d04",
+    "output": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927/asqa_output_diversity.jsonl",
+    "output_sha256": "023d4f25a6d4679118bc6136a06caa1541aa96d813908e23c0b0cfef495402a4",
+    "protocol_commit": "5d505b6967593245aeeb811518a37b600ba3bc0e",
+    "protocol_sha256": "14dc59fdc9d85c4208d68f381a6bfc74e465298608b40f6c7b485e35f442d4ec",
+    "restored_directory": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927",
+    "runner_commit": "cd83d23a9ef089e23031cbe98666b954c0610552",
+    "runner_sha256": "4a77d37a3b8dd4ec0a37ed1f866f12b39af1c07acf9fefd4babe1715442ec787",
+    "summary": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase45_output_diversity_20260927/asqa_output_diversity_summary.csv",
+    "summary_sha256": "930f9b5db37a5a8794be5ee4a2464dc2817660a6df38c0ebf5d963349cabae6c"
+  },
+  "scientific_scope": {
+    "eligible_rule": "answers with >=2 frozen sentences",
+    "ineligible_rule": "answers with <2 sentences receive null output_diversity, not zero",
+    "metric": "mean_pairwise_cosine_distance_among_answer_sentences",
+    "normalization": "L2 normalize each sentence embedding before cosine similarity",
+    "pair_selection": "upper_triangle_k1_no_self_pairs",
+    "population": "measurable ASQA answers from frozen Phase 4.2 workload"
+  },
+  "status": "COMPLETE_FROZEN"
+}

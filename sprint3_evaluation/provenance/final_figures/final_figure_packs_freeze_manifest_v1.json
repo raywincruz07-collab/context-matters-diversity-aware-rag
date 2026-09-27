@@ -1,0 +1,1135 @@
+{
+  "artifact": "Context Matters final figure packs freeze",
+  "date": "2026-09-27",
+  "frozen_scientific_artifacts_modified": false,
+  "packs": {
+    "cross_phase_summary_20260927": {
+      "files": {
+        "cross_phase_figure_manifest.json": {
+          "bytes": 891,
+          "sha256": "040aa04b50a99c9dc46067cfc3e489a36090abd6a8d63fdb052e17521f0f1d93"
+        },
+        "cross_phase_plot_data.csv": {
+          "bytes": 13939,
+          "sha256": "c942651985ecdadeaed9b3c88e3cbb151c73c4bceef5c1322bb4f04e19bccf20"
+        },
+        "phase41_asqa_correctness_by_condition.pdf": {
+          "bytes": 17219,
+          "sha256": "8906fc7226f7aba74e8230d1a67394a6416a70ddb548d8eb9157687c7071e363"
+        },
+        "phase41_asqa_correctness_by_condition.png": {
+          "bytes": 136677,
+          "sha256": "cbe8c9a5e44a62fea86e734f49cd1a685744b54159c25b1d59faf6bc2bebea2d"
+        },
+        "phase41_asqa_correctness_by_llm.pdf": {
+          "bytes": 16127,
+          "sha256": "38e5c8f2eae01025777c7598a50fbad6b06db9089071f6b75d2071ee3c9683ea"
+        },
+        "phase41_asqa_correctness_by_llm.png": {
+          "bytes": 133918,
+          "sha256": "3fe7ef5d581d327bc54c1728b44c8cc42af049af7fa03b30b058f8cdff9fe8a2"
+        },
+        "phase41_hotpotqa_correctness_by_condition.pdf": {
+          "bytes": 16416,
+          "sha256": "67b7b0453c461548930b7e1a10f390f9f73f8aefc394ded6ee058a55888bc4b5"
+        },
+        "phase41_hotpotqa_correctness_by_condition.png": {
+          "bytes": 137336,
+          "sha256": "9bf89b463ed01add2a67bd33e2414929a6b0a4fce627965879e05fe12c0a50dd"
+        },
+        "phase41_hotpotqa_correctness_by_llm.pdf": {
+          "bytes": 16237,
+          "sha256": "f273c0d50176825bbe931b3fb4d133dcd1b1a870ec679dfa11e29d2feac57b84"
+        },
+        "phase41_hotpotqa_correctness_by_llm.png": {
+          "bytes": 133646,
+          "sha256": "e925984359bc7ab39031be9cb373f80a87d05889d12ce453ee3cdd5f5603a940"
+        },
+        "phase41_pubmedqa_correctness_by_condition.pdf": {
+          "bytes": 15625,
+          "sha256": "846bb9e14a51231199a062ded6f83a84857f2817fd1fa960c1fd635cb23a7c5c"
+        },
+        "phase41_pubmedqa_correctness_by_condition.png": {
+          "bytes": 143696,
+          "sha256": "cf37e02b6112be791a8bfacf4ba55ae1ead57774d88e795e6a6e4d98835d348a"
+        },
+        "phase41_pubmedqa_correctness_by_llm.pdf": {
+          "bytes": 15694,
+          "sha256": "949d25a14afb39512c9f1fcd0086bc85408621b0b9bac29960d213cb43d92f3b"
+        },
+        "phase41_pubmedqa_correctness_by_llm.png": {
+          "bytes": 140663,
+          "sha256": "cc89049e48e6a6e81fd86cdd77dc2aeb8af520563aef1c3da22bf2c999a0e29f"
+        },
+        "phase42_faithfulness_by_condition.pdf": {
+          "bytes": 18633,
+          "sha256": "97a6db258e0c66fdfbfdc5a0ea1917421a7d7eabd7542d4207b521a236a20d2d"
+        },
+        "phase42_faithfulness_by_condition.png": {
+          "bytes": 193235,
+          "sha256": "1a176818004788695098c93ca3ef01f69c7f4a36a7cd0d9a4e19568c81f2191c"
+        },
+        "phase42_faithfulness_by_llm.pdf": {
+          "bytes": 18214,
+          "sha256": "5b18b7a31f160eb56dd339bbc519e49cc7e0d25553e1c4bad336f8064fc7c1b7"
+        },
+        "phase42_faithfulness_by_llm.png": {
+          "bytes": 183236,
+          "sha256": "410da380d481d362fa633481476ca0ca8e003c260ccc6b9627a45f8c0334d2e6"
+        },
+        "phase42_hallucination_by_condition.pdf": {
+          "bytes": 18210,
+          "sha256": "d51f6c12a95daf356ccbd77b853604e958aa0ddfd9fdc3ca2f126b14ad0ab247"
+        },
+        "phase42_hallucination_by_condition.png": {
+          "bytes": 194100,
+          "sha256": "3934ad9ccb9bb55e3a44dba85801a3cb2be07128303c42bfc5a03025aead6ca4"
+        },
+        "phase42_hallucination_by_llm.pdf": {
+          "bytes": 18145,
+          "sha256": "12d6ee2152799e47a637ce1ccea4ce97cef69fcc26e9d6071fed9c2aea535016"
+        },
+        "phase42_hallucination_by_llm.png": {
+          "bytes": 209794,
+          "sha256": "b409dbfc0bba91dfe27ae15cf4ad0f489d273388a1af2dc8130e4c4a431468a1"
+        },
+        "phase43_asqa_coverage_by_condition.pdf": {
+          "bytes": 14568,
+          "sha256": "cac60dd5a1f3677d7a6e0e45d6e1d5460bdb55658a0bb0c164a13384506fa61b"
+        },
+        "phase43_asqa_coverage_by_condition.png": {
+          "bytes": 123096,
+          "sha256": "f5e48f9aa014b4a7953ecc6f44b6eea6bcc363847cbdd205cb68e1fc40220054"
+        },
+        "phase43_hotpotqa_coverage_by_condition.pdf": {
+          "bytes": 17248,
+          "sha256": "2139ff6425a6b662c827ab39620fb571cde50279907f5064dadc6ebce62f5366"
+        },
+        "phase43_hotpotqa_coverage_by_condition.png": {
+          "bytes": 143507,
+          "sha256": "46386dc41e640a9b3920f307c5484d970d423187d53cb8d7f3b567752e80756f"
+        },
+        "phase43_pubmedqa_coverage_by_condition.pdf": {
+          "bytes": 16799,
+          "sha256": "4c95bba44448cd7e91d5f50fc896aff0d1c5079b3e4151b7737cfccc23407a8a"
+        },
+        "phase43_pubmedqa_coverage_by_condition.png": {
+          "bytes": 140136,
+          "sha256": "a2f044ea63c92c893adf825eb333931b2d535e52d3b84d6f2516e255d77fda2a"
+        },
+        "phase44_retrieval_diversity_by_condition.pdf": {
+          "bytes": 19008,
+          "sha256": "d5c88c3caf9c401f435e0a56e838931ddba9eff8698d890adae874b650ef3936"
+        },
+        "phase44_retrieval_diversity_by_condition.png": {
+          "bytes": 362352,
+          "sha256": "feecada2f83c53d0a07ed9dacae9f973810a9d51c1d2a79a229d1e27664a4546"
+        },
+        "phase45_asqa_output_diversity_by_condition.pdf": {
+          "bytes": 16614,
+          "sha256": "3708ddb309ce676d69fabccfe99d7dc2edcfd050d880d4b7995acff8380c9a63"
+        },
+        "phase45_asqa_output_diversity_by_condition.png": {
+          "bytes": 166736,
+          "sha256": "37357d0bd2b0f53ed8c5816f5128096614857a778e72be3ea0027a960b6c7616"
+        },
+        "phase45_asqa_output_diversity_by_llm.pdf": {
+          "bytes": 16764,
+          "sha256": "d34479a5452da239b68fedad8b821e97efa2437fbf585a524a88aebec08aa6cd"
+        },
+        "phase45_asqa_output_diversity_by_llm.png": {
+          "bytes": 163926,
+          "sha256": "742c9c9f36dee80ba4b8f7cedfc5d7dd872a6448de6649c7e2a6a24a7c77a1e2"
+        },
+        "phase51_asqa_diversity_accuracy.pdf": {
+          "bytes": 17317,
+          "sha256": "61b5db266b2176f36564b8ce1710af852827cec9c12b49fac035883aa42e845b"
+        },
+        "phase51_asqa_diversity_accuracy.png": {
+          "bytes": 115497,
+          "sha256": "7d09165b740ce622e0faaf44fe3813c102da1b8ce9b681c7e0f802c16750956a"
+        },
+        "phase51_hotpotqa_diversity_accuracy.pdf": {
+          "bytes": 17464,
+          "sha256": "e9b60114df60fb8456dfe12ed71ded78f20175c9414bb3b3642a4850096d3333"
+        },
+        "phase51_hotpotqa_diversity_accuracy.png": {
+          "bytes": 126098,
+          "sha256": "9c57b9b82fa20b53347d6c75814977e19e33d8bcbff4467bc1f8f48879768d97"
+        },
+        "phase51_pubmedqa_diversity_accuracy.pdf": {
+          "bytes": 17400,
+          "sha256": "56598fac687618a15302cc33e19ecde3bf86b7c778222ea3084feffcf39c8b2c"
+        },
+        "phase51_pubmedqa_diversity_accuracy.png": {
+          "bytes": 132523,
+          "sha256": "71ebdfc5e52d89bff4d34ff20c272fa6b3442c382eb61b2e6816bf28462c4df4"
+        },
+        "phase52_asqa_diversity_faithfulness.pdf": {
+          "bytes": 16329,
+          "sha256": "d81bfcb8c165e2fc6711edea4399b52f11e4fd9cda7b96e74b6d5ae81be3d01e"
+        },
+        "phase52_asqa_diversity_faithfulness.png": {
+          "bytes": 125850,
+          "sha256": "816932a3505e730f87de337f4cec9b2416d2627f8bdc36c77626cbfea7b0a1fe"
+        },
+        "phase52_asqa_diversity_hallucination.pdf": {
+          "bytes": 16441,
+          "sha256": "2d27a71a44d15a5874e50a3afdee6dffc12830e36a38e67b9ddabed9cacd3405"
+        },
+        "phase52_asqa_diversity_hallucination.png": {
+          "bytes": 135605,
+          "sha256": "f3e4f66f8f9155b472eeec7c511e728de6b76286bf0f69cfdf4182e6c6fea863"
+        },
+        "phase52_hotpotqa_diversity_faithfulness.pdf": {
+          "bytes": 16447,
+          "sha256": "6bffa63ad143ae3cec8b3cde2bdc3be8f6bb2a7ecc722e905bd989154d6c06e5"
+        },
+        "phase52_hotpotqa_diversity_faithfulness.png": {
+          "bytes": 135494,
+          "sha256": "4e84985c5db4db628e786a158d1d9dd49d4d2f961b16c3ce43a34db71e8597e4"
+        },
+        "phase52_hotpotqa_diversity_hallucination.pdf": {
+          "bytes": 16359,
+          "sha256": "0b8c42258797684cfba4ca815b6ffa7b17b3cb54ed591872655457ff76fd47d0"
+        },
+        "phase52_hotpotqa_diversity_hallucination.png": {
+          "bytes": 137111,
+          "sha256": "c40b749e5b34a99a41859cd31ed8325aaef7f4424e3bb5c09a73cda0e5d0d0fc"
+        },
+        "phase52_pubmedqa_diversity_faithfulness.pdf": {
+          "bytes": 16316,
+          "sha256": "9dab5cbdad8ad0c393bfe5bc696d4685a0afb12dfae9e5d7fe5818d35f6da3fc"
+        },
+        "phase52_pubmedqa_diversity_faithfulness.png": {
+          "bytes": 133649,
+          "sha256": "9bc3c34b2bd3a15d4ac9a6d9d1a5b3bb2e4d92b9094648b1cb1fb66546d7047b"
+        },
+        "phase52_pubmedqa_diversity_hallucination.pdf": {
+          "bytes": 16112,
+          "sha256": "29607d894f2c747db0368ed1a6d1dd631fbace5347e36c7759cdbbca49c4926e"
+        },
+        "phase52_pubmedqa_diversity_hallucination.png": {
+          "bytes": 133113,
+          "sha256": "7da13ae14067ed23edaf55186a40943e06be84b8dc52e741105cf219573526df"
+        },
+        "phase53_operating_points_context_output.pdf": {
+          "bytes": 16566,
+          "sha256": "1fd91af583949d34482954ef98d6489570e1f85cf9de0a4720b209d986d34a29"
+        },
+        "phase53_operating_points_context_output.png": {
+          "bytes": 123236,
+          "sha256": "2761a43fc2e5c8d1f2842d99da5e04f58afd1235188479b596b476ad309dc343"
+        },
+        "phase53_overall_context_output_association.pdf": {
+          "bytes": 13882,
+          "sha256": "a6b18ecd67306feb2ba3e63dca3f3afbdd09bfb36fde6b59d699b00da5cd5b99"
+        },
+        "phase53_overall_context_output_association.png": {
+          "bytes": 125352,
+          "sha256": "199234770dd3ecd318e135dc3e8ad83a398c8986a4775a5ff8628066197e8149"
+        },
+        "phase54_robustness_cross_phase_summary.pdf": {
+          "bytes": 16383,
+          "sha256": "03bc0ea16632bc3cd73c5314f098e205c70948b34fb908cbfac3ec5940ee4b48"
+        },
+        "phase54_robustness_cross_phase_summary.png": {
+          "bytes": 111843,
+          "sha256": "d58a3c4ddbaf686b5c8f51b25b5849ec023ac8022557da5ccb757786583d0f93"
+        }
+      },
+      "pdf_count": 28,
+      "png_count": 28,
+      "total_files": 58
+    },
+    "detailed_retriever_llm_20260927": {
+      "files": {
+        "detailed_retriever_llm_manifest.json": {
+          "bytes": 1036,
+          "sha256": "5680d785512f9076a539d90c0810be5a1f16461b715b2798b5ff31ba13577114"
+        },
+        "detailed_retriever_llm_plot_data.csv": {
+          "bytes": 75277,
+          "sha256": "9a70e7f4624f44b9fd61b6d4e0993304a7c4d6bf3a4fd61063f3ece22aa1a092"
+        },
+        "phase41_asqa_bm25_qa_f1.pdf": {
+          "bytes": 20608,
+          "sha256": "448dc549aba83dcdae56b967775a8ad89a80ce87093999857c83d3f74a9e3a74"
+        },
+        "phase41_asqa_bm25_qa_f1.png": {
+          "bytes": 213705,
+          "sha256": "d95b469e61aef29fae418dde7c330d29e663b4107211c6c655c9ede5074387b6"
+        },
+        "phase41_asqa_contriever_qa_f1.pdf": {
+          "bytes": 20614,
+          "sha256": "8358bdff42471cdbd78a900341c64100b830c5b77b9fffab4698d8699a569587"
+        },
+        "phase41_asqa_contriever_qa_f1.png": {
+          "bytes": 218190,
+          "sha256": "f7abf7285ae94755ec677c803b213b74c9e546fcab8ac882688cf2b2874fd0f3"
+        },
+        "phase41_asqa_dpr_qa_f1.pdf": {
+          "bytes": 20613,
+          "sha256": "89a07dca041c02a3611a277ebba77d9e96b537fe2c952a5ba47a9ce95b838865"
+        },
+        "phase41_asqa_dpr_qa_f1.png": {
+          "bytes": 216505,
+          "sha256": "3e572c90230feb9cc11fad9788a18812584b4e5d82536e1d98924d276eb7c2fe"
+        },
+        "phase41_hotpotqa_bm25_mean_f1.pdf": {
+          "bytes": 19797,
+          "sha256": "a57017dd49ea10ead8cb5e1db736d22df3055384c6184b253a399d3b299e53e1"
+        },
+        "phase41_hotpotqa_bm25_mean_f1.png": {
+          "bytes": 214113,
+          "sha256": "57dfe4cb4c8a3c2a930dfc02d504a666ec2777300666ac6f1626cb5d0a0f78c1"
+        },
+        "phase41_hotpotqa_colbertv2_mean_f1.pdf": {
+          "bytes": 19988,
+          "sha256": "7364af583aa9f4d09aa15baf12ed8cb8642f9e254d5575ba2003d77b14d78b64"
+        },
+        "phase41_hotpotqa_colbertv2_mean_f1.png": {
+          "bytes": 219131,
+          "sha256": "f5d7128e1c749aa6e111ff340e6f7d6a0b9d39b2a745a5919816338f8eaca7f6"
+        },
+        "phase41_hotpotqa_contriever_mean_f1.pdf": {
+          "bytes": 19811,
+          "sha256": "52a0539d9eca8c0192de7f6cf21d0730bb85c453539532b3bdcc79bf81cc53aa"
+        },
+        "phase41_hotpotqa_contriever_mean_f1.png": {
+          "bytes": 228272,
+          "sha256": "3aa4f8699e85b554e88db3fef7ed8c96a583ed76bbfd65a0b25d1ca2bee222de"
+        },
+        "phase41_hotpotqa_dpr_mean_f1.pdf": {
+          "bytes": 19796,
+          "sha256": "b9d6f5bba49fcc022c4a0bfb649a674ae8233f5b221a41974d1a7e314885f16f"
+        },
+        "phase41_hotpotqa_dpr_mean_f1.png": {
+          "bytes": 210021,
+          "sha256": "5cb491bc10e3102cfdb781541d07846d3964df57b2dea285d6648d3aa39dd36b"
+        },
+        "phase41_pubmedqa_bm25_decision_accuracy.pdf": {
+          "bytes": 19624,
+          "sha256": "35a78d644104318c4ecfa4d4166e1f1ef85fccfc9b09d311378d1f5f367a9848"
+        },
+        "phase41_pubmedqa_bm25_decision_accuracy.png": {
+          "bytes": 247351,
+          "sha256": "70d9a89902d856ecb56f2b9712b50700a983c728c073dabf2317b14153bb92e0"
+        },
+        "phase41_pubmedqa_colbertv2_decision_accuracy.pdf": {
+          "bytes": 19995,
+          "sha256": "4217b74eb0b80f3406065b32636877400d611a284960b4ab2fcb5d2b932ff376"
+        },
+        "phase41_pubmedqa_colbertv2_decision_accuracy.png": {
+          "bytes": 265793,
+          "sha256": "61a0b023d0884faf1a534718fccd4b907c6a5038fe238529d7303648a2cd0a59"
+        },
+        "phase41_pubmedqa_contriever_decision_accuracy.pdf": {
+          "bytes": 19635,
+          "sha256": "e638544ecb42b6f7164a3edb97a82f2158bceb3a8861fa288344a81585208461"
+        },
+        "phase41_pubmedqa_contriever_decision_accuracy.png": {
+          "bytes": 267520,
+          "sha256": "7a60123c1f269e9401c864619085262b4ab11bb77df5f317e6a547db6e34cd1c"
+        },
+        "phase41_pubmedqa_dpr_decision_accuracy.pdf": {
+          "bytes": 19595,
+          "sha256": "75555c779fc2cf4b7ee3691e9f1380cacdfa16c4fec9b73f854e282f0d5b39e0"
+        },
+        "phase41_pubmedqa_dpr_decision_accuracy.png": {
+          "bytes": 232040,
+          "sha256": "05e2938c42ed6d2a27efb8c2901ed1e5884824ee3a1c4933e80b0228372234fb"
+        },
+        "phase42_faithfulness_asqa_bm25_mean_faithfulness.pdf": {
+          "bytes": 19266,
+          "sha256": "e52b7895ac959d796568be71a1ae6e79553ccf6182e65a2a73b558964e32a899"
+        },
+        "phase42_faithfulness_asqa_bm25_mean_faithfulness.png": {
+          "bytes": 201098,
+          "sha256": "36aba5992589ec9f2b992c29d806e86ada7b878b823d953900facd4583245e4e"
+        },
+        "phase42_faithfulness_asqa_contriever_mean_faithfulness.pdf": {
+          "bytes": 19596,
+          "sha256": "2000203ef38853d3bddccbce89000600b6caa54881071143672039b8dadc2d7d"
+        },
+        "phase42_faithfulness_asqa_contriever_mean_faithfulness.png": {
+          "bytes": 199884,
+          "sha256": "b495b228e5b86d7b9bc31ffcd79c3a0d97babd6895ff4957fe961446d757726e"
+        },
+        "phase42_faithfulness_asqa_dpr_mean_faithfulness.pdf": {
+          "bytes": 19266,
+          "sha256": "cc44c22372aa02c661dc7153a91c9dad6df7f861a66d89001308472c633d6559"
+        },
+        "phase42_faithfulness_asqa_dpr_mean_faithfulness.png": {
+          "bytes": 198899,
+          "sha256": "d6e0d296099657862e673016782d3aa1e10758cce4bedb5bbf38b6983d17699f"
+        },
+        "phase42_faithfulness_hotpotqa_bm25_mean_faithfulness.pdf": {
+          "bytes": 19370,
+          "sha256": "a5cb56e9fd80b3dadf047a9c85461a05c9e41a3552c8bf4c3f534d75c356e5fd"
+        },
+        "phase42_faithfulness_hotpotqa_bm25_mean_faithfulness.png": {
+          "bytes": 211960,
+          "sha256": "99d5e34d626537a6c68b7f659e5fb51fd4e3e6c9c1439c4ae2847aad565b4006"
+        },
+        "phase42_faithfulness_hotpotqa_colbertv2_mean_faithfulness.pdf": {
+          "bytes": 20068,
+          "sha256": "367066e86777fd2a855c2c03256fd4a6f3c7aa58637c545a27bb89444d6f7d56"
+        },
+        "phase42_faithfulness_hotpotqa_colbertv2_mean_faithfulness.png": {
+          "bytes": 209681,
+          "sha256": "b3c923e693a3e978d47826324cc0efe6d46173816681e7d07458f8638e30848d"
+        },
+        "phase42_faithfulness_hotpotqa_contriever_mean_faithfulness.pdf": {
+          "bytes": 19711,
+          "sha256": "2ee0d1f245edc8eb278642fa6542182aa543303d28e3b1accb3f032ecdb967c4"
+        },
+        "phase42_faithfulness_hotpotqa_contriever_mean_faithfulness.png": {
+          "bytes": 220979,
+          "sha256": "66523ad7e0a582ce4c05fa6e04cff604dc7b007351abbf1d192637ab344d1886"
+        },
+        "phase42_faithfulness_hotpotqa_dpr_mean_faithfulness.pdf": {
+          "bytes": 19373,
+          "sha256": "a8b5ba726a5c9fabc9acf9b380fdb34abe495295fab086c133e1fb0c96f3a27d"
+        },
+        "phase42_faithfulness_hotpotqa_dpr_mean_faithfulness.png": {
+          "bytes": 209169,
+          "sha256": "4a30aafe857c28db75c92de389c79f3507b45d22c4185411558e63d53ed501f4"
+        },
+        "phase42_faithfulness_pubmedqa_bm25_mean_faithfulness.pdf": {
+          "bytes": 19192,
+          "sha256": "0270337566a0f5ab4d9dfb93fee54254da8301d2c00904fcb36b516238c97fb2"
+        },
+        "phase42_faithfulness_pubmedqa_bm25_mean_faithfulness.png": {
+          "bytes": 227408,
+          "sha256": "aa1c382519c9db537f69bfd55f9380784fe96e6eb326ee83bb93b9aa771e7348"
+        },
+        "phase42_faithfulness_pubmedqa_colbertv2_mean_faithfulness.pdf": {
+          "bytes": 19912,
+          "sha256": "a933f68f89f8e516d35c27326ef7817a4553c30a87164a04791ca7c7dbeb7c32"
+        },
+        "phase42_faithfulness_pubmedqa_colbertv2_mean_faithfulness.png": {
+          "bytes": 240457,
+          "sha256": "752983bf35f465f2fd8f65a376228e04be3baf097925b96e4f7281451a8fc55b"
+        },
+        "phase42_faithfulness_pubmedqa_contriever_mean_faithfulness.pdf": {
+          "bytes": 19551,
+          "sha256": "9cc8d8cdc953c0bf7c762814fd95cde6d90035ba59f725e9ac9c82db2f13705e"
+        },
+        "phase42_faithfulness_pubmedqa_contriever_mean_faithfulness.png": {
+          "bytes": 246645,
+          "sha256": "989a514f09153a4be2d0d29b58e3662a41172aa738f6769eaff4f48a26e99b06"
+        },
+        "phase42_faithfulness_pubmedqa_dpr_mean_faithfulness.pdf": {
+          "bytes": 19186,
+          "sha256": "e94d96245f70f35260102cb0dc6e090d325cffd957d6fe378d3f164588a820b7"
+        },
+        "phase42_faithfulness_pubmedqa_dpr_mean_faithfulness.png": {
+          "bytes": 213924,
+          "sha256": "7c7c622824555e2c33a66645fc3b9ef4284bf756c3a3b9d7a9b5405fd676fdfb"
+        },
+        "phase42_hallucination_asqa_bm25_hallucination_rate.pdf": {
+          "bytes": 19253,
+          "sha256": "fef64619f9dc5fe8463850a024a8d8e6a5673670d5103c41afa857790ac5de06"
+        },
+        "phase42_hallucination_asqa_bm25_hallucination_rate.png": {
+          "bytes": 211031,
+          "sha256": "a3d87e52f693fc22a326d54efb743e5cbbdf683c0ac9a52cfd2259da3a09195f"
+        },
+        "phase42_hallucination_asqa_contriever_hallucination_rate.pdf": {
+          "bytes": 19604,
+          "sha256": "d492042287bc7747c87965dde8fc0d516cd82e2d842e86486f68e52ba300d791"
+        },
+        "phase42_hallucination_asqa_contriever_hallucination_rate.png": {
+          "bytes": 206732,
+          "sha256": "b002d0ef32d759acdf52800640d9cb51509d60edf8d504a17072167fcdd4bebb"
+        },
+        "phase42_hallucination_asqa_dpr_hallucination_rate.pdf": {
+          "bytes": 19276,
+          "sha256": "4923284dc0a632492c9aeb8e9c3f8d4077954630460bccab4be2192022f86392"
+        },
+        "phase42_hallucination_asqa_dpr_hallucination_rate.png": {
+          "bytes": 216569,
+          "sha256": "63aee32e94d274d402573040d71ec7bf8c9a19afc5b443b2bdcf695e37684d5e"
+        },
+        "phase42_hallucination_hotpotqa_bm25_hallucination_rate.pdf": {
+          "bytes": 19177,
+          "sha256": "a82ed9a8e49f789d39c0ee7993a982bd2091f1d4717f03e761a9a17a5773fd30"
+        },
+        "phase42_hallucination_hotpotqa_bm25_hallucination_rate.png": {
+          "bytes": 211158,
+          "sha256": "5012c2cb23bd6a0432dabd34cca23b553a0507c96ab30e2f668cf841235fc0d8"
+        },
+        "phase42_hallucination_hotpotqa_colbertv2_hallucination_rate.pdf": {
+          "bytes": 19891,
+          "sha256": "beaccc414623c4be22eab4488eabb26edf7f0d923bef22594b730df70b1098d4"
+        },
+        "phase42_hallucination_hotpotqa_colbertv2_hallucination_rate.png": {
+          "bytes": 208095,
+          "sha256": "1a99f48c674c15656dee3975298cfc4b8f5853a3695a8462d6c421d4b9024c4e"
+        },
+        "phase42_hallucination_hotpotqa_contriever_hallucination_rate.pdf": {
+          "bytes": 19518,
+          "sha256": "98c242e508c759c700849139855e0a1dd5f1143f0b71fd8690da711b2e0aad10"
+        },
+        "phase42_hallucination_hotpotqa_contriever_hallucination_rate.png": {
+          "bytes": 219640,
+          "sha256": "0832ab005693ad1aa102b75f8cdfe9914dd407170f94b182346837ad04710994"
+        },
+        "phase42_hallucination_hotpotqa_dpr_hallucination_rate.pdf": {
+          "bytes": 19178,
+          "sha256": "9a1e9db8edd4c66b826f6cdd8b9a4896bacf19c23590e33982c7f0dbcff04e52"
+        },
+        "phase42_hallucination_hotpotqa_dpr_hallucination_rate.png": {
+          "bytes": 207377,
+          "sha256": "9c5c563f1b4f80b6460facc308a53dd65a684e6efc35c1599791db1ff54ba23b"
+        },
+        "phase42_hallucination_pubmedqa_bm25_hallucination_rate.pdf": {
+          "bytes": 19177,
+          "sha256": "7404b1ebd793f2396853cdac0a8dde4d8d404df87b8902c5642fc92f71c16f6a"
+        },
+        "phase42_hallucination_pubmedqa_bm25_hallucination_rate.png": {
+          "bytes": 233355,
+          "sha256": "7d63c63949d78ae47b8c002356a394d64704b72f26879e77bd67f0563051df12"
+        },
+        "phase42_hallucination_pubmedqa_colbertv2_hallucination_rate.pdf": {
+          "bytes": 19906,
+          "sha256": "46ec0201160236e391dfffdc3ddfa62dc5a9b6bbbeb27ffe474edb658336085a"
+        },
+        "phase42_hallucination_pubmedqa_colbertv2_hallucination_rate.png": {
+          "bytes": 246605,
+          "sha256": "4908f0c00b51f6e1cb788031430723694853b1633e2c8c1d2fa9e345c51f16fd"
+        },
+        "phase42_hallucination_pubmedqa_contriever_hallucination_rate.pdf": {
+          "bytes": 19540,
+          "sha256": "07a81b2d384e9df1d4daa4afbc364caf6c3cf00635d861b2b2035e67c855e1c2"
+        },
+        "phase42_hallucination_pubmedqa_contriever_hallucination_rate.png": {
+          "bytes": 252664,
+          "sha256": "ab4536a2e3de9548fcb1c7f7aaf26c973fc1934b733508f62ee3175d71927f8f"
+        },
+        "phase42_hallucination_pubmedqa_dpr_hallucination_rate.pdf": {
+          "bytes": 19159,
+          "sha256": "1cc5086ea70e7515cda221af7f8047135aba9b4d1dbac60056c3a628c556267f"
+        },
+        "phase42_hallucination_pubmedqa_dpr_hallucination_rate.png": {
+          "bytes": 212780,
+          "sha256": "23c2da5004096e08f51ae5a03a702aaa653230bb51d52aad09c6297d65a0a744"
+        },
+        "phase45_asqa_bm25_mean_output_diversity.pdf": {
+          "bytes": 20557,
+          "sha256": "f24c3690e3af77f6adab206ad657692e153790debcf3fdacbc39e01d5aa1a111"
+        },
+        "phase45_asqa_bm25_mean_output_diversity.png": {
+          "bytes": 307107,
+          "sha256": "d9b2070080fb67cf031a07c0f900d0df2a2c6546a99ba18218db9dbc5f0d9924"
+        },
+        "phase45_asqa_contriever_mean_output_diversity.pdf": {
+          "bytes": 20894,
+          "sha256": "c2592cff8570442954943e009d4d93f26a9125fb1338e74f91663b5d25617a6f"
+        },
+        "phase45_asqa_contriever_mean_output_diversity.png": {
+          "bytes": 299818,
+          "sha256": "1061ebb70e4666c28a49ad75cd20816b984c176f13671d18cbb8d2e5ebeeeb90"
+        },
+        "phase45_asqa_dpr_mean_output_diversity.pdf": {
+          "bytes": 20496,
+          "sha256": "939660cc04bd2aa4ebeb26c276e55c687e172cf27b41a8369616f2487fcfa220"
+        },
+        "phase45_asqa_dpr_mean_output_diversity.png": {
+          "bytes": 327842,
+          "sha256": "841988d00c0640e60ae445a87e40f6071b76641e1ef4f5eedbac5cda96cf10da"
+        }
+      },
+      "pdf_count": 36,
+      "png_count": 36,
+      "total_files": 74
+    },
+    "paired_effects_detailed_20260927": {
+      "files": {
+        "paired_effects_detailed_manifest.json": {
+          "bytes": 1230,
+          "sha256": "6c08eb63fcfdda209df488f861fcf53666425162fa1321c2ea9ce1546ab80980"
+        },
+        "paired_effects_detailed_plot_data.csv": {
+          "bytes": 85309,
+          "sha256": "deebc16e98944811aaff93c1a2d35543c2e85028450a482ab98c9067ca2e2404"
+        },
+        "phase51_asqa_bm25_delta_correctness.pdf": {
+          "bytes": 18986,
+          "sha256": "51b77ff6d6c08f1df6368f953a397c3b11501625f8a92f5a0ceeeec5ccc0094e"
+        },
+        "phase51_asqa_bm25_delta_correctness.png": {
+          "bytes": 306166,
+          "sha256": "58dba18c8b6faf7112a85958df03a749e1f47a27cdd0d06b914e2587b46284ef"
+        },
+        "phase51_asqa_bm25_delta_retrieval_diversity.pdf": {
+          "bytes": 19189,
+          "sha256": "fed22e6d007458d7eda19183b61ca70ad61c953c1b37a8db3118094364a02755"
+        },
+        "phase51_asqa_bm25_delta_retrieval_diversity.png": {
+          "bytes": 266949,
+          "sha256": "fe25f7c25ea4d5a5a96641e9d7696fc18e2b1d1805162acf55e3338a134cb8d9"
+        },
+        "phase51_asqa_contriever_delta_correctness.pdf": {
+          "bytes": 19068,
+          "sha256": "b914dd4230826c5094c6786363e690a10e963e3ac58b618e2e5db54b14d10a48"
+        },
+        "phase51_asqa_contriever_delta_correctness.png": {
+          "bytes": 304254,
+          "sha256": "e0f5fc0db1ff5a43250e77950ef6a43f53b6d93b8c020e911fc41ac7d077f8e9"
+        },
+        "phase51_asqa_contriever_delta_retrieval_diversity.pdf": {
+          "bytes": 19687,
+          "sha256": "4bcf457f4e8ab7ac8664e3403bc5fae7f487568622cd51bc020060160ac6b1dc"
+        },
+        "phase51_asqa_contriever_delta_retrieval_diversity.png": {
+          "bytes": 261205,
+          "sha256": "cc9d977492876a19d2451494f4d7ce53dba51b2b843fe200f13c42675a627987"
+        },
+        "phase51_asqa_dpr_delta_correctness.pdf": {
+          "bytes": 19454,
+          "sha256": "299bbd47fb8927c721085cef7dd96c837b650ee41fa78b13abb7182e25d1292f"
+        },
+        "phase51_asqa_dpr_delta_correctness.png": {
+          "bytes": 302268,
+          "sha256": "1b256f0965450cf8ff02bad50e8eecde8d0d1fd25e26e02657f6319576dd075b"
+        },
+        "phase51_asqa_dpr_delta_retrieval_diversity.pdf": {
+          "bytes": 19207,
+          "sha256": "50a03e1f54a9ed5c2f13f718f8d09b1c90915de63d751f0cf82473c62ea8324c"
+        },
+        "phase51_asqa_dpr_delta_retrieval_diversity.png": {
+          "bytes": 266079,
+          "sha256": "9b3c7c55ac0ca9e53c5ddb5d24dc681e265253635ab4069c60a1b9bd713e528d"
+        },
+        "phase51_cross_dataset_delta_correctness.pdf": {
+          "bytes": 19044,
+          "sha256": "af8eda720ff7f033338c1ddad87c5b28743fb2965ebf4a12d8d3903eb1e70c2e"
+        },
+        "phase51_cross_dataset_delta_correctness.png": {
+          "bytes": 278132,
+          "sha256": "d4855cff0d4ded3e5e5a64c57e5b10e650dde790b8c97975eea9b2407c966844"
+        },
+        "phase51_hotpotqa_bm25_delta_correctness.pdf": {
+          "bytes": 19548,
+          "sha256": "3a824a03c3fed1816878dedf0c40e985f36840a58a9e9a8071fd8d8bcc1e9eaf"
+        },
+        "phase51_hotpotqa_bm25_delta_correctness.png": {
+          "bytes": 272301,
+          "sha256": "c71c4dba546bf0c42293ff561545cae83dd91c4d1036322d01e9d890b1cdb5a7"
+        },
+        "phase51_hotpotqa_bm25_delta_retrieval_diversity.pdf": {
+          "bytes": 19757,
+          "sha256": "538c3e730603e0a7a7c8aa9199c76ecc20d16222217d5ef96a95fdfcf89a4cb7"
+        },
+        "phase51_hotpotqa_bm25_delta_retrieval_diversity.png": {
+          "bytes": 269566,
+          "sha256": "eed1fc49eb2530c02571d71f1e49b9b9cadf05a67bf3ddc96253630f88460a69"
+        },
+        "phase51_hotpotqa_colbertv2_delta_correctness.pdf": {
+          "bytes": 19941,
+          "sha256": "700afc836746bc79b5389ed0cd86736ee27aec2a2b027a01b1f0fb063e73f19c"
+        },
+        "phase51_hotpotqa_colbertv2_delta_correctness.png": {
+          "bytes": 271401,
+          "sha256": "8e5bcd41f250f3a4f027790f8ffdcddeac1b0ae01dfba675cd78e77a6d3243d5"
+        },
+        "phase51_hotpotqa_colbertv2_delta_retrieval_diversity.pdf": {
+          "bytes": 20142,
+          "sha256": "8d187898d5d00d49da3fb7b241c7878d3d1ca1efc063a5eb6983e8251128afd7"
+        },
+        "phase51_hotpotqa_colbertv2_delta_retrieval_diversity.png": {
+          "bytes": 265685,
+          "sha256": "470d4e011c27dcf7c516fded29a1c43bd4c76dfcca97e00177bc88da6a7e5fda"
+        },
+        "phase51_hotpotqa_contriever_delta_correctness.pdf": {
+          "bytes": 19658,
+          "sha256": "b7c83378331f215ddae0cd2afe8e0f3bb52dec7580965c04070cca83953746e2"
+        },
+        "phase51_hotpotqa_contriever_delta_correctness.png": {
+          "bytes": 287183,
+          "sha256": "eb61821252a1cfbc0352f4759c9bef58e0acdebe7363820a6ddb69986165139b"
+        },
+        "phase51_hotpotqa_contriever_delta_retrieval_diversity.pdf": {
+          "bytes": 19814,
+          "sha256": "bbe54d42d545acbba5ed2dfb3f7ad4cf67ac1df411b2901e7107d8815a5b51a0"
+        },
+        "phase51_hotpotqa_contriever_delta_retrieval_diversity.png": {
+          "bytes": 273115,
+          "sha256": "de3b178ed70c5a92e93d4cd2b10d2d5f28da69519714f1b3df74d40d683fa700"
+        },
+        "phase51_hotpotqa_dpr_delta_correctness.pdf": {
+          "bytes": 19109,
+          "sha256": "e7c7bff78db6e4bf8587dc9e6d7f915cca6ba7295e66a52518cbd50b71bdae8f"
+        },
+        "phase51_hotpotqa_dpr_delta_correctness.png": {
+          "bytes": 274675,
+          "sha256": "f016e80830e73180977f87e51093f9abeca8e34bc48564daf24a67539c9366d3"
+        },
+        "phase51_hotpotqa_dpr_delta_retrieval_diversity.pdf": {
+          "bytes": 19732,
+          "sha256": "e5d7fc473f679a7d513f14b9182efc795b90bc87f2deec6779eabf78adce5bbb"
+        },
+        "phase51_hotpotqa_dpr_delta_retrieval_diversity.png": {
+          "bytes": 258608,
+          "sha256": "c7bf65d66250b3d216abe0730833f3f19ebf141922c5a03cde7d532bd416de19"
+        },
+        "phase51_pubmedqa_bm25_delta_correctness.pdf": {
+          "bytes": 19141,
+          "sha256": "dea633683d0fdbe63c7681cd51af67b2b9469d8d0fd830379abe8415525c5ea3"
+        },
+        "phase51_pubmedqa_bm25_delta_correctness.png": {
+          "bytes": 288478,
+          "sha256": "f6dd5e602a402f5fc1c24cc3987b02ac8f712bc5be9fefc5bd90b011e7931bb6"
+        },
+        "phase51_pubmedqa_bm25_delta_retrieval_diversity.pdf": {
+          "bytes": 19877,
+          "sha256": "561cd0eee8d9be75bcc22783bbce8934b1c073c8614a1d44c92e89df0a9b4855"
+        },
+        "phase51_pubmedqa_bm25_delta_retrieval_diversity.png": {
+          "bytes": 269452,
+          "sha256": "518528f45807f98dd2b9f5f48144934856a8e301330838bd9866e07913217240"
+        },
+        "phase51_pubmedqa_colbertv2_delta_correctness.pdf": {
+          "bytes": 19590,
+          "sha256": "8b852655a609ec3eeb507be2c7e43852ad3a3d423aa6cb12c737c6303ac9634b"
+        },
+        "phase51_pubmedqa_colbertv2_delta_correctness.png": {
+          "bytes": 298317,
+          "sha256": "e815e1272e7675645f20a63e91dc656ff6c34abfe8d108226d44f3b0f86356a6"
+        },
+        "phase51_pubmedqa_colbertv2_delta_retrieval_diversity.pdf": {
+          "bytes": 19658,
+          "sha256": "5ccd16cd67f653909c0b8346f2c620f32277f86d2adeeb665f66c83aeb62be74"
+        },
+        "phase51_pubmedqa_colbertv2_delta_retrieval_diversity.png": {
+          "bytes": 265499,
+          "sha256": "7bd8addcbddca2687a7b770bd2cd8ead0ff931854992306c1972c07c9fbdd7a2"
+        },
+        "phase51_pubmedqa_contriever_delta_correctness.pdf": {
+          "bytes": 19183,
+          "sha256": "dc0fa2c2cb103404d205973e9acfe0795ec69e7b11ba82c5882e15c33dead79c"
+        },
+        "phase51_pubmedqa_contriever_delta_correctness.png": {
+          "bytes": 306829,
+          "sha256": "113f88fe5ebeaba68f1beba0f59c9115a1749e34bc22ee3dff7b6215f070228c"
+        },
+        "phase51_pubmedqa_contriever_delta_retrieval_diversity.pdf": {
+          "bytes": 19836,
+          "sha256": "b0b616ce341c732c06c8cfed9dca43213c88d9bdf1e27ab27c5dae2b22a58550"
+        },
+        "phase51_pubmedqa_contriever_delta_retrieval_diversity.png": {
+          "bytes": 264871,
+          "sha256": "c91435e2e3accbf39d45b876b31d9b5948390628d237b550837233b4a8e2a43e"
+        },
+        "phase51_pubmedqa_dpr_delta_correctness.pdf": {
+          "bytes": 19663,
+          "sha256": "9c77bb7cb54d9c79c43611686a4b11b62e45ab34f6b90a33e5a67bdb67994954"
+        },
+        "phase51_pubmedqa_dpr_delta_correctness.png": {
+          "bytes": 294751,
+          "sha256": "09cedb323ed62fe985b180c89f06321447d580a1f9fb77c848af500107e1cc21"
+        },
+        "phase51_pubmedqa_dpr_delta_retrieval_diversity.pdf": {
+          "bytes": 19757,
+          "sha256": "f858fee65a8020f79cb881f672ba0337b14d8e0ecb02b4f92db17ad7d00ba40e"
+        },
+        "phase51_pubmedqa_dpr_delta_retrieval_diversity.png": {
+          "bytes": 265387,
+          "sha256": "a8234e426329f7728fd8b25d889dba8faff7fd83776681623cf56fe89aeeb0d1"
+        },
+        "phase52_asqa_bm25_delta_faithfulness.pdf": {
+          "bytes": 19394,
+          "sha256": "f650e13a51e12e1423b79d151f191770bd82e0556ca1c8e1bfb2e9d174a38976"
+        },
+        "phase52_asqa_bm25_delta_faithfulness.png": {
+          "bytes": 343036,
+          "sha256": "52555ae1fffc60f3591019a016ab7758120a7dbd19abbd2b6d4337532a8d77f6"
+        },
+        "phase52_asqa_bm25_delta_hallucination.pdf": {
+          "bytes": 19396,
+          "sha256": "ca4eb30755e16d1524fe68368226ad9b25e0a2965318e85d7ec70af4065f37c1"
+        },
+        "phase52_asqa_bm25_delta_hallucination.png": {
+          "bytes": 316312,
+          "sha256": "9a0213f55b82ab9fa53c9f74a3ed5dec8d8dcaeead055357b98cc70fd18d1198"
+        },
+        "phase52_asqa_contriever_delta_faithfulness.pdf": {
+          "bytes": 19512,
+          "sha256": "8b570eb7bdd501389532ad2a87cd8c3cc342ab8590e83174c30d69fb5e274696"
+        },
+        "phase52_asqa_contriever_delta_faithfulness.png": {
+          "bytes": 330865,
+          "sha256": "835b8e4612c3724dfc523cc461422065bac748a0a9fb5a188a2486d75943727d"
+        },
+        "phase52_asqa_contriever_delta_hallucination.pdf": {
+          "bytes": 19437,
+          "sha256": "d31eef1c670dfab1f16f6b56944c2e09dacbcede34c4cca2240a6811a78472cf"
+        },
+        "phase52_asqa_contriever_delta_hallucination.png": {
+          "bytes": 323787,
+          "sha256": "ea06531a75702513fb000f3c6a3e70b206fc68d5d65808bfbacb4aa6e929b9a5"
+        },
+        "phase52_asqa_dpr_delta_faithfulness.pdf": {
+          "bytes": 19499,
+          "sha256": "0df7fabb1c6fc9f78121b0c41faa4c4f7dcba2dd128675f68a3bbafdb9ee5647"
+        },
+        "phase52_asqa_dpr_delta_faithfulness.png": {
+          "bytes": 311051,
+          "sha256": "bed0bd151012a5f0178c74a791ffb9abb56509876b725ebbee0852907cec0b40"
+        },
+        "phase52_asqa_dpr_delta_hallucination.pdf": {
+          "bytes": 19418,
+          "sha256": "37f06786fc7d2cd1d1bd6ee92d6321a96ce101471f4050c508efc0223443910f"
+        },
+        "phase52_asqa_dpr_delta_hallucination.png": {
+          "bytes": 349031,
+          "sha256": "d9eecca77143a300c31378ed2313bc643e7478d13f412b7fb8235c27179fbc75"
+        },
+        "phase52_cross_dataset_delta_faithfulness.pdf": {
+          "bytes": 18944,
+          "sha256": "6041b2e0e1116b4dc8a0b71de6d7d99047aa81c592854b028855c0efd1fcad07"
+        },
+        "phase52_cross_dataset_delta_faithfulness.png": {
+          "bytes": 267321,
+          "sha256": "2467820c2013b75b8f50f5f718d66d7761ee778deeda0d6f8254dd9f519849c8"
+        },
+        "phase52_cross_dataset_delta_hallucination.pdf": {
+          "bytes": 18568,
+          "sha256": "b26bf8cfb8a0dc0226277e48a2d98c386a512a29f68caad9fc4dd5c6f0f148c8"
+        },
+        "phase52_cross_dataset_delta_hallucination.png": {
+          "bytes": 289867,
+          "sha256": "bb1372c656fbb00110574c857de336b203a2d79bc52e4afa0ab4ac9f970fceeb"
+        },
+        "phase52_hotpotqa_bm25_delta_faithfulness.pdf": {
+          "bytes": 19290,
+          "sha256": "0536dc26e6ae191444ee0fe5136e6ed5fe64b1318b13198487fadf3b14801006"
+        },
+        "phase52_hotpotqa_bm25_delta_faithfulness.png": {
+          "bytes": 269352,
+          "sha256": "68581bb2541529f7ec6fb1306a5899ea4443d7a131678bdd27844b1eec6087e3"
+        },
+        "phase52_hotpotqa_bm25_delta_hallucination.pdf": {
+          "bytes": 19096,
+          "sha256": "e1f19aca4a62f479a48b222b37c9c6d8ebbe900910d9f9807a0ca2ed2aca6a7a"
+        },
+        "phase52_hotpotqa_bm25_delta_hallucination.png": {
+          "bytes": 268500,
+          "sha256": "35d4b93e8c295f0b67aa2a4ed3ab6e83c6dfabd7d313cbc766ec503bd167a1cd"
+        },
+        "phase52_hotpotqa_colbertv2_delta_faithfulness.pdf": {
+          "bytes": 19878,
+          "sha256": "f120075f851a8024f66f3c0153b524956fd34070449554c5cd9d5a25d497ea7d"
+        },
+        "phase52_hotpotqa_colbertv2_delta_faithfulness.png": {
+          "bytes": 283389,
+          "sha256": "5a28d0d26c3a2f4bc01735c9e5f3c378791355ca3305780d197a1c0e84bd75ad"
+        },
+        "phase52_hotpotqa_colbertv2_delta_hallucination.pdf": {
+          "bytes": 19701,
+          "sha256": "2dcd84d4dcd3323e209fc71d3a8d1bb127824c643764bd75fda4902f28313c66"
+        },
+        "phase52_hotpotqa_colbertv2_delta_hallucination.png": {
+          "bytes": 282802,
+          "sha256": "cf853cdf424968d9a058a60e64cce686126424cb340c1184bd27ecf3d8ff3d16"
+        },
+        "phase52_hotpotqa_contriever_delta_faithfulness.pdf": {
+          "bytes": 20106,
+          "sha256": "abd985e987e8e4ad4494e2d619cd543a3e727cbea9ee6f8e9e32b406339b551e"
+        },
+        "phase52_hotpotqa_contriever_delta_faithfulness.png": {
+          "bytes": 276552,
+          "sha256": "2542af91b48454ff2d1736df6a39c06cc1220b19175164e696451fa7927a2787"
+        },
+        "phase52_hotpotqa_contriever_delta_hallucination.pdf": {
+          "bytes": 19905,
+          "sha256": "cae030836e2693f1973eb97f0ae8f4648ed796df34ffde3f3ec00b0bc01b49c4"
+        },
+        "phase52_hotpotqa_contriever_delta_hallucination.png": {
+          "bytes": 276456,
+          "sha256": "f7c2541536a7be58a70c66be3bac8fbc9736426200067ba4cbbe8896b8a794b0"
+        },
+        "phase52_hotpotqa_dpr_delta_faithfulness.pdf": {
+          "bytes": 19609,
+          "sha256": "e0f568a9c1dabfec30b21de6c2b333d6d5bf8c0d995816555de4d61cc3d531cd"
+        },
+        "phase52_hotpotqa_dpr_delta_faithfulness.png": {
+          "bytes": 283800,
+          "sha256": "7e07d4e1877d03a97f45a1ff6592cd90bceac0f0a1fa0dfedee7688a6e2fafe3"
+        },
+        "phase52_hotpotqa_dpr_delta_hallucination.pdf": {
+          "bytes": 19426,
+          "sha256": "768a6a146f6fb5e7e93d7a043d76e30c128268de1eba4aec36488dbb98feed68"
+        },
+        "phase52_hotpotqa_dpr_delta_hallucination.png": {
+          "bytes": 284301,
+          "sha256": "7cf4765160b95e65a9bf141f19926bc0702f9177d2fd27d8bf40435ec64a6cca"
+        },
+        "phase52_pubmedqa_bm25_delta_faithfulness.pdf": {
+          "bytes": 19897,
+          "sha256": "90186dc16fbbd8b5102e8771f3efe70bb138f0100fa9aa743466efe1ad1f8002"
+        },
+        "phase52_pubmedqa_bm25_delta_faithfulness.png": {
+          "bytes": 301457,
+          "sha256": "6ef0279a8a49e7a1d6cf2b9b8bf0ff21cb530b9123f57cd8e3330afacdd03a25"
+        },
+        "phase52_pubmedqa_bm25_delta_hallucination.pdf": {
+          "bytes": 19571,
+          "sha256": "5731c1c8b912e548d680ed42fab8cfc4e884e6c7cb0620b914562ed393301f3f"
+        },
+        "phase52_pubmedqa_bm25_delta_hallucination.png": {
+          "bytes": 318455,
+          "sha256": "872c588719acaabc0a78aa9c5fff058d073afa4c8fb616fc857310a6891ff800"
+        },
+        "phase52_pubmedqa_colbertv2_delta_faithfulness.pdf": {
+          "bytes": 19824,
+          "sha256": "614602b5c92cf68448f4b9d7d6b6e5d870c765a9e7925072a2d163f84c9bd7cd"
+        },
+        "phase52_pubmedqa_colbertv2_delta_faithfulness.png": {
+          "bytes": 311940,
+          "sha256": "2b92b7c7f15e2247d2bff41ada3def542ade36901de3b8f65790d2a18fd380d6"
+        },
+        "phase52_pubmedqa_colbertv2_delta_hallucination.pdf": {
+          "bytes": 20307,
+          "sha256": "a2d544354356ef3f276965060017a96ef2ad3be425dff1e29ddbcfc7cd73e0e5"
+        },
+        "phase52_pubmedqa_colbertv2_delta_hallucination.png": {
+          "bytes": 326687,
+          "sha256": "ca9fa21ca7777b89014547d35e666b93f4692f1d46e061a109349ad08d9ec545"
+        },
+        "phase52_pubmedqa_contriever_delta_faithfulness.pdf": {
+          "bytes": 19453,
+          "sha256": "bb8a61ae747ea712a3500216629691422c8701347c0f94685d62cf0f7931502c"
+        },
+        "phase52_pubmedqa_contriever_delta_faithfulness.png": {
+          "bytes": 317571,
+          "sha256": "1a4a168e94609e1b45874e1943a4b2cd13edfd677db0908507719cbbcd937e1e"
+        },
+        "phase52_pubmedqa_contriever_delta_hallucination.pdf": {
+          "bytes": 19417,
+          "sha256": "aebb5283bfb1a95d682c7dd125b92bc9c72e6fdd2c51cafffab759e3568af307"
+        },
+        "phase52_pubmedqa_contriever_delta_hallucination.png": {
+          "bytes": 327373,
+          "sha256": "dcc935b78f63f7787d348287bc2d1ba95c46f07be2f46a7d707caedd8c987d62"
+        },
+        "phase52_pubmedqa_dpr_delta_faithfulness.pdf": {
+          "bytes": 19314,
+          "sha256": "0b4126bfdda50dbf0c6d2521866aa1ebffab35b80c1f4c7d62cc371d3d41e7ca"
+        },
+        "phase52_pubmedqa_dpr_delta_faithfulness.png": {
+          "bytes": 340906,
+          "sha256": "80c7f52982154df37264eac0c69e86a61a6a5d68bf873771dfff94c255e6d0cb"
+        },
+        "phase52_pubmedqa_dpr_delta_hallucination.pdf": {
+          "bytes": 19025,
+          "sha256": "c03e441998db4e23a63b55455b2937174b52ff08a55635e018b0bcf55163cd0a"
+        },
+        "phase52_pubmedqa_dpr_delta_hallucination.png": {
+          "bytes": 345173,
+          "sha256": "a5d48978b578f595be1fadba2a833a9c0377775a17b4cc67119d895b05d8d29c"
+        }
+      },
+      "pdf_count": 47,
+      "png_count": 47,
+      "total_files": 96
+    },
+    "phase53_detailed_associations_20260927": {
+      "files": {
+        "phase53_bm25_operating_points.pdf": {
+          "bytes": 20102,
+          "sha256": "c0317465dd63fd3e701e33dfc5584900fca6ee7b79a175ab16c624c426e437cd"
+        },
+        "phase53_bm25_operating_points.png": {
+          "bytes": 298783,
+          "sha256": "0569dc3a30808290272bbc40b22ec7467fda639d811b8271cf0247d841f07cd3"
+        },
+        "phase53_bm25_paired_delta_operating_points.pdf": {
+          "bytes": 20206,
+          "sha256": "e3ffd061673c6d04be1a4dd7abf6c7feaeb48622c791a0256894f65908e2aa14"
+        },
+        "phase53_bm25_paired_delta_operating_points.png": {
+          "bytes": 359518,
+          "sha256": "34d5c1367aa4490b06c8753b37c1904007a0b1726308953477713dbe5aaabe75"
+        },
+        "phase53_contriever_operating_points.pdf": {
+          "bytes": 20017,
+          "sha256": "d85e312fd68b083781a569d48d13cc3ab5954d2d690dbd95453fcba7ad292df4"
+        },
+        "phase53_contriever_operating_points.png": {
+          "bytes": 305970,
+          "sha256": "44a60c1a85f382aeb1915d857499868131cceb4d9b81428094987af45c4b9720"
+        },
+        "phase53_contriever_paired_delta_operating_points.pdf": {
+          "bytes": 20165,
+          "sha256": "7eb9ad6685f059d380a71b1b45c3fa6aa6cd359e257907edd911ce060e5d787e"
+        },
+        "phase53_contriever_paired_delta_operating_points.png": {
+          "bytes": 348193,
+          "sha256": "3575479c3ee7e29c0bdfb25bcd81a93fbbcfd3a8877ab147b30057ead6b21730"
+        },
+        "phase53_cross_sectional_pearson_heatmap.pdf": {
+          "bytes": 18767,
+          "sha256": "8d19f44dc876449ad5652f7f6396ae7920cc5d866f28c4c2be60220342e32482"
+        },
+        "phase53_cross_sectional_pearson_heatmap.png": {
+          "bytes": 182289,
+          "sha256": "c89ebf56a2110bf500917d082646254150f90001b43523b8f286ec0908c29bae"
+        },
+        "phase53_cross_sectional_spearman_heatmap.pdf": {
+          "bytes": 19026,
+          "sha256": "4e5672cd8628c9724922c2ff83b4527b8a68a67033cbeff5994862f878b31821"
+        },
+        "phase53_cross_sectional_spearman_heatmap.png": {
+          "bytes": 170165,
+          "sha256": "b177c7450b7ddd1a9399698d02b8df27a14b358f9fdb82ecdcdc89a2d43e2641"
+        },
+        "phase53_detailed_manifest.json": {
+          "bytes": 1138,
+          "sha256": "8bd94877d9055379cdee757dfb7a2481afd745cc2ab90a19c3f67eda119f4a63"
+        },
+        "phase53_detailed_plot_data.csv": {
+          "bytes": 19071,
+          "sha256": "f16551a9de01a3204fa56eadcce4593d1c1bf485972f3c6ad9fc764391194f1c"
+        },
+        "phase53_dpr_operating_points.pdf": {
+          "bytes": 20077,
+          "sha256": "5e01a8ffed1aabbe3e387c71652c4ef486d229e7a58d4a5bb75240ddf55e7bb5"
+        },
+        "phase53_dpr_operating_points.png": {
+          "bytes": 349834,
+          "sha256": "053bfda0d2217b9a6f42ef2731342ca4fd1dc89b77fa73075ef1a240f1dfcc03"
+        },
+        "phase53_dpr_paired_delta_operating_points.pdf": {
+          "bytes": 20216,
+          "sha256": "cddbdda418685588c9f934e70110f6693f2b452a2977d9b64e2e0e5364fc74b3"
+        },
+        "phase53_dpr_paired_delta_operating_points.png": {
+          "bytes": 346872,
+          "sha256": "c91e2acf244b43fa4aae2d32195f2aff38b0d46efa30fb15c95e6eb797f6b53f"
+        },
+        "phase53_gemma4-26b_operating_points.pdf": {
+          "bytes": 17932,
+          "sha256": "afe8d4a084c86d0f257ca4d6d6bb42fdb5a4522a117269d66746f53fa271ef24"
+        },
+        "phase53_gemma4-26b_operating_points.png": {
+          "bytes": 281686,
+          "sha256": "c575328efd5cf1ef798715ee4617bcd024d1453237c51ad7c2a41c2b297a973f"
+        },
+        "phase53_gemma4-26b_paired_delta.pdf": {
+          "bytes": 18595,
+          "sha256": "e3cf030726919ccdbf8a07ff98882dbe2c1aa3906feeb8f7bb36c1017af30ca4"
+        },
+        "phase53_gemma4-26b_paired_delta.png": {
+          "bytes": 314054,
+          "sha256": "bdfc472f45db6bde6dc2f3384a80568a2d36c80ef11a1d1ff5c8c5633f1a2fb3"
+        },
+        "phase53_llama-3.3-70b_operating_points.pdf": {
+          "bytes": 17211,
+          "sha256": "9889643adf273c8cd858b7f4d0f75b8dcdf38a1da2a4dd0335cdbbee2850924c"
+        },
+        "phase53_llama-3.3-70b_operating_points.png": {
+          "bytes": 292085,
+          "sha256": "3da7df82b18d43fdd03b6ee24f29b679d96cb570cb36c513633c29125622cb4a"
+        },
+        "phase53_llama-3.3-70b_paired_delta.pdf": {
+          "bytes": 18435,
+          "sha256": "dc9862e1d378d2e858c39c548c90263185be66f02e9e25a254793c7bc9c2c014"
+        },
+        "phase53_llama-3.3-70b_paired_delta.png": {
+          "bytes": 289081,
+          "sha256": "9a7c1fe303c19850ae58c963fc914d8ac85153ab5b6f56348d518953d81dd7c8"
+        },
+        "phase53_ministral-3-14b_operating_points.pdf": {
+          "bytes": 17251,
+          "sha256": "69c420ce77010c0e59df035974771e27284176c3fa13d26f3c028203f2ffcf35"
+        },
+        "phase53_ministral-3-14b_operating_points.png": {
+          "bytes": 279441,
+          "sha256": "6bb43119fcde43ec86ec6d07fbd9555c589c2e8dfe7ef65636064fbac1efe469"
+        },
+        "phase53_ministral-3-14b_paired_delta.pdf": {
+          "bytes": 18242,
+          "sha256": "82bd10d9b7f7145d43a9594254fd4e11fe8ed07480505ad26160f645bf3bb04e"
+        },
+        "phase53_ministral-3-14b_paired_delta.png": {
+          "bytes": 256976,
+          "sha256": "a13444f2542290082d2315f981ad7f0d2659766bf65c0a419d0947479edfd11e"
+        },
+        "phase53_overall_association_summary.pdf": {
+          "bytes": 15425,
+          "sha256": "df76083ce5f564359872666139ec84e45a517867bc9ebdc73ef627422f7ddae3"
+        },
+        "phase53_overall_association_summary.png": {
+          "bytes": 105047,
+          "sha256": "da6a43bb5efff8cd974c13415f068984272cb4b295bc7f52a9b6d1113eb280a8"
+        },
+        "phase53_paired_delta_pearson_heatmap.pdf": {
+          "bytes": 19093,
+          "sha256": "db4b6dbdffce7b8907ad618e040b009f8385a9542d3cc27ab3a3c61eb134348d"
+        },
+        "phase53_paired_delta_pearson_heatmap.png": {
+          "bytes": 169573,
+          "sha256": "5acdab405f6fea09c1171d4359efc9f64662f913aa6269919d61af2f47ec42de"
+        },
+        "phase53_paired_delta_spearman_heatmap.pdf": {
+          "bytes": 19861,
+          "sha256": "7ca66155b180c0b2a6455bb9925f5a8f0ed5c539d24fd6f8d319d74226291e5a"
+        },
+        "phase53_paired_delta_spearman_heatmap.png": {
+          "bytes": 178326,
+          "sha256": "a86e09a52fbf9dc8380f54e214c1a7c0dc341ba93e1c2ee6a34d577681c3ae44"
+        }
+      },
+      "pdf_count": 17,
+      "png_count": 17,
+      "total_files": 36
+    },
+    "phase54_20260927": {
+      "files": {
+        "phase54_jaccard_by_retriever.pdf": {
+          "bytes": 16755,
+          "sha256": "a885d80391205dcde60ae2958357594d28ba30e839b308f23a9f4ba1a0abc1e7"
+        },
+        "phase54_jaccard_by_retriever.png": {
+          "bytes": 120499,
+          "sha256": "8beca543c7f42f136edc7b4c15968fa7a35960f530f52d75e6d000a2cc695d66"
+        },
+        "phase54_mmr_delta_jaccard5.pdf": {
+          "bytes": 16284,
+          "sha256": "4e4d3157a2f95c608b81b124bbf4521456d90e793c1d63a7fc83e7bc557db14a"
+        },
+        "phase54_mmr_delta_jaccard5.png": {
+          "bytes": 109340,
+          "sha256": "8c0c96605494a43b353450c9e151bcf8b8462606e3dcc9eec666b77c5220f313"
+        },
+        "phase54_ordered_top5_identity.pdf": {
+          "bytes": 15357,
+          "sha256": "50c1e3f71d8143fbfdfd560a53741c937a0a7ddc463265bb6d48f84980b600e6"
+        },
+        "phase54_ordered_top5_identity.png": {
+          "bytes": 103088,
+          "sha256": "a4eb173aa8406f7308b24279d0d9a7a93393916ff9da291903aa239e9bf53a55"
+        },
+        "phase54_plot_summary.csv": {
+          "bytes": 511,
+          "sha256": "9236cf7587e0cdd1ddf2398f72738b0a2fdc0b5ce53fcbb5a02dcbb47b8ed440"
+        }
+      },
+      "pdf_count": 3,
+      "png_count": 3,
+      "total_files": 7
+    }
+  },
+  "scientific_experiments_status": "COMPLETE",
+  "scientific_recomputation": false,
+  "source_commit": "f1084c619513f62a1577a4669818c7bca27639f2",
+  "totals": {
+    "files_before_freeze_manifest": 271,
+    "packs": 5,
+    "pdf_figures": 131,
+    "png_figures": 131
+  }
+}

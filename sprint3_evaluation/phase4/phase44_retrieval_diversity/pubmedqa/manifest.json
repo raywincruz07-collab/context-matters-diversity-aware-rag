@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "pubmedqa",
+  "embedding_model": "facebook/contriever",
+  "embedding_model_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "embedding_path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/data/embeddings/contriever_embeddings_e83069f3c75fe3a146f1059d766e58a55b0382266e9ded7862d4ac2e98de38ea.npy",
+  "embedding_shape": [
+    3358,
+    768
+  ],
+  "excluded_historical_conditions": [
+    "kmeans_k3",
+    "kmeans_k5",
+    "agglo_k5"
+  ],
+  "metric": "mean_pairwise_cosine_distance_top5",
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "rows_per_condition": 1000,
+  "rows_per_retriever": 8000,
+  "schema_version": "phase4.retrieval-diversity.v1",
+  "top_k": 5
+}

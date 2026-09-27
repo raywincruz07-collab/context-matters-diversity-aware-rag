@@ -1,0 +1,334 @@
+{
+  "artifact_format": "context-matters.sprint2-pubmedqa-generation-package.v1",
+  "baseline_condition": "none",
+  "baseline_reuse": {
+    "governed_selected_context_sets": {
+      "bm25": {
+        "candidate_set_id": "candidate-set:sha256:2ab0ff0a445f354b53a582dc7bf48da2238e46eb459b6caa4fbd53df38a5a0d5",
+        "generation_action": "REUSE_SPRINT1_BASELINE",
+        "relative_path": "artifacts/selected_contexts/sets/pubmedqa/bm25_selected_context_set_v1.json",
+        "rows": 1000,
+        "scientific_sha256": "818d43073c5529f4e724aabb38c953256f2b52a60838b3c43968e45c2be5a24b",
+        "selected_context_set_id": "selected-context:sha256:818d43073c5529f4e724aabb38c953256f2b52a60838b3c43968e45c2be5a24b",
+        "sha256": "40d1e0b099712cf50788b64b21af77f6d1c799db52741fafe64d258ab45bf263"
+      },
+      "colbertv2": {
+        "candidate_set_id": "candidate-set:sha256:17975f5e12052bbd3997d4597e68bfb0a2d97897585edd3b0ed3a9f21adbf43e",
+        "generation_action": "REUSE_SPRINT1_BASELINE",
+        "relative_path": "artifacts/selected_contexts/sets/pubmedqa/colbertv2_selected_context_set_v1.json",
+        "rows": 1000,
+        "scientific_sha256": "326694e9f1823284bf9a7d830a0aab57b47f5699070fcec72e4d64c0363132f2",
+        "selected_context_set_id": "selected-context:sha256:326694e9f1823284bf9a7d830a0aab57b47f5699070fcec72e4d64c0363132f2",
+        "sha256": "3757d01c599d9877e317085520e8eb617b67f939370f67bd9380e79035ae86a2"
+      },
+      "contriever": {
+        "candidate_set_id": "candidate-set:sha256:b16b11e1d8a52b2bbe173db4ec8dc0ccf4acdebfd8bbd527a064080eb7326b57",
+        "generation_action": "REUSE_SPRINT1_BASELINE",
+        "relative_path": "artifacts/selected_contexts/sets/pubmedqa/contriever_selected_context_set_v1.json",
+        "rows": 1000,
+        "scientific_sha256": "85f3099d4ec97f6ead588baa75ab2e35b780509dd5247e32b8328df810f7b0f9",
+        "selected_context_set_id": "selected-context:sha256:85f3099d4ec97f6ead588baa75ab2e35b780509dd5247e32b8328df810f7b0f9",
+        "sha256": "fbbcfd12d1f6f4fb3793bbca975b353d1e5da843fdbb9edd1ff96663f2a59d86"
+      },
+      "dpr": {
+        "candidate_set_id": "candidate-set:sha256:cfeb946d423d9b98cb4c42a0131dda2caa76c09b93623d790f002157e24afa92",
+        "generation_action": "REUSE_SPRINT1_BASELINE",
+        "relative_path": "artifacts/selected_contexts/sets/pubmedqa/dpr_selected_context_set_v1.json",
+        "rows": 1000,
+        "scientific_sha256": "ac0fbd14774d1a80d738aec55b9a93433c63d360ccfb8a5b916c0d975c23e0ec",
+        "selected_context_set_id": "selected-context:sha256:ac0fbd14774d1a80d738aec55b9a93433c63d360ccfb8a5b916c0d975c23e0ec",
+        "sha256": "3023694e6183109266cb2bb1bf244c0e61759f386f99ad82244e7bc991f2bbdf"
+      }
+    },
+    "rows_per_retriever": 1000,
+    "status": "FULL_REUSE",
+    "total_rows": 4000
+  },
+  "candidate_pool": 20,
+  "counts": {
+    "all_8_condition_rows": 32000,
+    "new_maki_calls_for_3_llms": 84000,
+    "new_maki_selection_input_rows": 28000,
+    "reused_baseline_rows": 4000
+  },
+  "dataset": "pubmedqa",
+  "files": [
+    {
+      "condition": "mmr_0",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/mmr_0.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "6469c1544ee84dc7c25941715b98cb6f5a5e8a4fbe93ce6fd3f1740692ae7586"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/mmr_0.25.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "7d522acbcac46113a6c3c710aec98b48b32a15ac315644acf0b9059cafd25a36"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/mmr_0.5.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "63d4e38822251ddc4b1d4734a4aa9d842fe38eccdeca50b7091f64f53914e4c6"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/mmr_0.75.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "218695b78612033fc6572a0651b9360d491f63e0ae914d41655dbc2858a4ebcc"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/kmeans_k2.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "0ac3fcd2402edae46a52df9e2c32d6182fad4b4245f26b5dc3c67791e8d84649"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/agglo_k3.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "461e229a1714a3edf92a4f1cbe523d5debe6282f5ef483891956062e726e49e1"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "bm25/dpp_map.jsonl",
+      "retriever": "bm25",
+      "rows": 1000,
+      "sha256": "560cb395f93ab4b57dee743b1da955dd53a85b8a32c41b6dc89d4e240f488a65"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/mmr_0.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "b18aa721381617f94a6c094c757910ce953b19520fe04ca3471ecdf3647422d2"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/mmr_0.25.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "400d708538455c9cd5c37f5581f4d2f05703a4fd598755cef75e751e2221b562"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/mmr_0.5.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "b6b6df13c11faf028f8eb80b35588055fa5516a595569f1dd90ed4553bd3cdb1"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/mmr_0.75.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "8bdc9fa14c20b3163266e221f6cd6acf6051f2e6ef066f92f1ae3395a33effe2"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/kmeans_k2.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "2349c0205a4dd5dc2a131fdfce3fd9c952f0e513a659604eb672d1e2faecda8d"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/agglo_k3.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "72b16517630815197a0135f7d287abe294fef8211a836a42332eb9b14c412111"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "dpr/dpp_map.jsonl",
+      "retriever": "dpr",
+      "rows": 1000,
+      "sha256": "5ad34f651b345415de804564cb8ea536aa105ade22b7a8bccac3c024b0eded37"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/mmr_0.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "046d1cd92ead717383bdfeab3ca7b23c3c3ad2b5e6344fb0f9055c84d998c384"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/mmr_0.25.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "dec35e11bf5b6f98206d35ea653f4197e31b3e2ed233e93536687eefb6cf96b1"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/mmr_0.5.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "2f2ccecfd96443c47f9313d15ce6e0981c63cd8f7fbe29d8c5d7de4df4f40366"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/mmr_0.75.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "c7925e9770ded96025ccf0fe7b37841bf63b134196d14b79e3949826c0d2bcee"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/kmeans_k2.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "b552ee97d6aa9d9bf482ddbc8c02b90bd168a80d5de1c6c6278dfa49637722b9"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/agglo_k3.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "267ab594f111d4567a72787c898207968f623ccd25e0c96eb14773bd2e80c35a"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "contriever/dpp_map.jsonl",
+      "retriever": "contriever",
+      "rows": 1000,
+      "sha256": "101e48105cdf1c3fa56a5937a74db1116d415033eec3be381ea21a1f905ad234"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/mmr_0.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "1a9b0e27432c9a9077d0649a340d3595e04a25c30ff35e26d2c0cc2ede4f55dd"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/mmr_0.25.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "33b6f67818e0173e4f749ae0b42d7d5446a4e701976e501288d2eb2cbf587610"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/mmr_0.5.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "462f2fc7b2ac2397a58362db8791ecb0b998a40c390f6aba09bff613e58fa0bb"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/mmr_0.75.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "b5ed4ba413bbfa24ab25e8c5b8fbb07e3c78d0bedd2df3d3d9e4abce3c4a36f2"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/kmeans_k2.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "b74a3d06ba2508086a59365a686dade929f3ff5065e970f093b7304974937a26"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/agglo_k3.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "2390317ab92f817bd2998dd9ada023d7bdc23da3bcccafe60ca8f70f6350e48e"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_action": "RUN_MAKI",
+      "relative_path": "colbertv2/dpp_map.jsonl",
+      "retriever": "colbertv2",
+      "rows": 1000,
+      "sha256": "7679a013f2af8add529789250005e304fa73ffa04dc13b25ee07182fe9f33d08"
+    }
+  ],
+  "final_conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "global_clustering_selection": {
+    "agglo_k": 3,
+    "kmeans_k": 2
+  },
+  "new_generation": {
+    "expected_generation_calls_across_all_llms": 84000,
+    "llm_count": 3,
+    "selection_input_rows": 28000
+  },
+  "new_generation_conditions": [
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "runner_authority": {
+    "missing_only_resumable": true,
+    "model_bindings_relative_path": "configs/sprint3/maki_model_bindings_v7.json",
+    "model_bindings_sha256": "3827ceaf993eaa061e0b87645cf5b36bc15c0e093b1712332b1fcbb8a06264b3",
+    "relative_path": "scripts/run_pubmedqa_sprint2_generation.py",
+    "sha256": "8b73c5f2ce2881433cdb76cda5d646bf86cb0c17a6f274e996248cdeb18d682b"
+  },
+  "sample_count": 1000,
+  "scientific_guards": {
+    "baseline_regeneration_required": false,
+    "mmr_lambda_1_main_generation": false,
+    "selection_parameters_already_frozen": true,
+    "stale_staging_used": false,
+    "stochastic_dpp_main_generation": false,
+    "top20_canonical": true,
+    "top50_main_generation": false
+  },
+  "status": "READY_FOR_FREEZE",
+  "top_k": 5
+}

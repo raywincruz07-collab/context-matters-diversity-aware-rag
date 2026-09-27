@@ -1,0 +1,110 @@
+{
+  "artifact_format": "context-matters.pubmedqa-final8-retrieval-package.v1",
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "pubmedqa",
+  "date": "2026-09-26",
+  "guards": {
+    "final_conditions_only": true,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "metric_recomputation": false,
+    "source_rows_filtered_only": true
+  },
+  "metrics": [
+    "recall_at_5",
+    "mrr_at_5",
+    "candidate_recall_at_20"
+  ],
+  "queries": 1000,
+  "retriever_outputs": {
+    "bm25": {
+      "condition_counts": {
+        "agglo_k3": 1000,
+        "dpp_map": 1000,
+        "kmeans_k2": 1000,
+        "mmr_0": 1000,
+        "mmr_0.25": 1000,
+        "mmr_0.5": 1000,
+        "mmr_0.75": 1000,
+        "none": 1000
+      },
+      "metrics_file": "bm25_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "51ecef349ddba2235afa7745514eb1da3975e3bc3cc48c1c477f605b3668d8a8",
+      "rows": 8000,
+      "summary_file": "bm25_pubmedqa_final8_retrieval_summary_v1.json",
+      "summary_sha256": "b7c27e7a12fb27d7849201a8e5cecb4d79d98fe818f629d1f6d4c62a2b405658"
+    },
+    "colbertv2": {
+      "condition_counts": {
+        "agglo_k3": 1000,
+        "dpp_map": 1000,
+        "kmeans_k2": 1000,
+        "mmr_0": 1000,
+        "mmr_0.25": 1000,
+        "mmr_0.5": 1000,
+        "mmr_0.75": 1000,
+        "none": 1000
+      },
+      "metrics_file": "colbertv2_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "6a28e2c9d9be4e4114d28aa826e60ea53ead4d98a9138a9e76acc7392c4f868c",
+      "rows": 8000,
+      "summary_file": "colbertv2_pubmedqa_final8_retrieval_summary_v1.json",
+      "summary_sha256": "fa50f0d2b01c52d28c4f140c97980f2ec0e9c78337ac2a7882ee3814f4070c82"
+    },
+    "contriever": {
+      "condition_counts": {
+        "agglo_k3": 1000,
+        "dpp_map": 1000,
+        "kmeans_k2": 1000,
+        "mmr_0": 1000,
+        "mmr_0.25": 1000,
+        "mmr_0.5": 1000,
+        "mmr_0.75": 1000,
+        "none": 1000
+      },
+      "metrics_file": "contriever_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "a7dbf94092eb0f18e17607d9b35d48f2109062f982449b7656196ce99497612e",
+      "rows": 8000,
+      "summary_file": "contriever_pubmedqa_final8_retrieval_summary_v1.json",
+      "summary_sha256": "4ebce9542eada322c184b2a4befd28b876cb3615258ab7d5b18ba30202c2a513"
+    },
+    "dpr": {
+      "condition_counts": {
+        "agglo_k3": 1000,
+        "dpp_map": 1000,
+        "kmeans_k2": 1000,
+        "mmr_0": 1000,
+        "mmr_0.25": 1000,
+        "mmr_0.5": 1000,
+        "mmr_0.75": 1000,
+        "none": 1000
+      },
+      "metrics_file": "dpr_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "a0aa78641b6e7edd659ff5b96b7185a0f4d9a7078b07e1b597536e6e9f0d4a58",
+      "rows": 8000,
+      "summary_file": "dpr_pubmedqa_final8_retrieval_summary_v1.json",
+      "summary_sha256": "8fec2c18ad25caa0baafc47d0463cb4ae25d25f51c69393d390aea26838b3e5a"
+    }
+  },
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "rows_per_retriever": 8000,
+  "runner": {
+    "path": "context-matters-rag-sprint3/scripts/run_pubmedqa_governed_retrieval_metrics.py",
+    "sha256": "fe8dc798711d8cee9ed629b5bade05c46ffc8b12cf6717faf43dacef578fce8a"
+  },
+  "total_rows": 32000
+}

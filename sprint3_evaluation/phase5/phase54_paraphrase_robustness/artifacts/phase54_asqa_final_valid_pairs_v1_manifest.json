@@ -1,0 +1,51 @@
+{
+  "adjudication": {
+    "final_adjudication_label": "EQUIVALENT",
+    "reserve_position": 7,
+    "reviewer1_label": "UNCERTAIN",
+    "reviewer2_label": "EQUIVALENT",
+    "sample_id": "4020522433998325944"
+  },
+  "artifact_format": "context-matters.phase54-asqa-final-valid-paraphrase-pairs.v1",
+  "dataset": "asqa",
+  "evidence_role": "DEVELOPMENT",
+  "final_pair_set": {
+    "accepted_by_human_adjudication": 1,
+    "accepted_by_reviewer_agreement": 29,
+    "final_equivalent_rows": 30,
+    "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_final_valid_pairs_v1.csv",
+    "replacement_candidates_required": 0,
+    "reserve_position_end": 29,
+    "reserve_position_start": 0,
+    "rows": 30,
+    "sha256": "ccbac6ec0891987272b0fb8e0e0b083a94d62923a541c0533495261ae182e093"
+  },
+  "git_head_before_freeze": "833ea287c3f8e29cc659343b290664f305c30463",
+  "phase": "5.4 Robustness Under Paraphrase",
+  "scientific_guards": {
+    "all_final_pairs_equivalent": true,
+    "final_pair_count_target_met": true,
+    "human_adjudication_complete": true,
+    "human_equivalence_review_complete": true,
+    "llm_equivalence_judgment_used": false,
+    "retrieval_execution_may_begin_after_this_freeze": true
+  },
+  "sources": {
+    "adjudication_completed": {
+      "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_adjudication_batch01_completed.csv",
+      "sha256": "19b9b01b9c7ff75d7f64b316c2c390ba0dd613ed1a848416053da9bb4720eea9"
+    },
+    "adjudication_frozen": {
+      "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_adjudication_batch01.csv",
+      "sha256": "2c1018ef2305baae073ff1feac5e5ebfb19dd3ed62b4ed31b13b39d418ab4dfa"
+    },
+    "reviewer1_completed": {
+      "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_reviewer1_batch01_completed.csv",
+      "sha256": "60b8cb931c2575b9c21fa34246b8ff1c6d72c3763c1809dd361949df1b2d8588"
+    },
+    "reviewer2_completed": {
+      "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_reviewer2_batch01_completed.csv",
+      "sha256": "1ff8c502733a8686b61d3c1eef105fb3cdde098bf7c9d20dd729a904434ae920"
+    }
+  }
+}

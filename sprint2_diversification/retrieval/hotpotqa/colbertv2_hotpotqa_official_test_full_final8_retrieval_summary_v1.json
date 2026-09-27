@@ -1,0 +1,77 @@
+{
+  "artifact_format": "context-matters.hotpotqa-final8-retrieval-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "full_recall_queries": 2375,
+      "mean_recall_at_5": 0.6224848075624578,
+      "partial_recall_queries": 4469,
+      "zero_recall_queries": 561
+    },
+    "dpp_map": {
+      "full_recall_queries": 2154,
+      "mean_recall_at_5": 0.6092505064145848,
+      "partial_recall_queries": 4715,
+      "zero_recall_queries": 536
+    },
+    "kmeans_k2": {
+      "full_recall_queries": 2387,
+      "mean_recall_at_5": 0.6258609047940581,
+      "partial_recall_queries": 4495,
+      "zero_recall_queries": 523
+    },
+    "mmr_0": {
+      "full_recall_queries": 456,
+      "mean_recall_at_5": 0.45584064821066844,
+      "partial_recall_queries": 5839,
+      "zero_recall_queries": 1110
+    },
+    "mmr_0.25": {
+      "full_recall_queries": 1680,
+      "mean_recall_at_5": 0.5699527346387576,
+      "partial_recall_queries": 5081,
+      "zero_recall_queries": 644
+    },
+    "mmr_0.5": {
+      "full_recall_queries": 2334,
+      "mean_recall_at_5": 0.6243079000675219,
+      "partial_recall_queries": 4578,
+      "zero_recall_queries": 493
+    },
+    "mmr_0.75": {
+      "full_recall_queries": 2460,
+      "mean_recall_at_5": 0.6336259284267387,
+      "partial_recall_queries": 4464,
+      "zero_recall_queries": 481
+    },
+    "none": {
+      "full_recall_queries": 2480,
+      "mean_recall_at_5": 0.6351789331532748,
+      "partial_recall_queries": 4447,
+      "zero_recall_queries": 478
+    }
+  },
+  "dataset": "hotpotqa",
+  "guards": {
+    "final8_only": true,
+    "historical_extra_conditions": "excluded",
+    "metric_recomputation": false
+  },
+  "metric": "positive_qrel_document_recall_at_5",
+  "output": {
+    "metrics_file": "colbertv2_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "cf63c601465a9b9f3e3e68be72c0216c1eaa7f579a7abf2c796c55bf9d9b11cc",
+    "rows": 59240
+  },
+  "qrels_revision": "b15429e9244c8ec966985d7778427c3b1543b314",
+  "query_count": 7405,
+  "retriever": "colbertv2",
+  "role": "OFFICIAL_TEST_FULL",
+  "source": {
+    "metrics_path": "data/hotpotqa/sprint2/colbertv2/metrics/colbertv2_hotpotqa_official_test_full_canonical_top20_to5_metrics_v1.jsonl",
+    "metrics_sha256": "c03a0bfa4910facbfa65e54baf1c650194c11ca73a0a55db966a32d940cfc689",
+    "summary_path": "data/hotpotqa/sprint2/colbertv2/metrics/colbertv2_hotpotqa_official_test_full_canonical_top20_to5_summary_v1.json",
+    "summary_sha256": "15ea85670014b1a41fc9fecd06c3716f10111da32b4f8c121ed39571e93c3aed"
+  },
+  "top_k": 5
+}

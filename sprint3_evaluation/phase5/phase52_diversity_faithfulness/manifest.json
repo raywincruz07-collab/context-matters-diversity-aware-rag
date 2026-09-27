@@ -1,0 +1,78 @@
+{
+  "analysis_scope": "joins frozen Phase 4.4 retrieval diversity with frozen Phase 4.2 sentence/passage NLI results",
+  "artifact_format": "context-matters.phase52-diversity-faithfulness.v1",
+  "baseline_condition": "none",
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "counts": {
+    "asqa_rows": 68130,
+    "hotpotqa_rows": 703672,
+    "operating_point_rows": 264,
+    "paired_delta_rows": 754965,
+    "paired_summary_rows": 231,
+    "pubmedqa_rows": 95829
+  },
+  "datasets": [
+    "pubmedqa",
+    "hotpotqa",
+    "asqa"
+  ],
+  "files": {
+    "asqa_phase52_joined.parquet": {
+      "sha256": "277a29efa5d3f4b1b22a72fc823633c6b4eabde7571fdf9cf7b1736c9c6c3244",
+      "size_bytes": 416175
+    },
+    "hotpotqa_phase52_joined.parquet": {
+      "sha256": "cdef9dcc94e75e7489501002dfd6cd626dcda7fced4b7015eb5e26391a3c646b",
+      "size_bytes": 4771412
+    },
+    "phase52_operating_point_summary.csv": {
+      "sha256": "9c3e96cc7d7a6f486d2e0a759c50c6753f6c24b6bb7338952104d9a8f0f3f9d0",
+      "size_bytes": 49505
+    },
+    "phase52_paired_deltas_vs_none.parquet": {
+      "sha256": "924b18c821aea478abb50b60013b0dd734ce6a01f02aa4a7dcd48593bf24a2da",
+      "size_bytes": 10721030
+    },
+    "phase52_paired_summary_vs_none.csv": {
+      "sha256": "f0add83b21ff93f7e3608c84bdf7c4d8a9cf27658e7454c9ab5384978c10926f",
+      "size_bytes": 58194
+    },
+    "pubmedqa_phase52_joined.parquet": {
+      "sha256": "3a42028ed7753f5e1fd17aab3107ac390a78b64424ee744cf72d7576e8305d1d",
+      "size_bytes": 495746
+    }
+  },
+  "interpretation_rules": {
+    "causality": "Phase 5.2 compares controlled tested operating points; do not claim retrieval diversity alone proves causation",
+    "faithfulness": "higher is better",
+    "hallucination": "lower is better",
+    "supporting_source_count": "descriptive evidence-use signal, not citation count"
+  },
+  "metrics": {
+    "faithfulness": "supported claims / total claims",
+    "hallucination": "answer contains at least one unsupported claim",
+    "retrieval_diversity": "mean pairwise cosine distance among final top-5 passages",
+    "supporting_source_count": "distinct retrieved passages supporting at least one claim"
+  },
+  "new_embedding": false,
+  "new_generation": false,
+  "new_inference": false,
+  "new_retrieval": false,
+  "pairing_rule": "same query + retriever + logical generator; each diversified condition paired against none",
+  "phase": "5.2 Diversity\u2013Hallucination Relationship",
+  "sources": {
+    "asqa_phase44_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/asqa/retrieval_diversity_20260926",
+    "hotpotqa_phase44_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/hotpotqa/retrieval_diversity_20260926",
+    "phase42_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/phase42_nli_results_colab_20260927/extracted/phase42_nli_results_20260926",
+    "pubmedqa_phase44_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/sprint2/pubmedqa/retrieval_diversity_20260926"
+  }
+}

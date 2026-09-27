@@ -1,0 +1,224 @@
+{
+  "artifact": "Sprint 2 diversification/generation reproducibility package",
+  "candidate_pool": 20,
+  "completed_generations": {
+    "asqa": 68256,
+    "hotpotqa": 710880,
+    "pubmedqa": 96000,
+    "total": 875136
+  },
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "date": "2026-09-27",
+  "files": {
+    "README.md": {
+      "bytes": 3772,
+      "sha256": "d43af49e9446409fbc85e5b69d5add47322b8aeb394b0a7d3cdfeebf12c917bd"
+    },
+    "configs/sprint3/maki_model_bindings_v7.json": {
+      "bytes": 1252,
+      "sha256": "3827ceaf993eaa061e0b87645cf5b36bc15c0e093b1712332b1fcbb8a06264b3"
+    },
+    "generation/package_metadata/asqa/package_manifest.json": {
+      "bytes": 7609,
+      "sha256": "a4f4215308b46006c56af8f4e085973dc7ce2e82775574f29fcd9bb4e6f6a964"
+    },
+    "generation/package_metadata/hotpotqa/package_manifest.json": {
+      "bytes": 10656,
+      "sha256": "9bdb7350040ca46db08c20b2fcde7a9e8959b559d40df7ff943c9cfbb3517977"
+    },
+    "generation/package_metadata/pubmedqa/package_manifest.json": {
+      "bytes": 11773,
+      "sha256": "bc1f73a01fa12bf01403e01a69f87ffec30fa694a8999efe53b3de8ff26b97af"
+    },
+    "provenance/generation/hotpotqa_sprint2_final_generation_freeze_20260925.json": {
+      "bytes": 3098,
+      "sha256": "7a491f75a92d19960d45f2df4d622d2d7da60d9c48c83a2247594348e132809a"
+    },
+    "provenance/generation/pubmedqa_sprint2_final_generation_freeze_20260925.json": {
+      "bytes": 3136,
+      "sha256": "561064a1257f6a56aea7ff30930bde0b47b6cde15194937d6fa938c9a833cc05"
+    },
+    "provenance/retrieval/hotpotqa_sprint2_retrieval_freeze_20260926.json": {
+      "bytes": 3460,
+      "sha256": "0319c78f5641ae648ffea81309f3f8730234c93ac75d89907f6ecd8a027a6211"
+    },
+    "provenance/retrieval/pubmedqa_sprint2_retrieval_freeze_20260926.json": {
+      "bytes": 3305,
+      "sha256": "a91ffab0e6036f28c13dec5f4cc86d417c4137554a8955bf66c299c6b793f28b"
+    },
+    "retrieval/hotpotqa/bm25_hotpotqa_official_test_full_final8_retrieval_summary_v1.json": {
+      "bytes": 2568,
+      "sha256": "d39ebe786e55ef359eabb821a78f21a40b7340c689d1272c4beef5728bc91c93"
+    },
+    "retrieval/hotpotqa/colbertv2_hotpotqa_official_test_full_final8_retrieval_summary_v1.json": {
+      "bytes": 2591,
+      "sha256": "27856ed87a5daf54d546c9476bed145c4e6446bb02973ac1e7eb49b6463b4bce"
+    },
+    "retrieval/hotpotqa/contriever_hotpotqa_official_test_full_final8_retrieval_summary_v1.json": {
+      "bytes": 2601,
+      "sha256": "fd14ad45bd2a6e3dd1b55a75f3389e90aebf9a2b093e4d379543aabe327734d9"
+    },
+    "retrieval/hotpotqa/dpr_hotpotqa_official_test_full_final8_retrieval_summary_v1.json": {
+      "bytes": 2558,
+      "sha256": "ed4ec0ee2371eea3db1d0e0c74892082f267d7e30d95d41e8a6dbd9e10de9de9"
+    },
+    "retrieval/hotpotqa/manifest.json": {
+      "bytes": 3559,
+      "sha256": "53425ab186981087152984d09e9aba9c18910f0350939d36b1d342cda76b0ac3"
+    },
+    "retrieval/pubmedqa/bm25_pubmedqa_final8_retrieval_summary_v1.json": {
+      "bytes": 2777,
+      "sha256": "b7c27e7a12fb27d7849201a8e5cecb4d79d98fe818f629d1f6d4c62a2b405658"
+    },
+    "retrieval/pubmedqa/colbertv2_pubmedqa_final8_retrieval_summary_v1.json": {
+      "bytes": 2774,
+      "sha256": "fa50f0d2b01c52d28c4f140c97980f2ec0e9c78337ac2a7882ee3814f4070c82"
+    },
+    "retrieval/pubmedqa/contriever_pubmedqa_final8_retrieval_summary_v1.json": {
+      "bytes": 2804,
+      "sha256": "4ebce9542eada322c184b2a4befd28b876cb3615258ab7d5b18ba30202c2a513"
+    },
+    "retrieval/pubmedqa/dpr_pubmedqa_final8_retrieval_summary_v1.json": {
+      "bytes": 2776,
+      "sha256": "8fec2c18ad25caa0baafc47d0463cb4ae25d25f51c69393d390aea26838b3e5a"
+    },
+    "retrieval/pubmedqa/manifest.json": {
+      "bytes": 3356,
+      "sha256": "8813efb8de9feb2e1aa17ca1e7b16777bf5a5e36710d8e4c758643efbc9e180c"
+    },
+    "runtime_tools/run_asqa_sprint2_generation_live.py": {
+      "bytes": 20235,
+      "sha256": "72b1987fa8ff3bb14feac6d4956ebfc30a9c0c0904653791d404f5c29f0a6402"
+    },
+    "scripts/run_asqa_project_protected_final_diversification.py": {
+      "bytes": 13865,
+      "sha256": "e530e74cf2f3cbbb27b18693deeb5896cdab71d0e8fc6305c60b10514b1ac294"
+    },
+    "scripts/run_hotpotqa_governed_diversification_parallel.py": {
+      "bytes": 8017,
+      "sha256": "ab8cb2d977cdcf76717b2628c735da28c451cce60c8773008950b6a0684c2b2e"
+    },
+    "scripts/run_hotpotqa_with_context_generation.py": {
+      "bytes": 16272,
+      "sha256": "7e0bd2f292430cdb8196130fa98b6cd2a840d3eea7af1731043b2f0c6419b8f4"
+    },
+    "scripts/run_pubmedqa_governed_diversification_parallel.py": {
+      "bytes": 10660,
+      "sha256": "add75f9454acfa7ddc0861596aeaad38e9d02a10e13d77563760cab35a943af7"
+    },
+    "scripts/run_pubmedqa_sprint2_generation.py": {
+      "bytes": 17569,
+      "sha256": "8b73c5f2ce2881433cdb76cda5d646bf86cb0c17a6f274e996248cdeb18d682b"
+    },
+    "src/diversification/__init__.py": {
+      "bytes": 527,
+      "sha256": "f62a54e5dde0ae790e8545483018a52383404652696e655b49397ded46a40b46"
+    },
+    "src/diversification/_common.py": {
+      "bytes": 3469,
+      "sha256": "f78c1801866e457ff15c9f2077ba008f95b5bc880155c6d569556ee128cc0fc8"
+    },
+    "src/diversification/clustering.py": {
+      "bytes": 7243,
+      "sha256": "2153b9bbf356aec688a3bfbce8dc923ed6589cb168112fe576c8f9685e15af01"
+    },
+    "src/diversification/dispatch.py": {
+      "bytes": 4868,
+      "sha256": "9a2f5886680fd38ce4d3913ccd9d87c5db6abf3569e7cef52c4237e1c3a7f18d"
+    },
+    "src/diversification/dpp.py": {
+      "bytes": 9841,
+      "sha256": "625c67802a56bc9734ef50f5778fdfddcdf779babd3b7fef50976578221e5166"
+    },
+    "src/diversification/mmr.py": {
+      "bytes": 7847,
+      "sha256": "b4603d0251dbe46a2e671fbf3b132118f3fb30476bc86c3b6aa624e7f8284b8f"
+    },
+    "src/generation/__init__.py": {
+      "bytes": 1179,
+      "sha256": "14d9c9695917083fe2c88b026de92dddf4292a3825556a3e228cde696aae3012"
+    },
+    "src/generation/_io.py": {
+      "bytes": 2286,
+      "sha256": "ee1ec95a888d770fd2fd27c6af13d0de2f4bee81b95299ec22546fe6e9bfadb5"
+    },
+    "src/generation/artifacts.py": {
+      "bytes": 13239,
+      "sha256": "f0040d78d609322a04d7a59062ef3f24cfc194ef780a6fc7150d11b9f2fd26b9"
+    },
+    "src/generation/asqa.py": {
+      "bytes": 2477,
+      "sha256": "138ddf603d44ed7522ff789a8ae9606a3dda47e54dd949a480c8f7ddb9888c64"
+    },
+    "src/generation/asqa_prompts.py": {
+      "bytes": 5758,
+      "sha256": "98d7021fc32effea42a176b71a37efe8937f44410784ff7a321f329d80f0f5f5"
+    },
+    "src/generation/cli_support.py": {
+      "bytes": 18666,
+      "sha256": "1fc9e8ed2714199bfcd1f074508299a7abf6c3cf9eec0071fdc0707be90f95b6"
+    },
+    "src/generation/hotpotqa.py": {
+      "bytes": 2673,
+      "sha256": "990b6ab3c41d6dd06d686f3f2c40b0b9cdcdcceaa6307982f644744d23225c74"
+    },
+    "src/generation/hotpotqa_materialization.py": {
+      "bytes": 12677,
+      "sha256": "006d2aaaf4ef439317ffcd2cfa562a74323cd675570e8e2d3db149b8b81290c4"
+    },
+    "src/generation/hotpotqa_prompts.py": {
+      "bytes": 6076,
+      "sha256": "8067b19f401c79ed490f2bff79ec2bfdb0fd5ee85e3e044b26fb1bd621a7a719"
+    },
+    "src/generation/maki.py": {
+      "bytes": 12838,
+      "sha256": "071e958c178bea605af45f96a95b86a43f219b1518ef401e2f6c4f291cd10f86"
+    },
+    "src/generation/pubmedqa.py": {
+      "bytes": 2335,
+      "sha256": "262c407725ef39f6690b84150dadfb41ccd7c3430d600acbfc702b377004f7f3"
+    }
+  },
+  "large_raw_outputs_committed": false,
+  "logical_generators": [
+    "gemma4-26b",
+    "llama-3.3-70b",
+    "ministral-3-14b"
+  ],
+  "physical_mapping": {
+    "gemma4-26b": "gemma4-26b",
+    "llama-3.3-70b": "llama-3.3-70b",
+    "ministral-3-14b": "qwen3.6-36b"
+  },
+  "retrievers": {
+    "asqa": [
+      "bm25",
+      "dpr",
+      "contriever"
+    ],
+    "hotpotqa": [
+      "bm25",
+      "dpr",
+      "contriever",
+      "colbertv2"
+    ],
+    "pubmedqa": [
+      "bm25",
+      "dpr",
+      "contriever",
+      "colbertv2"
+    ]
+  },
+  "scientific_recomputation": false,
+  "scientific_source_commit": "ea4d79bb4a742a23c79ede324c3550a1884805a9",
+  "selected_context_top_k": 5
+}

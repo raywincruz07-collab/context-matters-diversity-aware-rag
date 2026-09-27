@@ -1,0 +1,64 @@
+{
+  "artifact_format": "context-matters.hotpotqa-correctness-evaluation.v1",
+  "authority": {
+    "generation_freeze": {
+      "path": "exports/hotpotqa_sprint2_final_generation_freeze_20260925.json",
+      "sha256": "7a491f75a92d19960d45f2df4d622d2d7da60d9c48c83a2247594348e132809a"
+    },
+    "gold_reference": {
+      "path": "exports/hotpotqa_sprint2_correctness_authority_20260926/hotpotqa_gold_reference.json",
+      "sha256": "d421ad48420dc63c120fbe13f908daddb457702277c7bc14d55ca926eb14f592"
+    },
+    "official_scorer": {
+      "commit": "3635853403a8735609ee997664e1528f4480762a",
+      "path": "exports/hotpotqa_sprint2_correctness_authority_20260926/hotpot_evaluate_v1.py",
+      "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+    }
+  },
+  "cells": 96,
+  "created_at_utc": "2026-09-26T08:08:39.679218+00:00",
+  "dataset": "hotpotqa",
+  "guards": {
+    "exact_source_id_join": true,
+    "fuzzy_gold_mapping": false,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "official_scorer_called_directly": true
+  },
+  "measurable_generation_artifacts": 703672,
+  "official_metrics": {
+    "overall_mean_em": 0.3448083766300208,
+    "overall_mean_f1": 0.4556447735316811,
+    "primary": "HotpotQA answer token F1",
+    "secondary": "HotpotQA answer exact match"
+  },
+  "outputs": {
+    "per_generation": {
+      "file": "per_generation.parquet",
+      "sha256": "88041553238b0b898a30d27a509f90b8cb0fdab23cf6b7595fa110a1f3db9bc4"
+    },
+    "status_summary": {
+      "file": "status_summary.csv",
+      "sha256": "57dcc9589df4b3887281f0a2c924986b1b207f0e78a728ff9dde4ce77eb2f2ce"
+    },
+    "summary": {
+      "file": "summary.csv",
+      "sha256": "de1a38b80aee1cdec9dcedc0888fc16b974baf5722bc5ac62f9bd40b52f6e7a4"
+    }
+  },
+  "physical_generation_artifacts": 710880,
+  "samples": 7405,
+  "split": "official_test_full",
+  "status_counts": {
+    "OK": 703671,
+    "PARSE_FAILURE": 790,
+    "REFUSAL": 1,
+    "TRUNCATED": 6418
+  },
+  "status_semantics": {
+    "OK": "score with official HotpotQA answer F1 and EM",
+    "PARSE_FAILURE": "not measurable; F1/EM NA",
+    "REFUSAL": "measurable with F1=0 and EM=0",
+    "TRUNCATED": "not measurable; F1/EM NA"
+  }
+}

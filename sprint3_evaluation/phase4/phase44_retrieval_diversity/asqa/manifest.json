@@ -1,0 +1,113 @@
+{
+  "artifact_format": "context-matters.asqa-retrieval-diversity.v1",
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "asqa",
+  "date": "2026-09-26",
+  "embedding_authority": {
+    "dtype": "float16",
+    "embeddings_path": "data/asqa/sprint2/project_protected_final_top20_contriever_fp16_v1.npy",
+    "embeddings_sha256": "7e1848c8b83c7ce0c25a46f29df16eee47dbd50488cd3d008176fbad9a476ed0",
+    "ids_path": "data/asqa/sprint2/project_protected_final_top20_passage_ids_v1.npy",
+    "ids_sha256": "9ec09f9d5d04729b21e3fff69ccce237a23b466732555c831536f1fe30f96e12",
+    "shape": [
+      47651,
+      768
+    ]
+  },
+  "evaluator_authority": {
+    "implementation_path": "context-matters-rag-sprint3/src/evaluation/__init__.py",
+    "implementation_sha256": "678395164469a294f2e4b169328ee8ce604dcea35397539620b2eea714dfb484",
+    "metric_registry_path": "context-matters-rag-sprint3/src/evaluation/metric_registry.py",
+    "metric_registry_sha256": "dde80c6451185107dc1607a41dafc7f26b905c9b66f0545708179a777ff0638b",
+    "sanity_checks": {
+      "identical_distance": 0.0,
+      "orthogonal_distance": 1.0
+    }
+  },
+  "expected_rows": 22752,
+  "guards": {
+    "diversification_reruns": 0,
+    "final8_only": true,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "uses_governed_precomputed_embeddings": true
+  },
+  "metric": {
+    "definition": "mean pairwise cosine distance among the final top-5 selected passage embeddings",
+    "metric_id": "retrieval_diversity",
+    "top_k": 5,
+    "version": "sprint3.retrieval_diversity.v1"
+  },
+  "queries": 948,
+  "retriever_outputs": {
+    "bm25": {
+      "condition_counts": {
+        "agglo_k3": 948,
+        "dpp_map": 948,
+        "kmeans_k2": 948,
+        "mmr_0": 948,
+        "mmr_0.25": 948,
+        "mmr_0.5": 948,
+        "mmr_0.75": 948,
+        "none": 948
+      },
+      "metrics_file": "bm25_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+      "metrics_sha256": "7c68d11b91836f70b81af3055d86e10f5a9f50e313976abd124b675cca26de1a",
+      "rows": 7584,
+      "source_sha256": "fcfb3de7959010785e80f622f3be8165b5a0feef0ca92d6ba97ba431cc70bdf9",
+      "summary_file": "bm25_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "summary_sha256": "cfb3701d1f8f786de783279addcce47ca345b6e7fac99c1d8063571c27846c61"
+    },
+    "contriever": {
+      "condition_counts": {
+        "agglo_k3": 948,
+        "dpp_map": 948,
+        "kmeans_k2": 948,
+        "mmr_0": 948,
+        "mmr_0.25": 948,
+        "mmr_0.5": 948,
+        "mmr_0.75": 948,
+        "none": 948
+      },
+      "metrics_file": "contriever_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+      "metrics_sha256": "7405189d981846331925ba715b66dee3f086afa7c0f8e2edae9bfc3a5d4d5448",
+      "rows": 7584,
+      "source_sha256": "4ae815915d741fb99c79187c8e35c82243cadb23cd51e626a475922d0e10c537",
+      "summary_file": "contriever_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "summary_sha256": "03c7577d3da2be7dbd3e1b62986533332aae4d3b44c0e22155fbdb53c26e53c0"
+    },
+    "dpr": {
+      "condition_counts": {
+        "agglo_k3": 948,
+        "dpp_map": 948,
+        "kmeans_k2": 948,
+        "mmr_0": 948,
+        "mmr_0.25": 948,
+        "mmr_0.5": 948,
+        "mmr_0.75": 948,
+        "none": 948
+      },
+      "metrics_file": "dpr_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+      "metrics_sha256": "cf4c0a440d09c58790bd78ba1f5d8491c637ff1faa503fb023805d3bab3d89f9",
+      "rows": 7584,
+      "source_sha256": "2def7775bc35165f6dadbd7797e466e7b491a52b3ee608e1550d1ec154b9b5ee",
+      "summary_file": "dpr_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "summary_sha256": "02696470ddbecde7b14773e8335a3f4f122246fb97d0df66b271d49d4ea5651d"
+    }
+  },
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever"
+  ],
+  "role": "PROJECT_PROTECTED_FINAL"
+}

@@ -1,0 +1,39 @@
+{
+  "answers": 95829,
+  "artifact_format": "context-matters.phase42-faithfulness-nli.v1",
+  "batch_size": 128,
+  "claims": 212918,
+  "device": "cuda",
+  "faithfulness": 0.5768276989263472,
+  "hallucinated_answers": 60635,
+  "hallucination_rate": 0.6327416544052427,
+  "hypothesis": "frozen_claim",
+  "id2label": {
+    "0": "ENTAILMENT",
+    "1": "NEUTRAL",
+    "2": "CONTRADICTION"
+  },
+  "input": "/content/phase42_nli_full/pubmedqa_phase42_workload.jsonl",
+  "input_sha256": "a75f3ad81f5a2bb69dbda2f99e831b6850fdbd46f242f77fff758fae1aad0749",
+  "length_aware_batching": true,
+  "limit": null,
+  "max_length": 512,
+  "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "model_inference_run": true,
+  "nli_pairs": 1064590,
+  "output": "/content/drive/MyDrive/ContextMatters/phase42_nli_results_20260926/pubmedqa_phase42_nli.jsonl",
+  "output_sha256": "b68c20c2fa554c3d357d0546160c9586faff398119989d4b2abf0079224f3e60",
+  "pair_batch_order": "ascending_combined_character_length_within_group",
+  "premise": "retrieved_passage",
+  "python_version": "3.13.15",
+  "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "status_counts": {
+    "OK": 95829
+  },
+  "support_rule": "claim supported iff >=1 of 5 passages has argmax ENTAILMENT",
+  "supported_claims": 122817,
+  "target_pairs_per_group": 4096,
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "4.57.6",
+  "truncation": "only_first"
+}

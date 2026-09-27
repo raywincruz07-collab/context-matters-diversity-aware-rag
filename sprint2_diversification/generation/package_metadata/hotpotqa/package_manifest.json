@@ -1,0 +1,342 @@
+{
+  "artifact_format": "context-matters.sprint2-hotpotqa-generation-package.v1",
+  "baseline_condition": "none",
+  "baseline_reuse": {
+    "exact_reused_rows": 29408,
+    "fresh_maki_rows": 212,
+    "per_retriever": {
+      "bm25": {
+        "fresh_maki": 0,
+        "reused": 7405
+      },
+      "colbertv2": {
+        "fresh_maki": 203,
+        "reused": 7202
+      },
+      "contriever": {
+        "fresh_maki": 6,
+        "reused": 7399
+      },
+      "dpr": {
+        "fresh_maki": 3,
+        "reused": 7402
+      }
+    },
+    "status": "ROW_LEVEL_PARTIAL_REUSE"
+  },
+  "candidate_pool": 20,
+  "canonical_corpus": {
+    "required_positions_resolved": 206616,
+    "revision": "a7e8bab212f5a89f9be1bc9b654aa6dfa317f32b",
+    "row_count": 5233329
+  },
+  "counts": {
+    "all_8_condition_rows": 236960,
+    "baseline_rows_requiring_new_maki": 212,
+    "diversified_rows_requiring_new_maki": 207340,
+    "reused_baseline_rows": 29408,
+    "total_rows_requiring_new_maki": 207552
+  },
+  "dataset": "hotpotqa",
+  "evidence_role": "OFFICIAL_TEST_FULL",
+  "files": [
+    {
+      "condition": "none",
+      "generation_policy": "ROW_LEVEL_REUSE_OR_RUN_MAKI",
+      "relative_path": "bm25/none.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "88f00bccdf7532d70a6e23e41be2ac5e2c3b52cd5f843c552dc84735ec0f3a1b"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/mmr_0.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "de112de7594ef5c082632a38bb1ffb26fba13d4838043209f70f697bd26830de"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/mmr_0.25.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "1ecc1bb86f9c937ffe717c487a7a5a0439928fdbe4a777d95e8d24a3bf64b7d0"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/mmr_0.5.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "e5e4f551c4096613f1b7e7599b78ecad2d9e2fe0e74a604546b43f7be9b97c8d"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/mmr_0.75.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "95aed17eff82879dd82b61ff415d7462fed4a48f107105a29a6932008a4fe56c"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/kmeans_k2.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "be56b4602ecd4dff2e8f4c6a8668aa8dde669917acefec9e273d176017a7b51c"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/agglo_k3.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "dbad037a9a9067870098cfb18a6a026f331c7d9141271e3d908693b2c679bf29"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "bm25/dpp_map.jsonl",
+      "retriever": "bm25",
+      "rows": 7405,
+      "sha256": "6f2e4c46584382ebb44b8d1c4eb34eb9f4d942fad05772aa5b3ca525f9a37276"
+    },
+    {
+      "condition": "none",
+      "generation_policy": "ROW_LEVEL_REUSE_OR_RUN_MAKI",
+      "relative_path": "dpr/none.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "4625c0236d3a12ff83a723f3ad818f7883a78aa571f8ef940e0fe9cbd1ea3a15"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/mmr_0.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "59a82ddc8c934f0bcdf4ade9adcfb1c77917cbb0e7fac42ff83878b2fef5c0fe"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/mmr_0.25.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "3bf25d60d785af425a848adad5f307f612c7e239cc8fbcffee508cd26ff0c497"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/mmr_0.5.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "e20c1880f6aecd0f315c44ec4cd0f293bbc66c4335ba12341f5b230a5f706fbb"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/mmr_0.75.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "6b91fd862d8cc22d6aaa00116fe97889c5b7c3b1dfdbf735cb1c91897795a331"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/kmeans_k2.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "6e83e220a47c3a3a6fa22ed87a7dde80a3b5a2a6a6cc3250f54968058c40df5d"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/agglo_k3.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "6ebfa3ec0194fc28b353a49178b4e39110b301a4ad8ba98206ec2a15680c9656"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "dpr/dpp_map.jsonl",
+      "retriever": "dpr",
+      "rows": 7405,
+      "sha256": "334d56afa1c5d9859898e4f0464fd9565ed22d92196fbe22915c566418a871da"
+    },
+    {
+      "condition": "none",
+      "generation_policy": "ROW_LEVEL_REUSE_OR_RUN_MAKI",
+      "relative_path": "contriever/none.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "c49028efd9ee214ebbe080d6191fb5a746ad283ebf40376808d4c1c93b55dfed"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/mmr_0.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "ce294adf4fc1529c6920551d66a0e528ec848a7b80ac64f5f7af0fbc94193d30"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/mmr_0.25.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "db3dc4fc63e7b21870a88aad6e32884f18fbe3c81564dda2fc35dee092681618"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/mmr_0.5.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "18460ae9d119a6615f8b00f61e96dccc98ebe6b42bae4f6b18a693417a8dbacb"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/mmr_0.75.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "ed3b2a4fb0b0cf43808442028a73989f3688f91268bb2aacb423b90551dd6a04"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/kmeans_k2.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "56d4b1f2ec5189a3a35a5915aa296f3b422ca6c2207156cfe0d050bb374d90f0"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/agglo_k3.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "570fe16a0d7294f31e71843228c5289dae46e58b4f4a1a3ddc939eb7049209d4"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "contriever/dpp_map.jsonl",
+      "retriever": "contriever",
+      "rows": 7405,
+      "sha256": "e1ebe47d5c7614144dfff9b52047be1f3fe221e6f5b9f301bc695612b99b924a"
+    },
+    {
+      "condition": "none",
+      "generation_policy": "ROW_LEVEL_REUSE_OR_RUN_MAKI",
+      "relative_path": "colbertv2/none.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "51a9a298af46bf7e6ccbca80bba612b47465f025155312f760ee48d56c9b2c5f"
+    },
+    {
+      "condition": "mmr_0",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/mmr_0.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "0e5e5b0f04988aee59c12a147368479921472089da5fda9dee11753e56833c43"
+    },
+    {
+      "condition": "mmr_0.25",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/mmr_0.25.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "bfafbd4fa85fa6106c05e2d9ab83b9ffa97cc0c283c2ddd1a66428387795e10e"
+    },
+    {
+      "condition": "mmr_0.5",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/mmr_0.5.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "072992f351cfc590b907a7699590826d0f2cccafa564aaf26a4cec45060c907c"
+    },
+    {
+      "condition": "mmr_0.75",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/mmr_0.75.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "665ca9eb5acb2603c4dfc4673ee2e876f225b11c48d67837582fd57b0658a83f"
+    },
+    {
+      "condition": "kmeans_k2",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/kmeans_k2.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "cc06de55fee1a232e31a43964ecbce516fef41bb8fa3ed6694342e82ccb38aec"
+    },
+    {
+      "condition": "agglo_k3",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/agglo_k3.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "306b7f979e48fd8b9765cc968a19c6f0cdb30b7ffdfe841d8b7929b8ec08c124"
+    },
+    {
+      "condition": "dpp_map",
+      "generation_policy": "RUN_MAKI_ALL_ROWS",
+      "relative_path": "colbertv2/dpp_map.jsonl",
+      "retriever": "colbertv2",
+      "rows": 7405,
+      "sha256": "9b6548839ec2194d79b69e2ea643b7626bbce8a86322d59596c94c3a1d4ab19c"
+    }
+  ],
+  "final_conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "global_clustering_selection": {
+    "agglo_k": 3,
+    "kmeans_k": 2
+  },
+  "mmr_lambda_1_main_generation": false,
+  "new_generation_conditions": [
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "sample_count": 7405,
+  "scientific_guards": {
+    "checkpoint5_exact_reuse_rows": 29408,
+    "checkpoint5_excluded_baseline_rows": 212,
+    "selection_parameters_already_frozen": true,
+    "whole_baseline_rerun_required": false
+  },
+  "status": "READY_FOR_FREEZE",
+  "stochastic_dpp_main_generation": false,
+  "top20_canonical": true,
+  "top50_main_generation": false,
+  "top_k": 5
+}

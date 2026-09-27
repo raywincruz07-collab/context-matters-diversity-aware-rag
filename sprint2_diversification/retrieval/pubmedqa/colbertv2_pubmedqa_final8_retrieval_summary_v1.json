@@ -1,0 +1,81 @@
+{
+  "artifact_format": "context-matters.pubmedqa-final8-retrieval-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9745666666666666,
+      "mean_recall_at_5": 0.5746460317460315,
+      "questions": 1000
+    },
+    "dpp_map": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9771166666666666,
+      "mean_recall_at_5": 0.567894444444444,
+      "questions": 1000
+    },
+    "kmeans_k2": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9746666666666669,
+      "mean_recall_at_5": 0.7118369047619036,
+      "questions": 1000
+    },
+    "mmr_0": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9686,
+      "mean_recall_at_5": 0.3122134920634917,
+      "questions": 1000
+    },
+    "mmr_0.25": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.97595,
+      "mean_recall_at_5": 0.40919206349206205,
+      "questions": 1000
+    },
+    "mmr_0.5": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9770833333333334,
+      "mean_recall_at_5": 0.653191269841269,
+      "questions": 1000
+    },
+    "mmr_0.75": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9762833333333334,
+      "mean_recall_at_5": 0.7130519841269829,
+      "questions": 1000
+    },
+    "none": {
+      "mean_candidate_recall_at_20": 0.8253325396825384,
+      "mean_mrr_at_5": 0.9762333333333335,
+      "mean_recall_at_5": 0.7382095238095233,
+      "questions": 1000
+    }
+  },
+  "dataset": "pubmedqa",
+  "guards": {
+    "final8_only": true,
+    "historical_extra_conditions": "excluded",
+    "metric_recomputation": false
+  },
+  "metric_contract": {
+    "candidate_pool": 20,
+    "diagnostic": "positive_gold_section_candidate_recall_at_20",
+    "primary": "positive_gold_section_recall_at_5",
+    "secondary": "positive_gold_section_mrr_at_5",
+    "top_k": 5
+  },
+  "output": {
+    "metrics_file": "colbertv2_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "6a28e2c9d9be4e4114d28aa826e60ea53ead4d98a9138a9e76acc7392c4f868c",
+    "rows": 8000
+  },
+  "queries": 1000,
+  "retriever": "colbertv2",
+  "source": {
+    "metrics_path": "context-matters-rag-sprint3/results/sprint3/pubmedqa/retrieval/colbertv2_pubmedqa_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "0208870381e29ecc18d3c5c6e3eb241d7b81fb334d76c81b6bb6e87da32f6195",
+    "summary_path": "context-matters-rag-sprint3/results/sprint3/pubmedqa/retrieval/colbertv2_pubmedqa_retrieval_metrics_summary_v1.json",
+    "summary_sha256": "59affbfb58fbbf1a206ff8eeeb6822158361ea9182657956de6510789e425daa"
+  },
+  "top_k": 5
+}

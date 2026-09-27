@@ -1,0 +1,71 @@
+{
+  "artifact_format": "context-matters.asqa-correctness-freeze.v1",
+  "authority": {
+    "alce_commit": "246c476a4edfc564266b7346b6e29ef4861ae937",
+    "alce_eval_sha256": "e0f63bf865cacc64d7390fc62669c82b2653b1628f40051de0efdf5518064091",
+    "alce_utils_sha256": "92e6900b5350f7da4dc179f3d9f498f73d976377a412e8c244db8339ad7976b9",
+    "qa_model": {
+      "id": "gaotianyu1350/roberta-large-squad",
+      "revision": "02bcd9fab9c9d84a346389074e0bcdf770c5141b"
+    }
+  },
+  "cells": 72,
+  "dataset": "asqa",
+  "evidence_role": "PROJECT_PROTECTED_FINAL",
+  "freeze_date": "2026-09-26",
+  "generation_rows": 68256,
+  "guards": {
+    "batched_answer_parity_verified": true,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "official_alce_scoring": true,
+    "parity_mismatches": 0,
+    "recomputation_during_freeze": false
+  },
+  "inputs": {
+    "gold_sha256": "02544c6d7ec44122ab0797d8154ed5e4e2176eec371176500ba534c5bcf720c6",
+    "input_manifest_sha256": "3aff612b0a06129998f58e2a376f973a704c035850d87b8e57cb5ac8efafbfa5",
+    "matrix_sha256": "d65e8ad713fdf33da85065249428d1a2efbd1bf7b91f1ee5b2649e1b335c086d"
+  },
+  "measurable_rows": 68130,
+  "metrics": {
+    "QA-EM": 20.38690738294437,
+    "QA-F1": 26.529506581720668,
+    "QA-Hit": 4.507559078232791,
+    "STR-EM": 34.20076813934145,
+    "STR-Hit": 13.042712461470717
+  },
+  "outputs": {
+    "asqa_correctness_per_generation.jsonl": "9d13dda126b3c1b785ec6c016b391d94d1fc70aaec280681a5279f219d5848c8",
+    "asqa_correctness_status_summary.csv": "f34dfa0440dbf3f67ce939bf4046dacce0f5cd36a0d61c524190a4889e4e1029",
+    "asqa_correctness_summary.csv": "860723cc70148c667348eb9d14915992b69f1f5e3343f878352e7a48c8958f11",
+    "manifest.json": "cc048df22a5500327bf5ade48ccdd1470ceeed2d0809580a0345dce2d93f9e56"
+  },
+  "provenance": {
+    "archive": {
+      "path": "exports/asqa_sprint2_correctness_results_20260926.tar.gz",
+      "sha256": "885689b0cb66680ed0236e0bc5ecbddf3d7987894e276734e746158d80c3a51d"
+    },
+    "initial_benchmark_sha256": "a6cf66859c93d9bc52e8d89a73128bb515eedbd01b93f54f95ccfcd81a87e61e",
+    "log_sha256": "041b62ff064edd39df4d5a6fecce51c6aceaee896b135270ec458584a347ded7",
+    "optimized_benchmark_sha256": "b3e60f960169a6eaff96f4ecb909d3279a061478b778917836d7a2756ecbfc3f",
+    "runner_sha256": "5acd96eda27435ef4c7bb610741a152539f68149a39ed6f9df700241cdce80d0"
+  },
+  "qa_extractions": 228799,
+  "runtime": {
+    "batch_size": 192,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "length_bucketed": true,
+    "numpy": "2.4.3",
+    "parity_mismatches": 0,
+    "torch": "2.10.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "samples": 948,
+  "status": "FROZEN",
+  "status_counts": {
+    "OK": 68130,
+    "PARSE_FAILURE": 9,
+    "TRUNCATED": 117
+  }
+}

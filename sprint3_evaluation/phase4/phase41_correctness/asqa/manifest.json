@@ -1,0 +1,90 @@
+{
+  "artifact_format": "context-matters.asqa-correctness-evaluation.v1",
+  "cells": 72,
+  "dataset": "asqa",
+  "date": "2026-09-26",
+  "generation_rows": 68256,
+  "guards": {
+    "batched_answer_parity_verified": true,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "official_alce_scoring_functions": true
+  },
+  "inputs": {
+    "gold_sha256": "02544c6d7ec44122ab0797d8154ed5e4e2176eec371176500ba534c5bcf720c6",
+    "input_manifest_sha256": "3aff612b0a06129998f58e2a376f973a704c035850d87b8e57cb5ac8efafbfa5",
+    "matrix_sha256": "d65e8ad713fdf33da85065249428d1a2efbd1bf7b91f1ee5b2649e1b335c086d"
+  },
+  "measurable_rows": 68130,
+  "metric_scale": "0-100 in summaries; 0-1 per generation",
+  "metrics": {
+    "QA-EM": 20.38690738294437,
+    "QA-F1": 26.529506581720668,
+    "QA-Hit": 4.507559078232791,
+    "STR-EM": 34.20076813934145,
+    "STR-Hit": 13.042712461470717
+  },
+  "official_alce": {
+    "commit": "246c476a4edfc564266b7346b6e29ef4861ae937",
+    "eval_py_sha256": "e0f63bf865cacc64d7390fc62669c82b2653b1628f40051de0efdf5518064091",
+    "functions_used": [
+      "compute_exact",
+      "compute_f1",
+      "exact_presence"
+    ],
+    "qa_pipeline_parameter": "handle_impossible_answer=True",
+    "utils_py_sha256": "92e6900b5350f7da4dc179f3d9f498f73d976377a412e8c244db8339ad7976b9"
+  },
+  "outputs": {
+    "per_generation": {
+      "file": "asqa_correctness_per_generation.jsonl",
+      "sha256": "9d13dda126b3c1b785ec6c016b391d94d1fc70aaec280681a5279f219d5848c8"
+    },
+    "prediction_checkpoint": {
+      "file": "qa_predictions_checkpoint.jsonl",
+      "sha256": "b7a7af292de33dd4864f4ad811fc08b0a273b5ee81dbbf2e768ae6ff2b418995"
+    },
+    "status_summary": {
+      "file": "asqa_correctness_status_summary.csv",
+      "sha256": "f34dfa0440dbf3f67ce939bf4046dacce0f5cd36a0d61c524190a4889e4e1029"
+    },
+    "summary": {
+      "file": "asqa_correctness_summary.csv",
+      "sha256": "860723cc70148c667348eb9d14915992b69f1f5e3343f878352e7a48c8958f11"
+    }
+  },
+  "qa_extractions": 228799,
+  "qa_model": {
+    "id": "gaotianyu1350/roberta-large-squad",
+    "revision": "02bcd9fab9c9d84a346389074e0bcdf770c5141b"
+  },
+  "runtime": {
+    "batch_size": 192,
+    "full_inference_seconds": 1075.894064476,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "huggingface_hub": "0.36.2",
+    "length_bucketed": true,
+    "numpy": "2.4.3",
+    "parity_mismatches": 0,
+    "python": "3.11.16 (main, Sep 24 2026, 17:56:40) [Clang 22.1.3 ]",
+    "torch": "2.10.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "samples": 948,
+  "status_counts": {
+    "OK": 68130,
+    "PARSE_FAILURE": 9,
+    "TRUNCATED": 117
+  },
+  "status_semantics": {
+    "OK": "official ALCE QA/STR scoring",
+    "PARSE_FAILURE": "NA",
+    "REFUSAL": "measurable zero",
+    "TRUNCATED": "NA"
+  },
+  "timing": {
+    "finished_utc": "2026-09-26T09:43:29.031925+00:00",
+    "started_utc": "2026-09-26T09:24:45.386284+00:00",
+    "wall_seconds": 1123.6461527789997
+  }
+}

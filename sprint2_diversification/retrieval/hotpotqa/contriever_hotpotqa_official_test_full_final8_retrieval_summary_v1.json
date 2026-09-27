@@ -1,0 +1,77 @@
+{
+  "artifact_format": "context-matters.hotpotqa-final8-retrieval-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "full_recall_queries": 974,
+      "mean_recall_at_5": 0.437542201215395,
+      "partial_recall_queries": 4532,
+      "zero_recall_queries": 1899
+    },
+    "dpp_map": {
+      "full_recall_queries": 767,
+      "mean_recall_at_5": 0.41681296421336933,
+      "partial_recall_queries": 4639,
+      "zero_recall_queries": 1999
+    },
+    "kmeans_k2": {
+      "full_recall_queries": 1010,
+      "mean_recall_at_5": 0.43990546927751517,
+      "partial_recall_queries": 4495,
+      "zero_recall_queries": 1900
+    },
+    "mmr_0": {
+      "full_recall_queries": 51,
+      "mean_recall_at_5": 0.2888588791357191,
+      "partial_recall_queries": 4176,
+      "zero_recall_queries": 3178
+    },
+    "mmr_0.25": {
+      "full_recall_queries": 438,
+      "mean_recall_at_5": 0.3709655638082377,
+      "partial_recall_queries": 4618,
+      "zero_recall_queries": 2349
+    },
+    "mmr_0.5": {
+      "full_recall_queries": 879,
+      "mean_recall_at_5": 0.43038487508440243,
+      "partial_recall_queries": 4616,
+      "zero_recall_queries": 1910
+    },
+    "mmr_0.75": {
+      "full_recall_queries": 1086,
+      "mean_recall_at_5": 0.4509790681971641,
+      "partial_recall_queries": 4507,
+      "zero_recall_queries": 1812
+    },
+    "none": {
+      "full_recall_queries": 1154,
+      "mean_recall_at_5": 0.45948683322079675,
+      "partial_recall_queries": 4497,
+      "zero_recall_queries": 1754
+    }
+  },
+  "dataset": "hotpotqa",
+  "guards": {
+    "final8_only": true,
+    "historical_extra_conditions": "excluded",
+    "metric_recomputation": false
+  },
+  "metric": "positive_qrel_document_recall_at_5",
+  "output": {
+    "metrics_file": "contriever_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "91d4b1e8dbb52643270a14502107a375fb08404a30f2d938c26fb034ce556e7d",
+    "rows": 59240
+  },
+  "qrels_revision": "b15429e9244c8ec966985d7778427c3b1543b314",
+  "query_count": 7405,
+  "retriever": "contriever",
+  "role": "OFFICIAL_TEST_FULL",
+  "source": {
+    "metrics_path": "data/hotpotqa/sprint2/contriever/metrics/contriever_hotpotqa_official_test_full_canonical_top20_to5_metrics_v1.jsonl",
+    "metrics_sha256": "62dd8f63458120c4229ba0b6de9f59b1ebcee17b1184cb4dbd076502c084bd77",
+    "summary_path": "data/hotpotqa/sprint2/contriever/metrics/contriever_hotpotqa_official_test_full_canonical_top20_to5_summary_v1.json",
+    "summary_sha256": "41a8c7f3d396e80e0241cb312d16cdd34cbe1bfc65887c8bee2c366ab8b32b6a"
+  },
+  "top_k": 5
+}

@@ -1,0 +1,85 @@
+{
+  "artifact_format": "context-matters.sprint2-hotpotqa-final-generation-freeze.v1",
+  "audit_results": {
+    "baseline_refresh": "PASS",
+    "combined_matrix": "PASS",
+    "fresh_generation": "PASS",
+    "maki_calls_during_final_audits": 0,
+    "missing_final_artifacts": 0
+  },
+  "components": {
+    "baseline_refresh_current_format": {
+      "artifacts": 88224,
+      "contexts": 29408,
+      "output_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/sprint2/baseline_refresh_outputs_2026-09-24",
+      "status_counts": {
+        "OK": 87390,
+        "PARSE_FAILURE": 95,
+        "TRUNCATED": 739
+      }
+    },
+    "fresh_current_format": {
+      "artifacts": 622656,
+      "contexts": 207552,
+      "output_root": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/data/hotpotqa/sprint2/generation_outputs_2026-09-23",
+      "status_counts": {
+        "OK": 616281,
+        "PARSE_FAILURE": 695,
+        "REFUSAL": 1,
+        "TRUNCATED": 5679
+      }
+    }
+  },
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "HotpotQA",
+  "final_context_rows": 236960,
+  "final_generation_artifacts": 710880,
+  "final_status_counts": {
+    "OK": 703671,
+    "PARSE_FAILURE": 790,
+    "REFUSAL": 1,
+    "TRUNCATED": 6418
+  },
+  "freeze_date": "2026-09-25",
+  "historical_reuse_decision": {
+    "decision": "REJECTED_FOR_FINAL_MATCHED_EXPERIMENT",
+    "historical_outputs_overwritten": false,
+    "historical_outputs_preserved": true,
+    "reason": "Generation-level provenance audit found a systematic prompt/context mismatch: current frozen passage_body includes the title prefix while the historical generation context used body text without that prefix."
+  },
+  "historical_sprint1_generations_included": false,
+  "logical_models": [
+    "llama-3.3-70b",
+    "gemma4-26b",
+    "ministral-3-14b"
+  ],
+  "physical_model_note": "ministral-3-14b logical stratum is bound to qwen3.6-36b by frozen maki_model_bindings_v7.json",
+  "provenance_sha256": {
+    "baseline_refresh_audit_log": "814a2812f7b88cae04e305a53335e9bddcd88aaabda655855a2110270f5e4b14",
+    "baseline_refresh_runner": "8df64f171489dfdbc01df2757be9737aa5ba554eeb05695ffac98b52e66342e6",
+    "combined_matrix_audit_log": "279c30c1b776da0331101b0240621f7e50676ca30a3e928704f3f0ccdf540f8d",
+    "fresh_audit_log": "7a9512ade652b594f3d604fecf9b1335e301f621bbe2144f3c76174a9c991c56",
+    "fresh_freeze_record": "1fe66b1af7748f5a15da81214874d3d35b91b5125143a21a1d0fd9ca38bc3d03",
+    "model_bindings": "3827ceaf993eaa061e0b87645cf5b36bc15c0e093b1712332b1fcbb8a06264b3",
+    "original_generation_runner": "af758bd9581da9c16e34302a7105c66a3516fdf91d8a896043d73089520185e1",
+    "package_manifest": "9bdb7350040ca46db08c20b2fcde7a9e8959b559d40df7ff943c9cfbb3517977",
+    "prompt_module": "8067b19f401c79ed490f2bff79ec2bfdb0fd5ee85e3e044b26fb1bd621a7a719"
+  },
+  "queries": 7405,
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "split": "official_test_full"
+}

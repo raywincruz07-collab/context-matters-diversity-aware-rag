@@ -1,0 +1,77 @@
+{
+  "artifact_format": "context-matters.asqa-retrieval-diversity-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "max_retrieval_diversity": 0.7920457720756531,
+      "mean_retrieval_diversity": 0.5822224465477819,
+      "min_retrieval_diversity": 0.35386770963668823,
+      "questions": 948,
+      "std_retrieval_diversity": 0.0805096111605124
+    },
+    "dpp_map": {
+      "max_retrieval_diversity": 0.8158410787582397,
+      "mean_retrieval_diversity": 0.6061378688500401,
+      "min_retrieval_diversity": 0.37086400389671326,
+      "questions": 948,
+      "std_retrieval_diversity": 0.0813003094840574
+    },
+    "kmeans_k2": {
+      "max_retrieval_diversity": 0.7782239317893982,
+      "mean_retrieval_diversity": 0.5636511205180788,
+      "min_retrieval_diversity": 0.2813233435153961,
+      "questions": 948,
+      "std_retrieval_diversity": 0.08770526616356017
+    },
+    "mmr_0": {
+      "max_retrieval_diversity": 0.8456279635429382,
+      "mean_retrieval_diversity": 0.6796291468327056,
+      "min_retrieval_diversity": 0.4585859179496765,
+      "questions": 948,
+      "std_retrieval_diversity": 0.0743579872444371
+    },
+    "mmr_0.25": {
+      "max_retrieval_diversity": 0.8172012567520142,
+      "mean_retrieval_diversity": 0.6401583900683037,
+      "min_retrieval_diversity": 0.37086400389671326,
+      "questions": 948,
+      "std_retrieval_diversity": 0.08546875098542671
+    },
+    "mmr_0.5": {
+      "max_retrieval_diversity": 0.8158410787582397,
+      "mean_retrieval_diversity": 0.5720095260359567,
+      "min_retrieval_diversity": 0.30918705463409424,
+      "questions": 948,
+      "std_retrieval_diversity": 0.09692246365875726
+    },
+    "mmr_0.75": {
+      "max_retrieval_diversity": 0.8158410787582397,
+      "mean_retrieval_diversity": 0.539631545496515,
+      "min_retrieval_diversity": 0.2438497096300125,
+      "questions": 948,
+      "std_retrieval_diversity": 0.09686574834208637
+    },
+    "none": {
+      "max_retrieval_diversity": 0.7928526401519775,
+      "mean_retrieval_diversity": 0.5243869118455342,
+      "min_retrieval_diversity": 0.2438497096300125,
+      "questions": 948,
+      "std_retrieval_diversity": 0.09416951008308111
+    }
+  },
+  "dataset": "asqa",
+  "metric_id": "retrieval_diversity",
+  "metric_version": "sprint3.retrieval_diversity.v1",
+  "output": {
+    "file": "dpr_asqa_project_protected_final_final8_retrieval_diversity_v1.jsonl",
+    "rows": 7584,
+    "sha256": "cf4c0a440d09c58790bd78ba1f5d8491c637ff1faa503fb023805d3bab3d89f9"
+  },
+  "retriever": "dpr",
+  "role": "PROJECT_PROTECTED_FINAL",
+  "source": {
+    "path": "data/asqa/sprint2/dpr/diversified/dpr_asqa_project_protected_final_canonical_top20_to5_v1.jsonl",
+    "sha256": "2def7775bc35165f6dadbd7797e466e7b491a52b3ee608e1550d1ec154b9b5ee"
+  },
+  "top_k": 5
+}

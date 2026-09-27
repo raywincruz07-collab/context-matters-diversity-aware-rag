@@ -1,0 +1,44 @@
+{
+  "artifact_format": "context-matters.phase54-asqa-completed-independent-reviews.v1",
+  "comparison": {
+    "agreements": 29,
+    "disagreement_rows": [
+      {
+        "paraphrase_sha256": "fa06292b2e5108102070ccebd18527b1c851a087ad713c86ff76a422aa21df4f",
+        "reserve_position": 7,
+        "reviewer1_label": "UNCERTAIN",
+        "reviewer2_label": "EQUIVALENT",
+        "sample_id": "4020522433998325944"
+      }
+    ],
+    "disagreements": 1,
+    "total_pairs": 30
+  },
+  "dataset": "asqa",
+  "evidence_role": "DEVELOPMENT",
+  "git_head_before_freeze": "217731e2f3970c24bd654b91cba27b432ba52f6c",
+  "phase": "5.4 Robustness Under Paraphrase",
+  "reviewer1": {
+    "label_counts": {
+      "EQUIVALENT": 29,
+      "UNCERTAIN": 1
+    },
+    "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_reviewer1_batch01_completed.csv",
+    "rows": 30,
+    "sha256": "60b8cb931c2575b9c21fa34246b8ff1c6d72c3763c1809dd361949df1b2d8588"
+  },
+  "reviewer2": {
+    "label_counts": {
+      "EQUIVALENT": 30
+    },
+    "path": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3/artifacts/paraphrase_robustness/phase54_asqa_reviewer2_batch01_completed.csv",
+    "rows": 30,
+    "sha256": "1ff8c502733a8686b61d3c1eef105fb3cdde098bf7c9d20dd729a904434ae920"
+  },
+  "scientific_guards": {
+    "comparison_is_mechanical_only": true,
+    "disagreement_requires_human_adjudication": true,
+    "llm_equivalence_judgment_used": false,
+    "retrieval_allowed_yet": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "artifact_format": "context-matters.hotpotqa-correctness-freeze.v1",
+  "cells": 96,
+  "dataset": "hotpotqa",
+  "freeze_date": "2026-09-26",
+  "guards": {
+    "exact_source_id_join": true,
+    "fuzzy_gold_mapping": false,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "recomputation_during_freeze": false
+  },
+  "measurable_generation_artifacts": 703672,
+  "metrics": {
+    "overall_mean_em": 0.3448083766300208,
+    "overall_mean_f1": 0.4556447735316811,
+    "primary": "official HotpotQA answer token F1",
+    "secondary": "official HotpotQA answer exact match"
+  },
+  "outputs": {
+    "manifest.json": "be379a537f8a97153c24b6aac638575c3e95bb79688f2bdd906015335b39d2e9",
+    "per_generation.parquet": "88041553238b0b898a30d27a509f90b8cb0fdab23cf6b7595fa110a1f3db9bc4",
+    "status_summary.csv": "57dcc9589df4b3887281f0a2c924986b1b207f0e78a728ff9dde4ce77eb2f2ce",
+    "summary.csv": "de1a38b80aee1cdec9dcedc0888fc16b974baf5722bc5ac62f9bd40b52f6e7a4"
+  },
+  "physical_generation_artifacts": 710880,
+  "provenance": {
+    "generation_freeze": {
+      "path": "exports/hotpotqa_sprint2_final_generation_freeze_20260925.json",
+      "sha256": "7a491f75a92d19960d45f2df4d622d2d7da60d9c48c83a2247594348e132809a"
+    },
+    "gold_reference": {
+      "path": "exports/hotpotqa_sprint2_correctness_authority_20260926/hotpotqa_gold_reference.json",
+      "sha256": "d421ad48420dc63c120fbe13f908daddb457702277c7bc14d55ca926eb14f592"
+    },
+    "log": {
+      "path": "logs/hotpotqa_sprint2_correctness_eval_20260926.log",
+      "sha256": "5624b7ea37750886587a4f118f8d55f2cd3003c781f5e3350d7dd27788d2188c"
+    },
+    "official_scorer": {
+      "commit": "3635853403a8735609ee997664e1528f4480762a",
+      "path": "exports/hotpotqa_sprint2_correctness_authority_20260926/hotpot_evaluate_v1.py",
+      "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+    },
+    "runner": {
+      "path": "ops/hotpotqa_correctness_eval_20260926.py",
+      "sha256": "016a989a30b2d1df4deac4599ed4765d1eb462227c3d9f705f66e01fb0ce7c17"
+    }
+  },
+  "samples": 7405,
+  "split": "official_test_full",
+  "status": "FROZEN",
+  "status_counts": {
+    "OK": 703671,
+    "PARSE_FAILURE": 790,
+    "REFUSAL": 1,
+    "TRUNCATED": 6418
+  }
+}

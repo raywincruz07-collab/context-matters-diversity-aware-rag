@@ -1,0 +1,66 @@
+{
+  "analysis_scope": "existing frozen operating points only",
+  "artifact_format": "context-matters.phase51-diversity-accuracy.v1",
+  "baseline_condition": "none",
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "counts": {
+    "asqa_measurable_rows": 68130,
+    "hotpotqa_measurable_rows": 703672,
+    "operating_point_summary_rows": 264,
+    "paired_delta_rows": 754965,
+    "paired_summary_rows": 231,
+    "pubmedqa_measurable_rows": 95829
+  },
+  "files": {
+    "asqa_phase51_joined.parquet": {
+      "sha256": "7c60805f503a1a70d8fe25ba0ecc62185757438a97209e8b354bdb508409d63b",
+      "size_bytes": 328251
+    },
+    "hotpotqa_phase51_em_secondary_summary.csv": {
+      "sha256": "8e7e1c018d08bc1e78be7f0d288bf6b8edd5b0c09871b5881218505599930dab",
+      "size_bytes": 9461
+    },
+    "hotpotqa_phase51_joined.parquet": {
+      "sha256": "837eb6369ca8cffa40d46571c61a5ec6bf640968d6fcfde650abcfd616884184",
+      "size_bytes": 4733129
+    },
+    "phase51_operating_point_summary.csv": {
+      "sha256": "1b16084819fa5e2678036cf12b0348f22b7020a3885b446a176170a7d6a122fb",
+      "size_bytes": 35505
+    },
+    "phase51_paired_deltas_vs_none.parquet": {
+      "sha256": "cb2fac864e63524d1de1d408ded1e11c5f36e3a081347e181f26723f612d25ad",
+      "size_bytes": 9858361
+    },
+    "phase51_paired_summary_vs_none.csv": {
+      "sha256": "ae35ada14305b22d83f80ff2b3f19b6a245abfecb80156ea689089cc3cedd709",
+      "size_bytes": 39414
+    },
+    "pubmedqa_phase51_joined.parquet": {
+      "sha256": "4f0f98a19de1185bd4b6a3c4eb86b925d556cc63b3235a3cf363b5da3acab2a7",
+      "size_bytes": 363661
+    }
+  },
+  "interpretation_rule": "claims are limited to tested operating points; do not claim an unobserved precise diversity ceiling",
+  "pairing_rule": "same query + retriever + generator; each diversified condition paired against none",
+  "phase": "5.1 Diversity\u2013Accuracy Trade-off",
+  "population_rule": "measurable correctness rows only",
+  "primary_metrics": {
+    "asqa": "qa_f1",
+    "hotpotqa": "f1",
+    "pubmedqa": "accuracy"
+  },
+  "secondary_metrics": {
+    "hotpotqa": "em"
+  },
+  "serialization_fix": "HotpotQA source_sample_id normalized to canonical string query_id; only required analysis columns serialized"
+}

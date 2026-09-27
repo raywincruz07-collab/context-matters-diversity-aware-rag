@@ -1,0 +1,40 @@
+{
+  "dataset": "ASQA",
+  "overall_pooled": {
+    "mean_jaccard_at20": 0.4514549005243241,
+    "mean_jaccard_at5_mmr_0.5": 0.409700176366843,
+    "mean_jaccard_at5_none": 0.4216931216931217,
+    "n": 90,
+    "ordered_top5_identity_rate_mmr_0.5": 0.03333333333333333,
+    "ordered_top5_identity_rate_none": 0.022222222222222223
+  },
+  "phase": "5.4",
+  "retrievers": {
+    "bm25": {
+      "mean_jaccard_at20": 0.30743179411082877,
+      "mean_jaccard_at5_mmr_0.5": 0.2455026455026455,
+      "mean_jaccard_at5_none": 0.2632275132275132,
+      "n": 30,
+      "ordered_top5_identity_rate_mmr_0.5": 0.03333333333333333,
+      "ordered_top5_identity_rate_none": 0.03333333333333333
+    },
+    "contriever": {
+      "mean_jaccard_at20": 0.5023739942226809,
+      "mean_jaccard_at5_mmr_0.5": 0.4538359788359788,
+      "mean_jaccard_at5_none": 0.49801587301587297,
+      "n": 30,
+      "ordered_top5_identity_rate_mmr_0.5": 0.0,
+      "ordered_top5_identity_rate_none": 0.03333333333333333
+    },
+    "dpr": {
+      "mean_jaccard_at20": 0.5445589132394626,
+      "mean_jaccard_at5_mmr_0.5": 0.5297619047619048,
+      "mean_jaccard_at5_none": 0.5038359788359787,
+      "n": 30,
+      "ordered_top5_identity_rate_mmr_0.5": 0.06666666666666667,
+      "ordered_top5_identity_rate_none": 0.0
+    }
+  },
+  "role": "DEVELOPMENT",
+  "validated_paraphrase_pairs": 30
+}

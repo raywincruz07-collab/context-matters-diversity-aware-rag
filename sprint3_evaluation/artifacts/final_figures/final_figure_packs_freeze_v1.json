@@ -1,0 +1,23 @@
+{
+  "artifact": "Final figure packs provenance pointer",
+  "date": "2026-09-27",
+  "figure_pack_count": 5,
+  "freeze_directory": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/final_figure_packs_freeze_20260927",
+  "freeze_manifest": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/final_figure_packs_freeze_20260927/final_figure_packs_freeze_manifest_v1.json",
+  "freeze_manifest_sha256": "0362d5755dfba83055b283cea48609f8c74d133c02de79aec04c26e6aee7be26",
+  "packs": [
+    "phase54_20260927",
+    "cross_phase_summary_20260927",
+    "detailed_retriever_llm_20260927",
+    "paired_effects_detailed_20260927",
+    "phase53_detailed_associations_20260927"
+  ],
+  "pdf_figure_count": 131,
+  "png_figure_count": 131,
+  "reporting_note": "The archive contains presentation/report figures derived only from already-frozen scientific results.",
+  "scientific_recomputation": false,
+  "source_commit": "f1084c619513f62a1577a4669818c7bca27639f2",
+  "status": "COMPLETE_FROZEN",
+  "transfer_archive": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/exports/final_figure_packs_freeze_20260927.tar.gz",
+  "transfer_archive_sha256": "cfdb427ee4fce89c671639386e98003d0ce3fd107846caf7c2a26f90ffd6f084"
+}

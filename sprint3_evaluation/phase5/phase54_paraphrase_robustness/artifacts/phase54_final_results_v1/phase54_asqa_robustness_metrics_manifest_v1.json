@@ -1,0 +1,34 @@
+{
+  "candidate_pool": 20,
+  "conditions": [
+    "none",
+    "mmr_0.5"
+  ],
+  "dataset": "ASQA",
+  "detail_sha256": "ba4287e47ffd05e64705111856ecb40f3171f84fab58d2948f2a3dbfadb5f2d6",
+  "frozen_pair_count": 30,
+  "generation_executed": false,
+  "jaccard_definition": "|A intersection B| / |A union B|",
+  "metrics": [
+    "jaccard_at20",
+    "jaccard_at5_none",
+    "jaccard_at5_mmr_0.5",
+    "ordered_top5_identity_rate_none",
+    "ordered_top5_identity_rate_mmr_0.5"
+  ],
+  "mmr_implementation": "src/diversification/mmr.py",
+  "mmr_lambda": 0.5,
+  "mmr_redundancy": "cosine similarity using facebook/contriever published DPR-Wikipedia passage embeddings",
+  "mmr_relevance": "per-query min-max-normalized native retriever score",
+  "ordered_top5_identity_definition": "fraction of query pairs whose ordered Top5 document-ID sequences are exactly identical",
+  "original_mmr_reproduction": "90/90 exact",
+  "phase": "5.4",
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever"
+  ],
+  "role": "DEVELOPMENT",
+  "summary_sha256": "4f500a8f73ce0dced42ac5371dc2872345d6f542bac8d7775e2c1e66a23019e5",
+  "top_k": 5
+}

@@ -1,0 +1,17 @@
+{
+  "batch_size": 128,
+  "datasets_completed": [
+    "asqa",
+    "pubmedqa",
+    "hotpotqa"
+  ],
+  "date": "2026-09-26",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "length_aware_batching": true,
+  "overall_runtime_minutes": 199.11088977654774,
+  "phase": "4.2",
+  "status": "COMPLETE",
+  "total_expected_answers": 867631,
+  "total_expected_claims": 1079707,
+  "total_expected_nli_pairs": 5398535
+}

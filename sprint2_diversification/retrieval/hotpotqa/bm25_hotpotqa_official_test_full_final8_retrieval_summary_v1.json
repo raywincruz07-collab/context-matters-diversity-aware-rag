@@ -1,0 +1,77 @@
+{
+  "artifact_format": "context-matters.hotpotqa-final8-retrieval-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "full_recall_queries": 1045,
+      "mean_recall_at_5": 0.42336259284267386,
+      "partial_recall_queries": 4180,
+      "zero_recall_queries": 2180
+    },
+    "dpp_map": {
+      "full_recall_queries": 928,
+      "mean_recall_at_5": 0.4175557056043214,
+      "partial_recall_queries": 4328,
+      "zero_recall_queries": 2149
+    },
+    "kmeans_k2": {
+      "full_recall_queries": 1088,
+      "mean_recall_at_5": 0.4276164753544902,
+      "partial_recall_queries": 4157,
+      "zero_recall_queries": 2160
+    },
+    "mmr_0": {
+      "full_recall_queries": 207,
+      "mean_recall_at_5": 0.32781904118838623,
+      "partial_recall_queries": 4441,
+      "zero_recall_queries": 2757
+    },
+    "mmr_0.25": {
+      "full_recall_queries": 697,
+      "mean_recall_at_5": 0.3914247130317353,
+      "partial_recall_queries": 4403,
+      "zero_recall_queries": 2305
+    },
+    "mmr_0.5": {
+      "full_recall_queries": 1030,
+      "mean_recall_at_5": 0.42700877785280217,
+      "partial_recall_queries": 4264,
+      "zero_recall_queries": 2111
+    },
+    "mmr_0.75": {
+      "full_recall_queries": 1130,
+      "mean_recall_at_5": 0.43585415259959487,
+      "partial_recall_queries": 4195,
+      "zero_recall_queries": 2080
+    },
+    "none": {
+      "full_recall_queries": 1150,
+      "mean_recall_at_5": 0.437272113436867,
+      "partial_recall_queries": 4176,
+      "zero_recall_queries": 2079
+    }
+  },
+  "dataset": "hotpotqa",
+  "guards": {
+    "final8_only": true,
+    "historical_extra_conditions": "excluded",
+    "metric_recomputation": false
+  },
+  "metric": "positive_qrel_document_recall_at_5",
+  "output": {
+    "metrics_file": "bm25_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "386846a2f771ffaec863fbaf68630033bfae56484d35620d63e0b2474844e2f8",
+    "rows": 59240
+  },
+  "qrels_revision": "b15429e9244c8ec966985d7778427c3b1543b314",
+  "query_count": 7405,
+  "retriever": "bm25",
+  "role": "OFFICIAL_TEST_FULL",
+  "source": {
+    "metrics_path": "data/hotpotqa/sprint2/bm25/metrics/bm25_hotpotqa_official_test_full_canonical_top20_to5_metrics_v1.jsonl",
+    "metrics_sha256": "9a7f6a7c4b527d77971feb21d7880b961b4e9a04616378f85e0cbb69b98fabea",
+    "summary_path": "data/hotpotqa/sprint2/bm25/metrics/bm25_hotpotqa_official_test_full_canonical_top20_to5_summary_v1.json",
+    "summary_sha256": "c8957df1b67bb5729d862a813ead495a3e6e4378912df90342757b3ba32394dc"
+  },
+  "top_k": 5
+}

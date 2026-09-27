@@ -1,0 +1,81 @@
+{
+  "artifact_format": "context-matters.pubmedqa-final8-retrieval-summary.v1",
+  "candidate_pool": 20,
+  "conditions": {
+    "agglo_k3": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.906566666666667,
+      "mean_recall_at_5": 0.49182301587301697,
+      "questions": 1000
+    },
+    "dpp_map": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.9119666666666668,
+      "mean_recall_at_5": 0.4308944444444435,
+      "questions": 1000
+    },
+    "kmeans_k2": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.9085500000000005,
+      "mean_recall_at_5": 0.5744496031746026,
+      "questions": 1000
+    },
+    "mmr_0": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.890566666666667,
+      "mean_recall_at_5": 0.2853134920634927,
+      "questions": 1000
+    },
+    "mmr_0.25": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.9068500000000003,
+      "mean_recall_at_5": 0.3336420634920628,
+      "questions": 1000
+    },
+    "mmr_0.5": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.9124666666666669,
+      "mean_recall_at_5": 0.48936269841269786,
+      "questions": 1000
+    },
+    "mmr_0.75": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.912016666666667,
+      "mean_recall_at_5": 0.5689547619047618,
+      "questions": 1000
+    },
+    "none": {
+      "mean_candidate_recall_at_20": 0.7023992063492062,
+      "mean_mrr_at_5": 0.9115166666666671,
+      "mean_recall_at_5": 0.5992107142857142,
+      "questions": 1000
+    }
+  },
+  "dataset": "pubmedqa",
+  "guards": {
+    "final8_only": true,
+    "historical_extra_conditions": "excluded",
+    "metric_recomputation": false
+  },
+  "metric_contract": {
+    "candidate_pool": 20,
+    "diagnostic": "positive_gold_section_candidate_recall_at_20",
+    "primary": "positive_gold_section_recall_at_5",
+    "secondary": "positive_gold_section_mrr_at_5",
+    "top_k": 5
+  },
+  "output": {
+    "metrics_file": "bm25_pubmedqa_final8_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "51ecef349ddba2235afa7745514eb1da3975e3bc3cc48c1c477f605b3668d8a8",
+    "rows": 8000
+  },
+  "queries": 1000,
+  "retriever": "bm25",
+  "source": {
+    "metrics_path": "context-matters-rag-sprint3/results/sprint3/pubmedqa/retrieval/bm25_pubmedqa_retrieval_metrics_v1.jsonl",
+    "metrics_sha256": "0ea9a8f3adee3ed48eb54ee14c48a7d57a2160fb49b32f8be4e6ee7e6fe62534",
+    "summary_path": "context-matters-rag-sprint3/results/sprint3/pubmedqa/retrieval/bm25_pubmedqa_retrieval_metrics_summary_v1.json",
+    "summary_sha256": "e24a0d6371024767b1e1668ccea021edc60603b971b30bd6567bec928f7f741c"
+  },
+  "top_k": 5
+}

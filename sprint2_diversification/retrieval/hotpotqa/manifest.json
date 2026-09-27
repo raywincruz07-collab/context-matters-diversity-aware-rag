@@ -1,0 +1,109 @@
+{
+  "artifact_format": "context-matters.hotpotqa-final8-retrieval-package.v1",
+  "candidate_pool": 20,
+  "conditions": [
+    "none",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "kmeans_k2",
+    "agglo_k3",
+    "dpp_map"
+  ],
+  "dataset": "hotpotqa",
+  "date": "2026-09-26",
+  "guards": {
+    "final_conditions_only": true,
+    "generation_reruns": 0,
+    "maki_calls": 0,
+    "metric_recomputation": false,
+    "source_rows_filtered_only": true
+  },
+  "metric": "positive_qrel_document_recall_at_5",
+  "queries": 7405,
+  "retriever_outputs": {
+    "bm25": {
+      "condition_counts": {
+        "agglo_k3": 7405,
+        "dpp_map": 7405,
+        "kmeans_k2": 7405,
+        "mmr_0": 7405,
+        "mmr_0.25": 7405,
+        "mmr_0.5": 7405,
+        "mmr_0.75": 7405,
+        "none": 7405
+      },
+      "metrics_file": "bm25_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "386846a2f771ffaec863fbaf68630033bfae56484d35620d63e0b2474844e2f8",
+      "rows": 59240,
+      "summary_file": "bm25_hotpotqa_official_test_full_final8_retrieval_summary_v1.json",
+      "summary_sha256": "d39ebe786e55ef359eabb821a78f21a40b7340c689d1272c4beef5728bc91c93"
+    },
+    "colbertv2": {
+      "condition_counts": {
+        "agglo_k3": 7405,
+        "dpp_map": 7405,
+        "kmeans_k2": 7405,
+        "mmr_0": 7405,
+        "mmr_0.25": 7405,
+        "mmr_0.5": 7405,
+        "mmr_0.75": 7405,
+        "none": 7405
+      },
+      "metrics_file": "colbertv2_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "cf63c601465a9b9f3e3e68be72c0216c1eaa7f579a7abf2c796c55bf9d9b11cc",
+      "rows": 59240,
+      "summary_file": "colbertv2_hotpotqa_official_test_full_final8_retrieval_summary_v1.json",
+      "summary_sha256": "27856ed87a5daf54d546c9476bed145c4e6446bb02973ac1e7eb49b6463b4bce"
+    },
+    "contriever": {
+      "condition_counts": {
+        "agglo_k3": 7405,
+        "dpp_map": 7405,
+        "kmeans_k2": 7405,
+        "mmr_0": 7405,
+        "mmr_0.25": 7405,
+        "mmr_0.5": 7405,
+        "mmr_0.75": 7405,
+        "none": 7405
+      },
+      "metrics_file": "contriever_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "91d4b1e8dbb52643270a14502107a375fb08404a30f2d938c26fb034ce556e7d",
+      "rows": 59240,
+      "summary_file": "contriever_hotpotqa_official_test_full_final8_retrieval_summary_v1.json",
+      "summary_sha256": "fd14ad45bd2a6e3dd1b55a75f3389e90aebf9a2b093e4d379543aabe327734d9"
+    },
+    "dpr": {
+      "condition_counts": {
+        "agglo_k3": 7405,
+        "dpp_map": 7405,
+        "kmeans_k2": 7405,
+        "mmr_0": 7405,
+        "mmr_0.25": 7405,
+        "mmr_0.5": 7405,
+        "mmr_0.75": 7405,
+        "none": 7405
+      },
+      "metrics_file": "dpr_hotpotqa_official_test_full_final8_retrieval_metrics_v1.jsonl",
+      "metrics_sha256": "88699d0f557e67ab66bbc9143b7ad6e96890b291ef6c2007eb74e3c9d6dcb404",
+      "rows": 59240,
+      "summary_file": "dpr_hotpotqa_official_test_full_final8_retrieval_summary_v1.json",
+      "summary_sha256": "ed4ec0ee2371eea3db1d0e0c74892082f267d7e30d95d41e8a6dbd9e10de9de9"
+    }
+  },
+  "retrievers": [
+    "bm25",
+    "dpr",
+    "contriever",
+    "colbertv2"
+  ],
+  "role": "OFFICIAL_TEST_FULL",
+  "rows_per_retriever": 59240,
+  "runner": {
+    "path": "context-matters-rag-sprint3/scripts/run_hotpotqa_governed_retrieval_metrics_parallel.py",
+    "sha256": "1bc340c70942a473269e1f9c916a8c145a8e9914b7fec7f166cf7b19ef987f1c"
+  },
+  "top_k": 5,
+  "total_rows": 236960
+}

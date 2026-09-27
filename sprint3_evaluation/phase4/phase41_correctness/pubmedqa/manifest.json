@@ -1,0 +1,59 @@
+{
+  "artifact_format": "context-matters.pubmedqa-correctness-evaluation.v1",
+  "dataset": "pubmedqa",
+  "evaluation_date": "2026-09-25",
+  "generation_reruns": 0,
+  "inputs": {
+    "generation_root": "data/pubmedqa/sprint2/generation_outputs_2026-09-25",
+    "gold_reference": "exports/pubmedqa_sprint2_gold_reference_20260925.json",
+    "gold_reference_sha256": "cfaa93c16136a2d45bf4a90b0e2c939567a6c4e54fbe7e88bf733a7b007f2b3e"
+  },
+  "maki_calls": 0,
+  "metric": {
+    "gold_field": "final_decision",
+    "metric_id": "pubmedqa_decision_accuracy",
+    "primary": true,
+    "status_policy": {
+      "ERROR": "NA",
+      "OK": "score exact parsed Decision against gold",
+      "PARSE_FAILURE": "NA",
+      "REFUSAL": "score 0 and report separately",
+      "TRUNCATED": "NA"
+    },
+    "version": "sprint3.pubmedqa_decision_accuracy.v1"
+  },
+  "outputs": {
+    "per_generation_parquet": {
+      "path": "results/sprint2/pubmedqa/correctness_20260925/pubmedqa_correctness_per_generation.parquet",
+      "sha256": "4ff9b8388c825a5b80826ffa54959464c97c6a965ea814380f5bd68c30b15dee"
+    },
+    "status_summary_csv": {
+      "path": "results/sprint2/pubmedqa/correctness_20260925/pubmedqa_generation_status_summary.csv",
+      "sha256": "49e44fe74a7a3bb7b10b2662cf82045384b2df4900209caa52cc3267d161b0f1"
+    },
+    "summary_csv": {
+      "path": "results/sprint2/pubmedqa/correctness_20260925/pubmedqa_correctness_summary.csv",
+      "sha256": "17c414f2776bce70f9f38f1630f5c53f2d13d180974e90192a35dbe5e53c91ae"
+    }
+  },
+  "population": {
+    "cells": 96,
+    "correct_n": 48716,
+    "generation_artifacts": 96000,
+    "measurable_n": 95829,
+    "overall_descriptive_accuracy": 0.5083638564526396,
+    "rows_per_cell": 1000,
+    "status_counts": {
+      "OK": 95829,
+      "PARSE_FAILURE": 166,
+      "TRUNCATED": 5
+    }
+  },
+  "validation": {
+    "bad_cells": 0,
+    "cells_total": 96,
+    "identity_failures": 0,
+    "result": "PASS",
+    "unknown_statuses": 0
+  }
+}

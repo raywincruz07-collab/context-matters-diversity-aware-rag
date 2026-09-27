@@ -1,0 +1,91 @@
+{
+  "artifact_format": "context-matters.pubmedqa-sprint2-final-generation-freeze.v1",
+  "audit_identity": {
+    "audit_failures": 0,
+    "audit_log_path": "logs/pubmedqa_sprint2_final_physical_audit_20260925.log",
+    "audit_log_sha256": "5d7cf2c7b42062026447509294959fcfd7b8b33b0010db7bf7a3d5e67a6753c6",
+    "bad_cells": 0,
+    "checked_artifacts": 96000,
+    "missing_artifacts": 0,
+    "result": "PASS"
+  },
+  "dataset": "pubmedqa",
+  "execution_identity": {
+    "artifacts_present_before_resume": 49606,
+    "final_physical_artifacts": 96000,
+    "output_root": "data/pubmedqa/sprint2/generation_outputs_2026-09-25",
+    "runner_path": "exports/runtime_tools/run_pubmedqa_sprint2_final_generation_live.py",
+    "runner_sha256": "54c78b258cd117c82c021ce58b42de198f4c3b8e3de2886487969bb1985ce26d",
+    "server_interruption_resumed_safely": true
+  },
+  "execution_logs": {
+    "canary": {
+      "path": "logs/pubmedqa_sprint2_canary_20260925.log",
+      "sha256": "fa6eb7dbfa5f1633d183a368b41bafa575dd9d091b5ea5ee458cf7cd8d074491"
+    },
+    "initial_run": {
+      "path": "logs/pubmedqa_sprint2_final_generation_20260925.log",
+      "sha256": "e46ecbb7e25a31ae1fbb9443e94cb8465e44e2606f6e509a344a6d64975a48a6"
+    },
+    "resume_run": {
+      "path": "logs/pubmedqa_sprint2_final_generation_resume_20260925.log",
+      "sha256": "a0842f64b3756943adfa28db2b7171ea9af8f5c34210b46ffc512967c6ef592e"
+    }
+  },
+  "final_physical_status_counts": {
+    "ERROR": 0,
+    "OK": 95829,
+    "PARSE_FAILURE": 166,
+    "REFUSAL": 0,
+    "TRUNCATED": 5,
+    "total": 96000
+  },
+  "freeze_date": "2026-09-25",
+  "generation_matrix": {
+    "artifacts": 96000,
+    "artifacts_per_cell": 1000,
+    "cells": 96,
+    "conditions": 8,
+    "contexts": 32000,
+    "logical_models": 3,
+    "queries": 1000,
+    "retrievers": 4
+  },
+  "guards": {
+    "api_key_recorded_in_freeze": false,
+    "diversification_rerun": false,
+    "diversified_input_audit_passed": true,
+    "final_generation_audit_passed": true,
+    "generation_outputs_must_not_be_rerun": true,
+    "governed_baseline_hash_verified": true,
+    "historical_staging_used": false,
+    "retrieval_rerun": false
+  },
+  "input_identity": {
+    "model_bindings_path": "context-matters-rag-sprint3/configs/sprint3/maki_model_bindings_v7.json",
+    "model_bindings_sha256": "3827ceaf993eaa061e0b87645cf5b36bc15c0e093b1712332b1fcbb8a06264b3",
+    "workload_path": "exports/pubmedqa_sprint2_final_generation_workload_20260925.json",
+    "workload_sha256": "a30d27070b044c9a5719409763f2de07cff90bf19b1c2bced128b3e43034ef2d"
+  },
+  "scientific_contract": {
+    "candidate_pool": 20,
+    "content_retry": false,
+    "logical_models": [
+      "llama-3.3-70b",
+      "gemma4-26b",
+      "ministral-3-14b"
+    ],
+    "max_tokens": 256,
+    "non_ok_model_outcomes_preserved": true,
+    "physical_model_binding": {
+      "gemma4-26b": "gemma4-26b",
+      "llama-3.3-70b": "llama-3.3-70b",
+      "ministral-3-14b": "qwen3.6-36b"
+    },
+    "prompt_bundle_sha256": "2edd197af558f0e4a3899220c2d3b3882c8db84ccd78777bf7838f20b9901cbb",
+    "temperature": 0,
+    "top_k": 5
+  },
+  "sprint": 2,
+  "status": "FROZEN"
+}
