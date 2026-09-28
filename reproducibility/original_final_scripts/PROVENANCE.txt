@@ -1,0 +1,23 @@
+Context Matters — Original Final Execution Scripts
+
+SOURCE_WORKSPACE:
+/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3
+
+SOURCE_GIT_HEAD:
+ea4d79bb4a742a23c79ede324c3550a1884805a9
+
+GITHUB_BASE_HEAD_BEFORE_THIS_ADDITION:
+358e28dafd2354b6145f9026dc874870fde5519a
+
+POLICY:
+These Python files are byte-for-byte copies of the original scientific
+execution scripts used/preserved in the BWUNICLUSTER project workspace.
+
+No Python source code was edited, refactored, parameterized, cleaned,
+formatted, or otherwise modified for GitHub publication.
+
+Some original scripts intentionally retain BWUNICLUSTER-specific absolute
+paths. Those paths are part of the preserved historical execution code.
+
+This directory is additive and does not modify the previously frozen
+Sprint 1, Sprint 2, or Sprint 3 reproducibility packages.
