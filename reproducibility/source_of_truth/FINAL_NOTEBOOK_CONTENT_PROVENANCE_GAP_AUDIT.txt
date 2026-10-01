@@ -1,12 +1,12 @@
 CONTEXT MATTERS — FINAL NOTEBOOK CONTENT / PROVENANCE GAP AUDIT
 ==============================================================================================================
 
-SPRINT1=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint1_baseline_v2/01_sprint1_baseline_results_v2_EXECUTED.ipynb
-SPRINT2=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint2_diversification_v1/02_sprint2_diversification_results_EXECUTED.ipynb
-SPRINT3=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint3_final_evaluation_v1/03_sprint3_final_evaluation_results_EXECUTED.ipynb
-PROVENANCE_SOURCE=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/project_source_of_truth/PROVENANCE_MAP.md
-LIMITATIONS_SOURCE=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/project_source_of_truth/KNOWN_LIMITATIONS.md
+AUDIT_STATE=POST_CODEX_DOCUMENTATION_REPAIR_CUMULATIVE
+PURPOSE=Cumulative record of original structural checks plus documentation-repair checks
 
+==============================================================================================================
+ORIGINAL 21 STRUCTURAL / SCIENTIFIC-FRAMING CHECKS
+==============================================================================================================
 PASS | REQUIRED | SPRINT1 | S1_BASELINE_ROLE | Notebook identifies baseline/Sprint 1 role.
 PASS | REQUIRED | SPRINT1 | S1_HISTORICAL_CONTROLLED_DISTINCTION | Historical Sprint 1 evidence is explicitly distinguished from later controlled baseline evidence.
 PASS | REQUIRED | SPRINT1 | S1_THREE_DATASETS | PubMedQA, HotpotQA and ASQA are all represented.
@@ -30,14 +30,37 @@ PASS | REQUIRED | SUITE | FORBIDDEN_SPLIT_GENERALIZATION_1 | No unsupported gene
 PASS | REQUIRED | SUITE | FORBIDDEN_SPLIT_GENERALIZATION_2 | No unsupported generalized split statement matching: train used for selection.{0,80}dev.{0,80}held-out final evaluation
 
 ==============================================================================================================
+POST-REPAIR 11 DOCUMENTATION / PROVENANCE CHECKS
+==============================================================================================================
+PASS | REQUIRED | README_ASQA_COVERAGE_SEMANTICS | ASQA STR metrics are explicitly answer-side and not retrieval aspect metrics.
+PASS | REQUIRED | NOTEBOOK_MAP_COMPLETED | Canonical notebook map records all three notebooks as completed.
+PASS | REQUIRED | NOTEBOOK_DEPENDENCY_GUIDANCE | Reproducibility guide documents non-portable preserved notebook dependencies.
+PASS | REQUIRED | BM25_IMPLEMENTATION_SCOPED | BM25 implementation wording is dataset-scoped.
+PASS | REQUIRED | PHASE53_NONCAUSAL_WORDING | Phase 5.3 interpretation uses association rather than causal wording.
+PASS | REQUIRED | PROVENANCE_COMMIT_ROLES | Provenance distinguishes scientific source, package introduction and delivery authority.
+PASS | REQUIRED | ASQA_NO_FINAL_COLBERT | ASQA final ColBERT absence remains explicit.
+PASS | REQUIRED | ASQA_PROTECTED_FINAL_ASPECT_LIMITATION | Protected-final ASQA aspect metric limitation remains explicit.
+PASS | REQUIRED | RETRIEVAL_DIVERSITY_DIAGNOSTIC | Retrieval diversity remains framed as diagnostic evidence.
+PASS | REQUIRED | FAITHFULNESS_HALLUCINATION_NOT_COMPLEMENTS | Faithfulness and hallucination remain explicitly non-complementary.
+PASS | REQUIRED | TRADEOFF_CONCLUSION | Overall conclusion remains configuration-dependent and non-universal.
+
+==============================================================================================================
 SUMMARY
 ==============================================================================================================
-TOTAL_CHECKS=21
-PASSED=21
+ORIGINAL_CHECKS=21
+POST_REPAIR_CHECKS=11
+TOTAL_RECORDED_CHECKS=32
+UNIQUE_RECORDED_CHECKS=32
 REQUIRED_GAPS=0
 POLISH_GAPS=0
-NOTEBOOKS_MODIFIED=NO
+DOCUMENTATION_REPAIR_APPLIED=YES
+NOTEBOOK_CODE_CELLS_MODIFIED=NO
+NOTEBOOK_EXECUTION_COUNTS_MODIFIED=NO
+NOTEBOOK_STORED_OUTPUTS_MODIFIED=NO
 SCIENTIFIC_RERUN=NO
 METRIC_RECOMPUTATION=NO
-SOURCE_SCIENTIFIC_ARTIFACTS_MODIFIED=NO
+RETRIEVAL_RERUN=NO
+GENERATION_RERUN=NO
+EMBEDDING_RERUN=NO
+PLOT_REGENERATION=NO
 CONTENT_PROVENANCE_AUDIT_STATUS=READY

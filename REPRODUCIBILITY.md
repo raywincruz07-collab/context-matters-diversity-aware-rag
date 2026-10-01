@@ -346,7 +346,37 @@ Therefore:
   provenance where the raw data are too large for Git
 - no scientific experiment was rerun during repository packaging
 
-## 14. Recommended review order
+## 14. Canonical executed notebooks
+
+The professor-facing executed notebooks are preserved under:
+
+    reproducibility/final_notebooks/
+
+These notebooks are **review artifacts with preserved executed outputs**.
+They are not claimed to be standalone notebooks that can be re-executed from
+a clean Git checkout without reconstructing the original frozen presentation
+inputs.
+
+- `01_sprint1_baseline_results.ipynb` preserves the original BWUNICLUSTER
+  absolute workspace references used when the notebook was executed.
+- `02_sprint2_diversification_results.ipynb` was executed from the frozen
+  Sprint 2 presentation inputs prepared under
+  `results/final_notebooks/sprint2_diversification_v1/`, including its local
+  `data/` and `figures/` inputs.
+- `03_sprint3_final_evaluation_results.ipynb` was executed from the frozen
+  `results/final_notebooks/sprint3_final_evaluation_v1/input_package/`,
+  governed by `PACKAGE_MANIFEST.csv`.
+
+The committed notebooks retain their stored outputs for professor review.
+For pipeline reproduction, use the frozen Sprint packages, manifests,
+original final scripts, and dataset-specific README files rather than treating
+the presentation notebooks as portable pipeline entry points.
+
+The canonical registry and limitation documents are under:
+
+    reproducibility/source_of_truth/
+
+## 15. Recommended review order
 
 A reviewer can inspect the repository in this order:
 
@@ -357,11 +387,13 @@ A reviewer can inspect the repository in this order:
 5. sprint1_baseline/asqa/README.md
 6. sprint2_diversification/README.md
 7. sprint3_evaluation/README.md
-8. reproducibility/original_final_protocols/
-9. reproducibility/original_final_scripts/
-10. package manifests and SHA-256 inventories
+8. reproducibility/final_notebooks/
+9. reproducibility/source_of_truth/
+10. reproducibility/original_final_protocols/
+11. reproducibility/original_final_scripts/
+12. package manifests and SHA-256 inventories
 
-## 15. Scientific status
+## 16. Scientific status
 
 Scientific experimentation:
 

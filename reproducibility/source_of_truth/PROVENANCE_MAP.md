@@ -6,11 +6,12 @@ This document is a navigation and provenance layer over already completed scient
 
 ## 1. Authority
 
-- Final professor-facing Git authority: `/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-diversity-aware-rag-final-handoff`
-- Final authority commit: `3769bc9e202de8852f2a68532b1da53cfe5b5aa2`
-- Frozen historical scientific source repository: `/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3`
-- Frozen historical scientific source commit: `ea4d79bb4a742a23c79ede324c3550a1884805a9`
-- The final-handoff repository is the current delivery authority.
+- Professor-facing Git authority: `/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-diversity-aware-rag-final-handoff`, branch `main`.
+- Scientific artifact source/handoff commit before the canonical notebook package: `3769bc9e202de8852f2a68532b1da53cfe5b5aa2`.
+- Canonical notebook/source-of-truth delivery package was introduced by commit `6965e493ad07550679768a189d8edd77282e8647`.
+- Subsequent documentation-only repair commits may supersede that delivery commit without changing frozen scientific artifacts; the current pushed `main` is therefore the delivery authority.
+- Frozen historical scientific source repository: `/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-rag-sprint3`.
+- Frozen historical scientific source commit: `ea4d79bb4a742a23c79ede324c3550a1884805a9`.
 - The historical research repository remains preserved as scientific lineage evidence and must not be cleaned or rewritten.
 
 ## 2. Canonical source-of-truth registries

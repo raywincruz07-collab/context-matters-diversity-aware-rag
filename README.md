@@ -300,12 +300,15 @@ These metrics are evaluated only for context-bearing generations.
 
 Coverage is dataset-specific:
 
-- **PubMedQA:** gold-document Recall@5 and MRR@5
-- **HotpotQA:** supporting-document Recall@5 and both-supporting-documents rate
-- **ASQA:** STR-based coverage
+- **PubMedQA:** gold-document Recall@5 and MRR@5 — retrieval-side evidence coverage
+- **HotpotQA:** supporting-document Recall@5 and both-supporting-documents rate — retrieval-side evidence coverage
+- **ASQA:** STR-EM / STR-Hit — answer-side coverage metrics
 
-These metrics measure whether the selected Top-5 context contains evidence
-required by the task.
+PubMedQA and HotpotQA therefore evaluate whether the selected Top-5 context
+contains required evidence. ASQA STR-EM / STR-Hit instead evaluate the
+generated answer and must not be interpreted as retrieval S-Recall or
+alpha-nDCG. Protected-final ASQA S-Recall@5, alpha-nDCG@5, coverability and
+c* are not reported because no frozen protected-final numeric artifact exists.
 
 ---
 
