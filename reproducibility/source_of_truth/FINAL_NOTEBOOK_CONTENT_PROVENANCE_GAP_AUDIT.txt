@@ -1,0 +1,43 @@
+CONTEXT MATTERS — FINAL NOTEBOOK CONTENT / PROVENANCE GAP AUDIT
+==============================================================================================================
+
+SPRINT1=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint1_baseline_v2/01_sprint1_baseline_results_v2_EXECUTED.ipynb
+SPRINT2=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint2_diversification_v1/02_sprint2_diversification_results_EXECUTED.ipynb
+SPRINT3=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/sprint3_final_evaluation_v1/03_sprint3_final_evaluation_results_EXECUTED.ipynb
+PROVENANCE_SOURCE=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/project_source_of_truth/PROVENANCE_MAP.md
+LIMITATIONS_SOURCE=/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/results/final_notebooks/project_source_of_truth/KNOWN_LIMITATIONS.md
+
+PASS | REQUIRED | SPRINT1 | S1_BASELINE_ROLE | Notebook identifies baseline/Sprint 1 role.
+PASS | REQUIRED | SPRINT1 | S1_HISTORICAL_CONTROLLED_DISTINCTION | Historical Sprint 1 evidence is explicitly distinguished from later controlled baseline evidence.
+PASS | REQUIRED | SPRINT1 | S1_THREE_DATASETS | PubMedQA, HotpotQA and ASQA are all represented.
+PASS | POLISH | SPRINT1 | S1_ASQA_NO_COLBERT_FINAL | ASQA final experiment limitation for ColBERT is documented.
+PASS | REQUIRED | SPRINT2 | S2_EIGHT_CONDITIONS | All eight final diversification conditions are described.
+PASS | REQUIRED | SPRINT2 | S2_NONE_NOT_MMR0 | `none` is distinguished from `mmr_0`.
+PASS | REQUIRED | SPRINT2 | S2_TOP20_TOP5 | Candidate Top-20 and selected Top-5 design are documented.
+PASS | REQUIRED | SPRINT2 | S2_DIAGNOSTIC_CAVEAT | Retrieval diversity is framed as a manipulation diagnostic rather than independent quality evidence.
+PASS | REQUIRED | SPRINT2 | S2_NO_DOWNSTREAM_OVERCLAIM | Sprint 2 explicitly hands downstream correctness/faithfulness questions to Sprint 3.
+PASS | REQUIRED | SPRINT3 | S3_GENERATION_TOTAL | Final generation matrix total 875,136 is documented.
+PASS | REQUIRED | SPRINT3 | S3_DATASET_SPLITS | Dataset-specific final populations are documented rather than one generalized split rule.
+PASS | REQUIRED | SPRINT3 | S3_ASQA_COLBERT_LIMITATION | Final ASQA ColBERT limitation is explicit.
+PASS | REQUIRED | SPRINT3 | S3_ASQA_ASPECT_METRIC_LIMITATION | Protected-final ASQA S-Recall/alpha-nDCG/c* values are explicitly marked unavailable/not reconstructed.
+PASS | REQUIRED | SPRINT3 | S3_STR_NOT_RETRIEVAL_ASPECT | ASQA STR-EM/STR-Hit are not presented as retrieval aspect metrics.
+PASS | REQUIRED | SPRINT3 | S3_OUTPUT_ELIGIBILITY | Output diversity excludes answers with fewer than two sentences rather than assigning zero.
+PASS | REQUIRED | SPRINT3 | S3_PHASE53_ASSOCIATION_DISTINCTION | Phase 5.3 distinguishes cross-sectional from paired intervention association.
+PASS | REQUIRED | SPRINT3 | S3_PHASE54_DEVELOPMENT | Phase 5.4 is explicitly DEVELOPMENT scope with 30 validated paraphrase pairs.
+PASS | REQUIRED | SPRINT3 | S3_QWEN_ALIAS | Historical Ministral logical alias is mapped to physical Qwen 3.6 36B.
+PASS | REQUIRED | SPRINT3 | S3_NO_UNIVERSAL_DIVERSITY_CLAIM | Overall conclusion uses trade-off/configuration-dependent framing rather than universal benefit/harm.
+PASS | REQUIRED | SUITE | FORBIDDEN_SPLIT_GENERALIZATION_1 | No unsupported generalized split statement matching: all datasets.{0,80}dev split
+PASS | REQUIRED | SUITE | FORBIDDEN_SPLIT_GENERALIZATION_2 | No unsupported generalized split statement matching: train used for selection.{0,80}dev.{0,80}held-out final evaluation
+
+==============================================================================================================
+SUMMARY
+==============================================================================================================
+TOTAL_CHECKS=21
+PASSED=21
+REQUIRED_GAPS=0
+POLISH_GAPS=0
+NOTEBOOKS_MODIFIED=NO
+SCIENTIFIC_RERUN=NO
+METRIC_RECOMPUTATION=NO
+SOURCE_SCIENTIFIC_ARTIFACTS_MODIFIED=NO
+CONTENT_PROVENANCE_AUDIT_STATUS=READY
