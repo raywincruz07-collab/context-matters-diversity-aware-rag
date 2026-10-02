@@ -1,0 +1,121 @@
+{
+  "artifact_format": "context-matters.master-results.v1",
+  "asqa_colbert_rows": 0,
+  "authority_checkout": "/pfs/work9/workspace/scratch/ma_rthummar-context_matters_sprint3/context-matters-diversity-aware-rag-final-handoff",
+  "authority_commit": "b57115780e9878a96d51164918467b6780ab2348",
+  "columns": 50,
+  "conditions": [
+    "agglo_k3",
+    "dpp_map",
+    "kmeans_k2",
+    "mmr_0",
+    "mmr_0.25",
+    "mmr_0.5",
+    "mmr_0.75",
+    "none"
+  ],
+  "construction_operation": "join_only_frozen_final_summaries",
+  "created_date": "2026-10-01",
+  "dataset_rows": {
+    "asqa": 72,
+    "hotpotqa": 96,
+    "pubmedqa": 96
+  },
+  "faithfulness_hallucination_authority": "Phase 5.2 operating-point summary derived from frozen Phase 4.2 NLI results",
+  "logical_generators": [
+    "gemma4-26b",
+    "llama-3.3-70b",
+    "ministral-3-14b"
+  ],
+  "master_file": "MASTER_RESULTS.csv",
+  "master_sha256": "b77009d4e5dc3900ba58b4b70d4aea8e3755b017afd1ef83aeb1f5c3ac8d953d",
+  "output_diversity_scope": "ASQA only",
+  "physical_generators": [
+    "gemma4-26b",
+    "llama-3.3-70b",
+    "qwen3.6-36b"
+  ],
+  "retrieval_diversity_authority": "Phase 4.4 frozen population summaries",
+  "rows": 264,
+  "scientific_recomputation": false,
+  "sources": {
+    "correctness_asqa": {
+      "path": "sprint3_evaluation/phase4/phase41_correctness/asqa/asqa_correctness_summary.csv",
+      "sha256": "860723cc70148c667348eb9d14915992b69f1f5e3343f878352e7a48c8958f11"
+    },
+    "correctness_hotpotqa": {
+      "path": "sprint3_evaluation/phase4/phase41_correctness/hotpotqa/summary.csv",
+      "sha256": "de1a38b80aee1cdec9dcedc0888fc16b974baf5722bc5ac62f9bd40b52f6e7a4"
+    },
+    "correctness_pubmedqa": {
+      "path": "sprint3_evaluation/phase4/phase41_correctness/pubmedqa/pubmedqa_correctness_summary.csv",
+      "sha256": "17c414f2776bce70f9f38f1630f5c53f2d13d180974e90192a35dbe5e53c91ae"
+    },
+    "coverage_asqa": {
+      "path": "sprint3_evaluation/phase4/phase43_coverage/asqa_coverage_summary.csv",
+      "sha256": "2b42afeb3ce4b9eae6aeb0bbece69b3c0e0a13fcbc40fbb8100cfdf6244e7748"
+    },
+    "coverage_hotpotqa": {
+      "path": "sprint3_evaluation/phase4/phase43_coverage/hotpotqa_coverage_summary.csv",
+      "sha256": "1b5554daa4565c78757e86776dabddfcabed87930aedc41c16a156fd16355ad3"
+    },
+    "coverage_pubmedqa": {
+      "path": "sprint3_evaluation/phase4/phase43_coverage/pubmedqa_coverage_summary.csv",
+      "sha256": "6b606046146dd86849b3622db69165c5c15c638b42bc44bd80073dca72747c95"
+    },
+    "experiment_registry": {
+      "path": "reproducibility/source_of_truth/EXPERIMENT_REGISTRY.csv",
+      "sha256": "36bea942e41b11fca9232b5fd51def07ff266cab62b9ab4fcc5c9746e196218d"
+    },
+    "faithfulness_hallucination": {
+      "path": "sprint3_evaluation/phase5/phase52_diversity_faithfulness/phase52_operating_point_summary.csv",
+      "sha256": "9c3e96cc7d7a6f486d2e0a759c50c6753f6c24b6bb7338952104d9a8f0f3f9d0"
+    },
+    "output_diversity_asqa": {
+      "path": "sprint3_evaluation/phase4/phase45_output_diversity/asqa_output_diversity_summary.csv",
+      "sha256": "930f9b5db37a5a8794be5ee4a2464dc2817660a6df38c0ebf5d963349cabae6c"
+    },
+    "retrieval_diversity_asqa_1": {
+      "path": "sprint3_evaluation/phase4/phase44_retrieval_diversity/asqa/bm25_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "sha256": "cfb3701d1f8f786de783279addcce47ca345b6e7fac99c1d8063571c27846c61"
+    },
+    "retrieval_diversity_asqa_2": {
+      "path": "sprint3_evaluation/phase4/phase44_retrieval_diversity/asqa/contriever_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "sha256": "03c7577d3da2be7dbd3e1b62986533332aae4d3b44c0e22155fbdb53c26e53c0"
+    },
+    "retrieval_diversity_asqa_3": {
+      "path": "sprint3_evaluation/phase4/phase44_retrieval_diversity/asqa/dpr_asqa_project_protected_final_final8_retrieval_diversity_summary_v1.json",
+      "sha256": "02696470ddbecde7b14773e8335a3f4f122246fb97d0df66b271d49d4ea5651d"
+    },
+    "retrieval_diversity_hotpotqa": {
+      "path": "sprint3_evaluation/phase4/phase44_retrieval_diversity/hotpotqa/hotpotqa_retrieval_diversity_summary.csv",
+      "sha256": "e2bd2613396b370af4133aa3c71b94a3a1a84ab57c9ef70d956698960d5c1abc"
+    },
+    "retrieval_diversity_pubmedqa": {
+      "path": "sprint3_evaluation/phase4/phase44_retrieval_diversity/pubmedqa/pubmedqa_retrieval_diversity_summary.csv",
+      "sha256": "2cefc2fcb6edad16eee13676b253c987090cf04fcc9addbead9c833328ca2b3f"
+    }
+  },
+  "unique_key": [
+    "dataset",
+    "retriever",
+    "condition",
+    "logical_generator"
+  ],
+  "validation": {
+    "duplicate_master_keys": 0,
+    "required_metric_nulls": {
+      "coverage_metric": 0,
+      "coverage_value": 0,
+      "faithfulness": 0,
+      "hallucination_rate": 0,
+      "primary_correctness_metric": 0,
+      "primary_correctness_value": 0,
+      "retrieval_diversity": 0,
+      "retrieval_diversity_std": 0
+    },
+    "retrieval_broadcast_mean_conflicts": 0,
+    "retrieval_broadcast_std_conflicts": 0,
+    "retrieval_operating_points": 88
+  }
+}

@@ -18,6 +18,34 @@ artifacts.
 
 ---
 
+## Start here — final results
+
+For a professor or reviewer who wants to inspect the completed project quickly,
+the recommended entry points are:
+
+1. [`final_results/README.md`](final_results/README.md) — compact guide to the
+   final results package.
+2. [`final_results/MASTER_RESULTS.csv`](final_results/MASTER_RESULTS.csv) —
+   consolidated table covering all **264 final experiment cells**.
+3. [`final_results/figures/`](final_results/figures/) — the **22 frozen core
+   result figures (F01–F22)** used for final reporting and presentation.
+4. [`reproducibility/final_notebooks/`](reproducibility/final_notebooks/) —
+   three canonical notebooks with preserved executed outputs.
+5. [`reproducibility/source_of_truth/`](reproducibility/source_of_truth/) —
+   experiment, result and figure registries, provenance, limitations and
+   notebook audits.
+6. [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) — detailed instructions for
+   scientific inspection, integrity verification and reproduction.
+
+The `final_results/` directory is a review layer over already frozen scientific
+artifacts. Its master table was produced only by joining frozen final summaries,
+and its figures are byte-identical copies of the registered frozen core figures.
+
+No retrieval, generation, diversification, embedding, NLI, metric computation
+or plot regeneration was performed to create this review layer.
+
+---
+
 ## Research pipeline
 
 The final pipeline is:
@@ -433,8 +461,21 @@ The results do **not** justify stronger claims such as:
 
 ```text
 .
-├── LICENSE
 ├── README.md
+├── REPRODUCIBILITY.md
+├── LICENSE
+├── final_results/
+│   ├── README.md
+│   ├── MASTER_RESULTS.csv
+│   ├── MASTER_RESULTS_AUDIT.json
+│   ├── FIGURE_INDEX.csv
+│   └── figures/
+│       └── F01.png ... F22.png
+├── reproducibility/
+│   ├── final_notebooks/
+│   ├── source_of_truth/
+│   ├── original_final_protocols/
+│   └── original_final_scripts/
 ├── sprint1_baseline/
 │   ├── pubmedqa/
 │   ├── hotpotqa/
@@ -446,6 +487,13 @@ The results do **not** justify stronger claims such as:
 Sprint 2 and Sprint 3 contain SHA-256 integrity inventories.
 
 Sprint 1 contains dataset-specific integrity and provenance records.
+
+`final_results/` is the fastest professor-facing route to the consolidated
+numeric results and the 22 core frozen plots.
+
+`reproducibility/` provides the canonical executed notebooks, source-of-truth
+registries, scientific provenance, known limitations, and preserved original
+final protocols and scripts.
 
 ---
 
@@ -478,7 +526,9 @@ Large resources intentionally kept outside Git include:
 - large per-generation metric outputs;
 - NLI workloads and large result files;
 - joined analysis parquet files;
-- full figure archive;
+- full 262-file figure archive
+  (the 22 professor-facing core PNG figures are included under
+  `final_results/figures/`);
 - temporary cluster checkpoints.
 
 Their scientific identity is preserved through manifests and hashes where
